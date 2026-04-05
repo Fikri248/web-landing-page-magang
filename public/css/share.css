@@ -119,9 +119,10 @@ body {
     top: 8px;
     left: 10px;
     cursor: pointer;
-    /*  border:1px solid white;
-  border-radius: 6px;*/
+    z-index: 9999;
+    touch-action: manipulation;
 }
+
 
 #menu_btn span {
     display: block;
@@ -345,7 +346,8 @@ td {
 #fixed_topbtn {
     position: fixed;
     bottom: 50px;
-    left: calc(62vw + 425px);
+    right: 20px;  
+    z-index: 9999;
 }
 
 #fixed_topbtn img {
@@ -401,16 +403,4 @@ td {
 
 .samples span:hover{
     text-decoration: underline;
-}
-
-@media screen and (max-width: 1500px) and (min-width: 1281px) {
-    #fixed_topbtn {
-        left: calc(62vw + 440px);
-    }
-}
-
-@media screen and (min-width: 1501px) {
-    #fixed_topbtn {
-        left: calc(62vw + 460px);
-    }
 }
