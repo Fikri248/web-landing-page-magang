@@ -169,7 +169,7 @@
                             <h1 style="font-weight: bold">Research Topics</h1>
                         </header>
                         <hr class="customize_hr">
-                        <img src="img/about/research topic.png" style="display:flex; width:850px;">
+<img src="img/about/research topic.png" style="display:block; width:100%; max-width:850px; height:auto;">
 
                     </div>
                     <div id="s3">
