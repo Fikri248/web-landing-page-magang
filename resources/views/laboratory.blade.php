@@ -522,7 +522,7 @@
                                                                                                 </span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <img src="#">
+                                                                                            <img src="/img/laboratory/mansys.jpg">
                                                                                             <br>
                                                                                             <strong style="font-size: 0.75em;">
                                                                                                 <span style="line-height:23.65pt">Supervisor: Aufar (ketua/kalab)</span>
@@ -556,7 +556,7 @@
                                                                                                 </span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <img src="#">
+                                                                                            <img src="/img/laboratory/lsce.jpg">
                                                                                             <br>
                                                                                             <strong style="font-size: 0.75em;">
                                                                                                 <span style="line-height:23.65pt">Supervisor: Desita (ketua/kalab)</span>
@@ -932,7 +932,7 @@
             </div>
 
             <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-                <!-- Background of PhotoSwipe. 
+                <!-- Background of PhotoSwipe.
 	It's a separate element, as animating opacity is faster than rgba(). -->
                 <div class="pswp__bg"></div>
                 <!-- Slides wrapper with overflow:hidden. -->
