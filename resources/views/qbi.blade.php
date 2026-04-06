@@ -349,11 +349,11 @@
                                                                         <tbody>
                                                                             <tr>
                                                                                 <td colspan="1" rowspan="3"
-                                                                                    style="text-align: left; white-space: nowrap; width: 40%; background-color: rgb(255, 255, 255); vertical-align: top;">
-                                                                                    <img alt="p" height="367"
+                                                                                    style="text-align: left; width: 40%; background-color: rgb(255, 255, 255); vertical-align: top; padding: 0 1cm 0 0;">
+                                                                                    <img alt="QBI Laboratory"
                                                                                         src="./img/laboratory/qbi.jpg"
-                                                                                        style="float: left; "
-                                                                                        width="550" /></td>
+                                                                                        style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                                                                                </td>
                                                                                 <td colspan="1" rowspan="3"
                                                                                     style="text-align: left; vertical-align: top; width: 60%; background-color: rgb(255, 255, 255);">
                                                                                     <p><span
@@ -364,31 +364,46 @@
                                                                                                     Industry (QBI) - C
                                                                                                     5.06&nbsp;</strong></span><br />
                                                                                             <span
-                                                                                                style="font-size:0.75em;">The
-                                                                                                Lean Systems Laboratory
-                                                                                                draws inspiration from
-                                                                                                corporate employee
-                                                                                                training facilities,
-                                                                                                fostering experiential
-                                                                                                vocational
-                                                                                                education.<br />
-                                                                                                Through hands-on toy
-                                                                                                assembly activities,
-                                                                                                students gain practical
-                                                                                                training and experience
-                                                                                                various techniques like
-                                                                                                material picking,
-                                                                                                feeding, and both
-                                                                                                push-type and pull-type
-                                                                                                assembly methods.<br />
-                                                                                                This immersive learning
-                                                                                                environment mirrors
-                                                                                                real-world experiences,
-                                                                                                ensuring students
-                                                                                                acquire valuable skills
-                                                                                                and
-                                                                                                knowledge.</span><span
-                                                                                                style="font-size:0.875em;"></span></span>
+                                                                                                style="font-size:0.75em;">
+                                                                                                The Quantitative
+                                                                                                Modelling for Business
+                                                                                                and Industry (QBI)
+                                                                                                Laboratory focuses on
+                                                                                                the application of
+                                                                                                mathematics and
+                                                                                                statistics in solving
+                                                                                                real-world problems in
+                                                                                                industry and business.
+                                                                                                Through quantitative and
+                                                                                                data-driven approaches,
+                                                                                                its primary goal is to
+                                                                                                improve efficiency,
+                                                                                                optimize
+                                                                                                decision-making, and
+                                                                                                design business
+                                                                                                strategies supported by
+                                                                                                mathematical and
+                                                                                                statistical analysis.
+                                                                                                This field serves as the
+                                                                                                foundation for many
+                                                                                                disciplines such as
+                                                                                                optimization, risk
+                                                                                                analysis, operations
+                                                                                                management, and business
+                                                                                                modelling.
+                                                                                                <br />
+                                                                                                <strong>Research areas include:</strong>
+                                                                                                Mathematical
+                                                                                                Optimization, Modelling
+                                                                                                and Simulation, Queuing
+                                                                                                Theory and Process
+                                                                                                Management, Operations
+                                                                                                Research, Regression and
+                                                                                                Predictive Analysis,
+                                                                                                Data Mining and Machine
+                                                                                                Learning, Probabilistic
+                                                                                                Analysis.
+                                                                                            </span>
                                                                                     </p>
                                                                                 </td>
                                                                             </tr>

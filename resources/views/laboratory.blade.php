@@ -53,42 +53,86 @@
                                                 data-toggle="collapse" type="button"><span
                                                     class="glyphicons show_lines">Menu</span></button>
                                             <div class="navbar-collapse collapse nav-toggle" id="collapseExample2">
-                  <div class="topnav">
-    <div class="headnavcust">
-        <div class="mnavbar mn-collapse">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".hd-001" aria-expanded="false">
-                <span class="glyphicons show_lines">Menu</span>
-            </button>
-            <div class="nav-toggle collapse navbar-collapse iosScrollToggle hd-001" style="transform: translateX(60px);">
-                <div class="hdmenu">
-                    <ul class="nav navbar-nav" id="a313c55e835999cc0b345f6d1fdf151e7_MenuTop_001">
+                                                <div class="topnav">
+                                                    <div class="headnavcust">
+                                                        <div class="mnavbar mn-collapse">
+                                                            <button type="button" class="navbar-toggle"
+                                                                data-toggle="collapse" data-target=".hd-001"
+                                                                aria-expanded="false">
+                                                                <span class="glyphicons show_lines">Menu</span>
+                                                            </button>
+                                                            <div class="nav-toggle collapse navbar-collapse iosScrollToggle hd-001"
+                                                                style="transform: translateX(60px);">
+                                                                <div class="hdmenu">
+                                                                    <ul class="nav navbar-nav"
+                                                                        id="a313c55e835999cc0b345f6d1fdf151e7_MenuTop_001">
 
-                        <li class=" dropdown " id="Hln_2661"><a href="/" title="Click to go Home">Home</a></li>
+                                                                        <li class=" dropdown " id="Hln_2661"><a
+                                                                                href="/"
+                                                                                title="Click to go Home">Home</a></li>
 
-                        <li class=" dropdown " id="Hln_2538" class="dropdown">
-                            <a role="button" aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" title="Click to go Laboratory">Laboratory</a>
-                            <ul class="dropdown-menu" id="submenu1_2538">
-                                <li class=" dropdown " id="Hln_7792"><a href="qbi" title="Click to go Quantitative Modelling for Business and Industry">Quantitative Modelling for Business and Industry</a></li>
-                                <li class=" dropdown " id="Hln_3278"><a href="mansys" title="Click to go Manufacturing System">Manufacturing System</a></li>
-                                <li class=" dropdown " id="Hln_7793"><a href="lsce" title="Click to go Logistic Supply Chain Engineering">Logistic Supply Chain Engineering</a></li>
-                                <li class=" dropdown " id="Hln_7792"><a href="eid" title="Click to go Ergonomic and Innovation Design">Ergonomic and Innovation Design</a></li>
-                                <li class=" dropdown " id="Hln_3278"><a href="se" title="Click to go Enterprise System">Enterprise System</a></li>
-                                <li class=" dropdown " id="Hln_7793"><a href="em" title="Click to go Engineering Management">Engineering Management</a></li>
-                                <li class=" dropdown " id="Hln_7793"><a href="digital" title="Click to go Digital Start-Up">Digital Start-Up</a></li>
-                            </ul>
-                        </li>
+                                                                        <li class=" dropdown " id="Hln_2538"
+                                                                            class="dropdown">
+                                                                            <a role="button" aria-expanded="false"
+                                                                                class="dropdown-toggle"
+                                                                                data-toggle="dropdown"
+                                                                                href="javascript:void(0)"
+                                                                                title="Click to go Laboratory">Laboratory</a>
+                                                                            <ul class="dropdown-menu"
+                                                                                id="submenu1_2538">
+                                                                                <li class=" dropdown " id="Hln_7792"><a
+                                                                                        href="qbi"
+                                                                                        title="Click to go Quantitative Modelling for Business and Industry">Quantitative
+                                                                                        Modelling for Business and
+                                                                                        Industry</a></li>
+                                                                                <li class=" dropdown " id="Hln_3278"><a
+                                                                                        href="mansys"
+                                                                                        title="Click to go Manufacturing System">Manufacturing
+                                                                                        System</a></li>
+                                                                                <li class=" dropdown " id="Hln_7793"><a
+                                                                                        href="lsce"
+                                                                                        title="Click to go Logistic Supply Chain Engineering">Logistic
+                                                                                        Supply Chain Engineering</a>
+                                                                                </li>
+                                                                                <li class=" dropdown " id="Hln_7792">
+                                                                                    <a href="eid"
+                                                                                        title="Click to go Ergonomic and Innovation Design">Ergonomic
+                                                                                        and Innovation Design</a></li>
+                                                                                <li class=" dropdown " id="Hln_3278">
+                                                                                    <a href="se"
+                                                                                        title="Click to go Enterprise System">Enterprise
+                                                                                        System</a></li>
+                                                                                <li class=" dropdown " id="Hln_7793">
+                                                                                    <a href="em"
+                                                                                        title="Click to go Engineering Management">Engineering
+                                                                                        Management</a></li>
+                                                                                <li class=" dropdown " id="Hln_7793">
+                                                                                    <a href="digital"
+                                                                                        title="Click to go Digital Start-Up">Digital
+                                                                                        Start-Up</a></li>
+                                                                            </ul>
+                                                                        </li>
 
-                        <li class=" dropdown " id="Hln_2531"><a href="#start-B" title="Click to go Site Map">Site Map</a></li>
+                                                                        <li class=" dropdown " id="Hln_2531"><a
+                                                                                href="#start-B"
+                                                                                title="Click to go Site Map">Site
+                                                                                Map</a></li>
 
-                        <li class=" dropdown " id="Hln_2532"><a href="https://surabaya.telkomuniversity.ac.id/" title="Click to go TEL-U">TEL-U</a></li>
+                                                                        <li class=" dropdown " id="Hln_2532"><a
+                                                                                href="https://surabaya.telkomuniversity.ac.id/"
+                                                                                title="Click to go TEL-U">TEL-U</a>
+                                                                        </li>
 
-                        <li class=" dropdown " id="Hln_2534"><a href="#start-B" title="Click to go Contact">Contact</a></li>
+                                                                        <li class=" dropdown " id="Hln_2534"><a
+                                                                                href="#start-B"
+                                                                                title="Click to go Contact">Contact</a>
+                                                                        </li>
 
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
                                                     <script>
                                                         $(document).ready(function() {
@@ -559,18 +603,44 @@
                                                                     <div class="mpgdetail">
                                                                         <div class="meditor">
                                                                             <p>
-    The <strong>Industrial Engineering &amp; Business Innovation (IEBI) Research Group</strong> is an interdisciplinary research group at Telkom University Surabaya that integrates industrial engineering principles with business innovation concepts. Its primary focus is developing and implementing efficient solutions to enhance productivity, quality, and organizational competitiveness in facing the challenges of the Industry 4.0 era and dynamic global economy. The group aims to produce solutions that not only improve operational efficiency but also drive sustainable innovation — preparing individuals and organizations to adapt and compete at the global level.
-</p>
-<p style="margin-top: 10px;">
-    IEBI consists of seven dedicated research laboratories:
-    <strong>Quantitative Modelling for Business and Industry (QBI)</strong>,
-    <strong>Manufacturing System (MANSYS)</strong>,
-    <strong>Logistic Supply Chain Engineering (LSCE)</strong>,
-    <strong>Ergonomic and Innovation Design (EID)</strong>,
-    <strong>Enterprise System (SE)</strong>,
-    <strong>Engineering Management (EM)</strong>, and
-    <strong>Digital Start-Up (DIGITAL)</strong>.
-</p>
+                                                                                The <strong>Industrial Engineering &amp;
+                                                                                    Business Innovation (IEBI) Research
+                                                                                    Group</strong> is an
+                                                                                interdisciplinary research group at
+                                                                                Telkom University Surabaya that
+                                                                                integrates industrial engineering
+                                                                                principles with business innovation
+                                                                                concepts. Its primary focus is
+                                                                                developing and implementing efficient
+                                                                                solutions to enhance productivity,
+                                                                                quality, and organizational
+                                                                                competitiveness in facing the challenges
+                                                                                of the Industry 4.0 era and dynamic
+                                                                                global economy. The group aims to
+                                                                                produce solutions that not only improve
+                                                                                operational efficiency but also drive
+                                                                                sustainable innovation — preparing
+                                                                                individuals and organizations to adapt
+                                                                                and compete at the global level.
+                                                                            </p>
+                                                                            <p style="margin-top: 10px;">
+                                                                                IEBI consists of seven dedicated
+                                                                                research laboratories:
+                                                                                <strong>Quantitative Modelling for
+                                                                                    Business and Industry
+                                                                                    (QBI)</strong>,
+                                                                                <strong>Manufacturing System
+                                                                                    (MANSYS)</strong>,
+                                                                                <strong>Logistic Supply Chain
+                                                                                    Engineering (LSCE)</strong>,
+                                                                                <strong>Ergonomic and Innovation Design
+                                                                                    (EID)</strong>,
+                                                                                <strong>Enterprise System (SE)</strong>,
+                                                                                <strong>Engineering Management
+                                                                                    (EM)</strong>, and
+                                                                                <strong>Digital Start-Up
+                                                                                    (DIGITAL)</strong>.
+                                                                            </p>
                                                                             <table align="left" border="0"
                                                                                 cellpadding="4" cellspacing="1"
                                                                                 style="width:1500px;">
@@ -786,7 +856,7 @@
                                                                                                         style="font-size:0.75em;">Logistic
                                                                                                         Supply Chain
                                                                                                         Engineering
-                                                                                                        (LSCE)</span>
+                                                                                                        (LSCE) (2.14)</span>
                                                                                                 </span>
                                                                                             </strong>
                                                                                             <br>
@@ -1125,32 +1195,10 @@
                                                                                                 style="margin-bottom:10px">
                                                                                                 <span
                                                                                                     style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span
-                                                                                                        style="font-size:0.625em;">
-                                                                                                        The Digital
-                                                                                                        Start-Up
-                                                                                                        Laboratory
-                                                                                                        focuses on
-                                                                                                        developing
-                                                                                                        digital
-                                                                                                        entrepreneurship
-                                                                                                        and startup
-                                                                                                        ecosystems
-                                                                                                        within the
-                                                                                                        context of
-                                                                                                        industrial
-                                                                                                        engineering and
-                                                                                                        business
-                                                                                                        innovation,
-                                                                                                        bridging
-                                                                                                        technology with
-                                                                                                        business
-                                                                                                        strategies to
-                                                                                                        create
-                                                                                                        sustainable
-                                                                                                        digital
-                                                                                                        ventures.
-                                                                                                    </span>
+                                                                                                    <span style="font-size:0.625em;">
+    The Digital Start-Up Laboratory focuses on developing digital entrepreneurship and startup ecosystems within the context of industrial engineering and business innovation, bridging technology with business strategies to create sustainable digital ventures.
+    Research areas include Digital Business Model Innovation, Technology-Based Entrepreneurship, Startup Ecosystem Development, Digital Marketing Strategy, and New Product and Service Development.
+</span>
                                                                                                 </span>
                                                                                             </p>
                                                                                         </td>
