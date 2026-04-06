@@ -66,15 +66,28 @@
                                                         <div class="hdmenu">
                                                             <ul class="nav navbar-nav" id="a313c55e835999cc0b345f6d1fdf151e7_MenuTop_001">
 
-                                                                <li class=" dropdown " id="Hln_2531"><a href="/p/17-1014.php?Lang=en" title="Click to go Site Map">Site Map</a></li>
+    <li class=" dropdown " id="Hln_2661"><a href="laboratory" title="Click to go Home" style="color:black;">Home</a></li>
 
-                                                                <li class=" dropdown " id="Hln_2532"><a href="https://surabaya.telkomuniversity.ac.id/" title="Click to go TEL-U">TEL-U</a></li>
+    <li class=" dropdown " id="Hln_2538" class="dropdown">
+        <a role="button" aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" title="Click to go Laboratory" style="color:black;">Laboratory</a>
+        <ul class="dropdown-menu" id="submenu1_2538">
+            <li class=" dropdown " id="Hln_7792"><a href="qbi">Quantitative Modelling for Business and Industry</a></li>
+            <li class=" dropdown " id="Hln_3278"><a href="mansys">Manufacturing System</a></li>
+            <li class=" dropdown " id="Hln_7793"><a href="lsce">Logistic Supply Chain Enginering</a></li>
+            <li class=" dropdown " id="Hln_7792"><a href="eid">Ergonomic and Innovation Design</a></li>
+            <li class=" dropdown " id="Hln_3278"><a href="se">Enterprise System</a></li>
+            <li class=" dropdown " id="Hln_7793"><a href="em">Engineering Management</a></li>
+            <li class=" dropdown " id="Hln_7793"><a href="digital">Digital Start-Up</a></li>
+        </ul>
+    </li>
 
-                                                                <!-- <li class=" dropdown " id="Hln_2533"><a href="/index.php?Lang=zh-tw" title="Click to go Chinese">Chinese</a></li> -->
+    <li class=" dropdown " id="Hln_2531"><a href="#start-B" title="Click to go Site Map">Site Map</a></li>
 
-                                                                <li class=" dropdown " id="Hln_2534"><a href="/p/412-1014-2714.php?Lang=en" title="Click to go Contact">Contact</a></li>
+    <li class=" dropdown " id="Hln_2532"><a href="https://surabaya.telkomuniversity.ac.id/" title="Click to go TEL-U">TEL-U</a></li>
 
-                                                            </ul>
+    <li class=" dropdown " id="Hln_2534"><a href="#start-B" title="Click to go Contact">Contact</a></li>
+
+</ul>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -114,7 +127,7 @@
                                             </script>
 
                                         </div>
-                                        <div class="mainhdmenu">
+                                        {{-- <div class="mainhdmenu">
                                             <div class="headnavcust">
                                                 <div class="mnavbar mn-collapse">
                                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".hd-002" aria-expanded="false">
@@ -167,7 +180,7 @@
                                                 MulttabSwitch("a313c55e835999cc0b345f6d1fdf151e7_MenuTop_002");
                                             </script>
 
-                                        </div>
+                                        </div> --}}
                                         <!-- <div class="msearch">
                                                 <a aria-expanded="false" class="btn btn-primary navbar-toggle1 sch-toggle" data-toggle="collapse" href="#headsearch" role="button"><span>Search</span></a>
                                                 <div class="collapse" id="headsearch"></div>
@@ -514,7 +527,7 @@
     </div>
 
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-        <!-- Background of PhotoSwipe. 
+        <!-- Background of PhotoSwipe.
 	It's a separate element, as animating opacity is faster than rgba(). -->
         <div class="pswp__bg"></div>
         <!-- Slides wrapper with overflow:hidden. -->

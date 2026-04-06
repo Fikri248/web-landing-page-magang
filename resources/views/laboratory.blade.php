@@ -44,35 +44,51 @@
                                 <!-- logo -->
                                 <div class="head">
                                     <div class="head">
-                                        <div class=" logo" style="height: 70px; margin-left: 20px; display: flex; align-items: center;">
+                                        <div class=" logo"
+                                            style="height: 70px; margin-left: 20px; display: flex; align-items: center;">
                                             <img src="/img/laboratory/ok.png" style="height: 50px;">
                                         </div>
                                         <div class="mycollapse">
-                                            <button class="navbar-toggle" data-target=".nav-toggle" data-toggle="collapse" type="button"><span class="glyphicons show_lines">Menu</span></button>
+                                            <button class="navbar-toggle" data-target=".nav-toggle"
+                                                data-toggle="collapse" type="button"><span
+                                                    class="glyphicons show_lines">Menu</span></button>
                                             <div class="navbar-collapse collapse nav-toggle" id="collapseExample2">
-                                                <div class="topnav">
-                                                    <div class="headnavcust">
-                                                        <div class="mnavbar mn-collapse">
-                                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".hd-001" aria-expanded="false">
-                                                                <span class="glyphicons show_lines">Menu</span>
-                                                            </button>
-                                                            <div class="nav-toggle collapse navbar-collapse iosScrollToggle hd-001" style="transform: translateX(60px);">
-                                                                <div class="hdmenu">
-                                                                    <ul class="nav navbar-nav" id="a313c55e835999cc0b345f6d1fdf151e7_MenuTop_001">
+                  <div class="topnav">
+    <div class="headnavcust">
+        <div class="mnavbar mn-collapse">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".hd-001" aria-expanded="false">
+                <span class="glyphicons show_lines">Menu</span>
+            </button>
+            <div class="nav-toggle collapse navbar-collapse iosScrollToggle hd-001" style="transform: translateX(60px);">
+                <div class="hdmenu">
+                    <ul class="nav navbar-nav" id="a313c55e835999cc0b345f6d1fdf151e7_MenuTop_001">
 
-                                                                        <li class=" dropdown " id="Hln_2531"><a href="/p/17-1014.php?Lang=en" title="Click to go Site Map">Site Map</a></li>
+                        <li class=" dropdown " id="Hln_2661"><a href="/" title="Click to go Home">Home</a></li>
 
-                                                                        <li class=" dropdown " id="Hln_2532"><a href="https://surabaya.telkomuniversity.ac.id/" title="Click to go TEL-U">TEL-U</a></li>
+                        <li class=" dropdown " id="Hln_2538" class="dropdown">
+                            <a role="button" aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" title="Click to go Laboratory">Laboratory</a>
+                            <ul class="dropdown-menu" id="submenu1_2538">
+                                <li class=" dropdown " id="Hln_7792"><a href="qbi" title="Click to go Quantitative Modelling for Business and Industry">Quantitative Modelling for Business and Industry</a></li>
+                                <li class=" dropdown " id="Hln_3278"><a href="mansys" title="Click to go Manufacturing System">Manufacturing System</a></li>
+                                <li class=" dropdown " id="Hln_7793"><a href="lsce" title="Click to go Logistic Supply Chain Engineering">Logistic Supply Chain Engineering</a></li>
+                                <li class=" dropdown " id="Hln_7792"><a href="eid" title="Click to go Ergonomic and Innovation Design">Ergonomic and Innovation Design</a></li>
+                                <li class=" dropdown " id="Hln_3278"><a href="se" title="Click to go Enterprise System">Enterprise System</a></li>
+                                <li class=" dropdown " id="Hln_7793"><a href="em" title="Click to go Engineering Management">Engineering Management</a></li>
+                                <li class=" dropdown " id="Hln_7793"><a href="digital" title="Click to go Digital Start-Up">Digital Start-Up</a></li>
+                            </ul>
+                        </li>
 
-                                                                        <!-- <li class=" dropdown " id="Hln_2533"><a href="/index.php?Lang=zh-tw" title="Click to go Chinese">Chinese</a></li> -->
+                        <li class=" dropdown " id="Hln_2531"><a href="#start-B" title="Click to go Site Map">Site Map</a></li>
 
-                                                                        <li class=" dropdown " id="Hln_2534"><a href="/p/412-1014-2714.php?Lang=en" title="Click to go Contact">Contact</a></li>
+                        <li class=" dropdown " id="Hln_2532"><a href="https://surabaya.telkomuniversity.ac.id/" title="Click to go TEL-U">TEL-U</a></li>
 
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                        <li class=" dropdown " id="Hln_2534"><a href="#start-B" title="Click to go Contact">Contact</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
                                                     <script>
                                                         $(document).ready(function() {
@@ -108,17 +124,23 @@
                                                     </script>
 
                                                 </div>
-                                                <div class="mainhdmenu">
+                                                {{-- <div class="mainhdmenu">
                                                     <div class="headnavcust">
                                                         <div class="mnavbar mn-collapse">
-                                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".hd-002" aria-expanded="false">
+                                                            <button type="button" class="navbar-toggle"
+                                                                data-toggle="collapse" data-target=".hd-002"
+                                                                aria-expanded="false">
                                                                 <span class="glyphicons show_lines">Menu</span>
                                                             </button>
-                                                            <div class="nav-toggle collapse navbar-collapse iosScrollToggle hd-002">
+                                                            <div
+                                                                class="nav-toggle collapse navbar-collapse iosScrollToggle hd-002">
                                                                 <div class="hdmenu">
-                                                                    <ul class="nav navbar-nav" id="a313c55e835999cc0b345f6d1fdf151e7_MenuTop_002">
+                                                                    <ul class="nav navbar-nav"
+                                                                        id="a313c55e835999cc0b345f6d1fdf151e7_MenuTop_002">
 
-                                                                        <li class=" dropdown " id="Hln_2661"><a href="/index.php" title="Click to go Home">Home</a></li>
+                                                                        <li class=" dropdown " id="Hln_2661"><a
+                                                                                href="/index.php"
+                                                                                title="Click to go Home">Home</a></li>
 
                                                                         <!-- <li class=" dropdown " id="Hln_2535"><a href="/p/412-1014-2696.php?Lang=en" title="Click to go About">About</a></li> -->
 
@@ -129,15 +151,44 @@
                                                                         </ul>
                                                                     </li> -->
 
-                                                                        <li class=" dropdown " id="Hln_2538" class="dropdown"><a role="button" aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" title="Click to go Laboratory">Laboratory</a>
-                                                                            <ul class="dropdown-menu" id="submenu1_2538">
-                                                                                <li class=" dropdown " id="Hln_7792"><a href="qbi" title="Click to go Quantitative Modelling for Business and Industry">Quantitative Modelling for Business and Industry</a></li>
-                                                                                <li class=" dropdown " id="Hln_3278"><a href="mansys" title="Click to go Manufacturing System">Manufacturing System</a></li>
-                                                                                <li class=" dropdown " id="Hln_7793"><a href="lsce" title="Click to go Logistic Supply Chain Enginering">Logistic Supply Chain Enginering</a></li>
-                                                                                <li class=" dropdown " id="Hln_7792"><a href="eid" title="Click to go Ergonomic and Innovation Design">Ergonomic and Innovation Design</a></li>
-                                                                                <li class=" dropdown " id="Hln_3278"><a href="se" title="Click to go Enterprise System">Enterprise System</a></li>
-                                                                                <li class=" dropdown " id="Hln_7793"><a href="em" title="Click to go Engineering Management">Engineering Management</a></li>
-                                                                                <li class=" dropdown " id="Hln_7793"><a href="digital" title="Click to go Digital Start-Up">Digital Start-Up</a></li>
+                                                                        <li class=" dropdown " id="Hln_2538"
+                                                                            class="dropdown"><a role="button"
+                                                                                aria-expanded="false"
+                                                                                class="dropdown-toggle"
+                                                                                data-toggle="dropdown"
+                                                                                href="javascript:void(0)"
+                                                                                title="Click to go Laboratory">Laboratory</a>
+                                                                            <ul class="dropdown-menu"
+                                                                                id="submenu1_2538">
+                                                                                <li class=" dropdown " id="Hln_7792">
+                                                                                    <a href="qbi"
+                                                                                        title="Click to go Quantitative Modelling for Business and Industry">Quantitative
+                                                                                        Modelling for Business and
+                                                                                        Industry</a></li>
+                                                                                <li class=" dropdown " id="Hln_3278">
+                                                                                    <a href="mansys"
+                                                                                        title="Click to go Manufacturing System">Manufacturing
+                                                                                        System</a></li>
+                                                                                <li class=" dropdown " id="Hln_7793">
+                                                                                    <a href="lsce"
+                                                                                        title="Click to go Logistic Supply Chain Enginering">Logistic
+                                                                                        Supply Chain Enginering</a></li>
+                                                                                <li class=" dropdown " id="Hln_7792">
+                                                                                    <a href="eid"
+                                                                                        title="Click to go Ergonomic and Innovation Design">Ergonomic
+                                                                                        and Innovation Design</a></li>
+                                                                                <li class=" dropdown " id="Hln_3278">
+                                                                                    <a href="se"
+                                                                                        title="Click to go Enterprise System">Enterprise
+                                                                                        System</a></li>
+                                                                                <li class=" dropdown " id="Hln_7793">
+                                                                                    <a href="em"
+                                                                                        title="Click to go Engineering Management">Engineering
+                                                                                        Management</a></li>
+                                                                                <li class=" dropdown " id="Hln_7793">
+                                                                                    <a href="digital"
+                                                                                        title="Click to go Digital Start-Up">Digital
+                                                                                        Start-Up</a></li>
                                                                             </ul>
                                                                         </li>
 
@@ -161,7 +212,7 @@
                                                         MulttabSwitch("a313c55e835999cc0b345f6d1fdf151e7_MenuTop_002");
                                                     </script>
 
-                                                </div>
+                                                </div> --}}
                                                 <!-- <div class="msearch">
                                                 <a aria-expanded="false" class="btn btn-primary navbar-toggle1 sch-toggle" data-toggle="collapse" href="#headsearch" role="button"><span>Search</span></a>
                                                 <div class="collapse" id="headsearch"></div>
@@ -174,31 +225,44 @@
                                                 <div class="mouter">
                                                     <header class="mt mthide "></header>
                                                     <section class="mb">
-                                                        <div class="_special_listSlide___a942ffd5cb93f8df033cc3d808797d96b row listBS listSlide owl-carousel owl-loaded owl-drag">
+                                                        <div
+                                                            class="_special_listSlide___a942ffd5cb93f8df033cc3d808797d96b row listBS listSlide owl-carousel owl-loaded owl-drag">
                                                             <div class="owl-stage-outer">
-                                                                <div class="owl-stage" style="transform: translate3d(-3732px, 0px, 0px); transition: 0.25s; width: 5972px;">
-                                                                    <div class="owl-item cloned" style="width: 746.4px;">
-                                                                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                                <div class="owl-stage"
+                                                                    style="transform: translate3d(-3732px, 0px, 0px); transition: 0.25s; width: 5972px;">
+                                                                    <div class="owl-item cloned"
+                                                                        style="width: 746.4px;">
+                                                                        <table width="100%" border="0"
+                                                                            cellpadding="0" cellspacing="0">
                                                                             <tbody>
                                                                                 <tr>
                                                                                     <td width="100%">
-                                                                                        <div class="d-item h-ir-td col-sm-12">
+                                                                                        <div
+                                                                                            class="d-item h-ir-td col-sm-12">
                                                                                             <div class="mbox">
                                                                                                 <div class="d-img">
                                                                                                     <!-- GAMBAR SLIDE SHOW -->
                                                                                                     <a tabindex="-1">
-                                                                                                        <img src="/img/laboratory/1.jpg" class="img-responsive" alt="工業管理系Image">
+                                                                                                        <img src="/img/laboratory/1.jpg"
+                                                                                                            class="img-responsive"
+                                                                                                            alt="工業管理系Image">
                                                                                                     </a>
                                                                                                 </div>
                                                                                                 <!-- text pada banner -->
                                                                                                 <div class="d-txt">
-                                                                                                    <div class="mtitle">
-                                                                                                        <a href="https://www.im.ntust.edu.tw/p/406-1014-76316,r1220.php?Lang=en" title="工業管理系(Current windowOpen)" tabindex="-1">
-                                                                                                            Telkom University
+                                                                                                    <div
+                                                                                                        class="mtitle">
+                                                                                                        <a href="https://www.im.ntust.edu.tw/p/406-1014-76316,r1220.php?Lang=en"
+                                                                                                            title="工業管理系(Current windowOpen)"
+                                                                                                            tabindex="-1">
+                                                                                                            Telkom
+                                                                                                            University
                                                                                                         </a>
                                                                                                     </div>
-                                                                                                    <div class="mdetail">
-                                                                                                        <div class="meditor">
+                                                                                                    <div
+                                                                                                        class="mdetail">
+                                                                                                        <div
+                                                                                                            class="meditor">
                                                                                                             Surabaya
                                                                                                         </div>
                                                                                                     </div>
@@ -213,26 +277,37 @@
                                                                     </div>
                                                                     <!-- gambar 2 -->
                                                                     <div class="owl-item" style="width: 746.4px;">
-                                                                        <table class="listTB" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                                        <table class="listTB" width="100%"
+                                                                            border="0" cellpadding="0"
+                                                                            cellspacing="0">
                                                                             <tbody>
                                                                                 <tr>
                                                                                     <td width="100%">
-                                                                                        <div class="d-item h-ir-td col-sm-12">
+                                                                                        <div
+                                                                                            class="d-item h-ir-td col-sm-12">
                                                                                             <div class="mbox">
                                                                                                 <div class="d-img">
                                                                                                     <a>
-                                                                                                        <img src="/img/laboratory/2.jpg" class="img-responsive" alt="工業管理系Image">
+                                                                                                        <img src="/img/laboratory/2.jpg"
+                                                                                                            class="img-responsive"
+                                                                                                            alt="工業管理系Image">
                                                                                                     </a>
                                                                                                 </div>
                                                                                                 <!-- text pada banner -->
                                                                                                 <div class="d-txt">
-                                                                                                    <div class="mtitle">
-                                                                                                        <a href="https://www.im.ntust.edu.tw/p/406-1014-76316,r1220.php?Lang=en" title="工業管理系(Current windowOpen)" tabindex="-1">
-                                                                                                            Telkom University
+                                                                                                    <div
+                                                                                                        class="mtitle">
+                                                                                                        <a href="https://www.im.ntust.edu.tw/p/406-1014-76316,r1220.php?Lang=en"
+                                                                                                            title="工業管理系(Current windowOpen)"
+                                                                                                            tabindex="-1">
+                                                                                                            Telkom
+                                                                                                            University
                                                                                                         </a>
                                                                                                     </div>
-                                                                                                    <div class="mdetail">
-                                                                                                        <div class="meditor">
+                                                                                                    <div
+                                                                                                        class="mdetail">
+                                                                                                        <div
+                                                                                                            class="meditor">
                                                                                                             Surabaya
                                                                                                         </div>
                                                                                                     </div>
@@ -246,26 +321,37 @@
                                                                     </div>
                                                                     <!-- gambar 3 -->
                                                                     <div class="owl-item" style="width: 746.4px;">
-                                                                        <table class="listTB" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                                        <table class="listTB" width="100%"
+                                                                            border="0" cellpadding="0"
+                                                                            cellspacing="0">
                                                                             <tbody>
                                                                                 <tr>
                                                                                     <td width="100%">
-                                                                                        <div class="d-item h-ir-td col-sm-12">
+                                                                                        <div
+                                                                                            class="d-item h-ir-td col-sm-12">
                                                                                             <div class="mbox">
                                                                                                 <div class="d-img">
                                                                                                     <a>
-                                                                                                        <img src="/img/laboratory/3.jpg" class="img-responsive" alt="工業管理系Image">
+                                                                                                        <img src="/img/laboratory/3.jpg"
+                                                                                                            class="img-responsive"
+                                                                                                            alt="工業管理系Image">
                                                                                                     </a>
                                                                                                 </div>
                                                                                                 <!-- text pada banner -->
                                                                                                 <div class="d-txt">
-                                                                                                    <div class="mtitle">
-                                                                                                        <a href="https://www.im.ntust.edu.tw/p/406-1014-76316,r1220.php?Lang=en" title="工業管理系(Current windowOpen)" tabindex="-1">
-                                                                                                            Telkom University
+                                                                                                    <div
+                                                                                                        class="mtitle">
+                                                                                                        <a href="https://www.im.ntust.edu.tw/p/406-1014-76316,r1220.php?Lang=en"
+                                                                                                            title="工業管理系(Current windowOpen)"
+                                                                                                            tabindex="-1">
+                                                                                                            Telkom
+                                                                                                            University
                                                                                                         </a>
                                                                                                     </div>
-                                                                                                    <div class="mdetail">
-                                                                                                        <div class="meditor">
+                                                                                                    <div
+                                                                                                        class="mdetail">
+                                                                                                        <div
+                                                                                                            class="meditor">
                                                                                                             Surabaya
                                                                                                         </div>
                                                                                                     </div>
@@ -308,12 +394,13 @@
                                                                     </table>
                                                                 </div> -->
                                                                     <div class="owl-nav">
-                                                                        <button type="button" role="button" class="owl-prev" aria-label="Move Left">
+                                                                        <button type="button" role="button"
+                                                                            class="owl-prev" aria-label="Move Left">
                                                                             <span class="carouselPre">
-                                                                                <
-                                                                                    </span>
+                                                                                < </span>
                                                                         </button>
-                                                                        <button type="button" role="button" class="owl-next" aria-label="Move Right">
+                                                                        <button type="button" role="button"
+                                                                            class="owl-next" aria-label="Move Right">
                                                                             <span class="carouselNext">
                                                                                 >
                                                                             </span>
@@ -336,7 +423,8 @@
 
                                                                             });
 
-                                                                            tabCarousel(special_owl, '._special_listSlide___a942ffd5cb93f8df033cc3d808797d96b', 'Move Left', 'Move Right', "工業管理系Image~@~@~@工業管理系Image~@~@~@工業管理系Image~@~@~@工業管理系Image~@~@~@", '', 1)
+                                                                            tabCarousel(special_owl, '._special_listSlide___a942ffd5cb93f8df033cc3d808797d96b', 'Move Left',
+                                                                                'Move Right', "工業管理系Image~@~@~@工業管理系Image~@~@~@工業管理系Image~@~@~@工業管理系Image~@~@~@", '', 1)
                                                                         });
                                                                     } else {
                                                                         $('._special_listSlide___a942ffd5cb93f8df033cc3d808797d96b').removeClass("owl-carousel");
@@ -378,14 +466,17 @@
                             var firstWidth = window.innerWidth;
 
                             function mobilehead_widthChangeCb() {
-                                if ((firstWidth >= 767 && window.innerWidth < 767) || (firstWidth < 767 && window.innerWidth >= 767)) location.reload();
+                                if ((firstWidth >= 767 && window.innerWidth < 767) || (firstWidth < 767 && window.innerWidth >= 767)) location
+                                    .reload();
                                 if (window.innerWidth < 767) {
                                     setTimeout(() => {
                                         var div = document.getElementsByClassName('mycollapse');
-                                        if (div == 'undefined' || div.length == 0) div = document.getElementsByClassName('nav-toggle navbar-collapse iosScrollToggle');
+                                        if (div == 'undefined' || div.length == 0) div = document.getElementsByClassName(
+                                            'nav-toggle navbar-collapse iosScrollToggle');
                                         div = div[0];
                                         //var focusableElements = div.querySelectorAll('li>a[href], button, input[type="text"], select, textarea');
-                                        var focusableElements = div.querySelectorAll('a[href], button, input[type="text"], select, textarea');
+                                        var focusableElements = div.querySelectorAll(
+                                            'a[href], button, input[type="text"], select, textarea');
                                         focusableElements[focusableElements.length - 1].addEventListener('keydown', function(event) {
                                             if (event.key === 'Tab') {
                                                 $(".hdmenu .dropdown").removeClass("open");
@@ -397,7 +488,8 @@
                                     }, 1000);
                                 } else {
                                     var div = document.getElementsByClassName('mycollapse');
-                                    if (div == 'undefined' || div.length == 0) div = document.getElementsByClassName('nav-toggle navbar-collapse iosScrollToggle');
+                                    if (div == 'undefined' || div.length == 0) div = document.getElementsByClassName(
+                                        'nav-toggle navbar-collapse iosScrollToggle');
                                     div = div[0];
                                     var focusableElements = div.querySelectorAll('a[href]');
                                     focusableElements[focusableElements.length - 1].addEventListener('keydown', function(event) {
@@ -410,7 +502,8 @@
                             window.addEventListener('resize', mobilehead_widthChangeCb);
                             mobilehead_widthChangeCb();
                         </script>
-                        <noscript>This function need to use the browser to support JavaScript normal operation</noscript>
+                        <noscript>This function need to use the browser to support JavaScript normal
+                            operation</noscript>
 
                         <!-- generated at Fri Oct 31 2025 15:18:04 -->
                     </div>
@@ -466,257 +559,604 @@
                                                                     <div class="mpgdetail">
                                                                         <div class="meditor">
                                                                             <p>
-                                                                                Lorem Ipsum is a type of placeholder text commonly used in the printing and web or graphic design industries. It's a pseudo-Latin text that has no meaningful content,
-                                                                                which makes it ideal for filling in the space where the final text will eventually go in a design layout.
-                                                                                The primary purpose of lorem ipsum is to demonstrate the visual elements of a document or design. Such as font,
-                                                                                typography, and layout, without distracting the viewer with actual readable text.
-                                                                            </p>
-                                                                            <table align="left" border="0" cellpadding="4" cellspacing="1" style="width:1500px;">
+    The <strong>Industrial Engineering &amp; Business Innovation (IEBI) Research Group</strong> is an interdisciplinary research group at Telkom University Surabaya that integrates industrial engineering principles with business innovation concepts. Its primary focus is developing and implementing efficient solutions to enhance productivity, quality, and organizational competitiveness in facing the challenges of the Industry 4.0 era and dynamic global economy. The group aims to produce solutions that not only improve operational efficiency but also drive sustainable innovation — preparing individuals and organizations to adapt and compete at the global level.
+</p>
+<p style="margin-top: 10px;">
+    IEBI consists of seven dedicated research laboratories:
+    <strong>Quantitative Modelling for Business and Industry (QBI)</strong>,
+    <strong>Manufacturing System (MANSYS)</strong>,
+    <strong>Logistic Supply Chain Engineering (LSCE)</strong>,
+    <strong>Ergonomic and Innovation Design (EID)</strong>,
+    <strong>Enterprise System (SE)</strong>,
+    <strong>Engineering Management (EM)</strong>, and
+    <strong>Digital Start-Up (DIGITAL)</strong>.
+</p>
+                                                                            <table align="left" border="0"
+                                                                                cellpadding="4" cellspacing="1"
+                                                                                style="width:1500px;">
                                                                                 <thead>
                                                                                     <tr>
-                                                                                        <td colspan="1" style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(204, 204, 204); vertical-align: top;"><span style="font-size:0.875em;"><span style="color:#000066;"><strong><span style="font-family:Arial,Helvetica,sans-serif;">Sub - KK&nbsp;</span></strong></span></span></td>
-                                                                                        <td colspan="1" style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(204, 204, 204);"><span style="font-size:0.875em;"><span style="color:#000066;"><strong><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;Introduction </span></strong></span></span></td>
+                                                                                        <td colspan="1"
+                                                                                            style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(204, 204, 204); vertical-align: top;">
+                                                                                            <span
+                                                                                                style="font-size:0.875em;"><span
+                                                                                                    style="color:#000066;"><strong><span
+                                                                                                            style="font-family:Arial,Helvetica,sans-serif;">Sub
+                                                                                                            -
+                                                                                                            KK&nbsp;</span></strong></span></span>
+                                                                                        </td>
+                                                                                        <td colspan="1"
+                                                                                            style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(204, 204, 204);">
+                                                                                            <span
+                                                                                                style="font-size:0.875em;"><span
+                                                                                                    style="color:#000066;"><strong><span
+                                                                                                            style="font-family:Arial,Helvetica,sans-serif;">&nbsp;Introduction
+                                                                                                        </span></strong></span></span>
+                                                                                        </td>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody>
                                                                                     <!-- Quantitative Modelling for Business and Industry QBI -->
                                                                                     <tr>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
                                                                                             <strong>
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.75em;">Quantitative Modelling for Business and Industry (QBI) (C 5.06)</span>
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.75em;">Quantitative
+                                                                                                        Modelling for
+                                                                                                        Business and
+                                                                                                        Industry (QBI)
+                                                                                                        (C 5.06)</span>
                                                                                                 </span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <img src="/img/laboratory/qbi.jpg">
+                                                                                            <img
+                                                                                                src="/img/laboratory/qbi.jpg">
                                                                                             <br>
-                                                                                            <strong style="font-size: 0.75em;">
-                                                                                                <span style="line-height:23.65pt">Supervisor: Paramaditya (ketua/kalab)</span>
+                                                                                            <strong
+                                                                                                style="font-size: 0.75em;">
+                                                                                                <span
+                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    Paramaditya
+                                                                                                    (ketua/kalab)</span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <span style="font-size:0.75em;">email: - </span>
+                                                                                            <span
+                                                                                                style="font-size:0.75em;">email:
+                                                                                                - </span>
                                                                                         </td>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p style="margin-bottom:10px">
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.625em;">
-                                                                                                        This lab focuses on delivering comprehensive perspectives to
-                                                                                                        enterprises in establishing robust warranty chain management systems. Research areas encompass
-                                                                                                        warranty management practices, product reliability engineering, maintenance modeling, and
-                                                                                                        sustainable design.
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
+                                                                                            <p
+                                                                                                style="margin-bottom:10px">
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.625em;">
+                                                                                                        The QBI
+                                                                                                        Laboratory
+                                                                                                        focuses on
+                                                                                                        applying
+                                                                                                        mathematics and
+                                                                                                        statistics to
+                                                                                                        solve real-world
+                                                                                                        problems in
+                                                                                                        industry and
+                                                                                                        business.
+                                                                                                        Through
+                                                                                                        quantitative and
+                                                                                                        data-driven
+                                                                                                        approaches, it
+                                                                                                        aims to improve
+                                                                                                        efficiency,
+                                                                                                        optimize
+                                                                                                        decision-making,
+                                                                                                        and design
+                                                                                                        business
+                                                                                                        strategies
+                                                                                                        supported by
+                                                                                                        mathematical and
+                                                                                                        statistical
+                                                                                                        analysis.
+                                                                                                        Research areas
+                                                                                                        include
+                                                                                                        Mathematical
+                                                                                                        Optimization,
+                                                                                                        Modeling and
+                                                                                                        Simulation,
+                                                                                                        Queueing Theory,
+                                                                                                        Operations
+                                                                                                        Research,
+                                                                                                        Regression and
+                                                                                                        Predictive
+                                                                                                        Analysis, Data
+                                                                                                        Mining and
+                                                                                                        Machine
+                                                                                                        Learning, and
+                                                                                                        Probabilistic
+                                                                                                        Analysis.
                                                                                                     </span>
                                                                                                 </span>
                                                                                             </p>
                                                                                         </td>
                                                                                     </tr>
-                                                                                    <tr>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                    </tr>
+                                                                                    <tr></tr>
+                                                                                    <tr></tr>
+
                                                                                     <!-- Manufacturing System MANSYS -->
                                                                                     <tr>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
                                                                                             <strong>
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.75em;">Manufacturing System (MANSYS)</span>
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.75em;">Manufacturing
+                                                                                                        System
+                                                                                                        (MANSYS)</span>
                                                                                                 </span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <img src="/img/laboratory/mansys.jpg">
+                                                                                            <img
+                                                                                                src="/img/laboratory/mansys.jpg">
                                                                                             <br>
-                                                                                            <strong style="font-size: 0.75em;">
-                                                                                                <span style="line-height:23.65pt">Supervisor: Aufar (ketua/kalab)</span>
+                                                                                            <strong
+                                                                                                style="font-size: 0.75em;">
+                                                                                                <span
+                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    Aufar
+                                                                                                    (ketua/kalab)</span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <span style="font-size:0.75em;">email: - </span>
+                                                                                            <span
+                                                                                                style="font-size:0.75em;">email:
+                                                                                                - </span>
                                                                                         </td>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p style="margin-bottom:10px">
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.625em;">
-                                                                                                        This lab focuses on delivering comprehensive perspectives to
-                                                                                                        enterprises in establishing robust warranty chain management systems. Research areas encompass
-                                                                                                        warranty management practices, product reliability engineering, maintenance modeling, and
-                                                                                                        sustainable design.
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
+                                                                                            <p
+                                                                                                style="margin-bottom:10px">
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.625em;">
+                                                                                                        The MANSYS
+                                                                                                        Laboratory
+                                                                                                        combines
+                                                                                                        technical
+                                                                                                        approaches in
+                                                                                                        managing and
+                                                                                                        optimizing
+                                                                                                        production
+                                                                                                        systems with
+                                                                                                        ergonomic
+                                                                                                        principles to
+                                                                                                        create
+                                                                                                        efficient, safe,
+                                                                                                        and
+                                                                                                        human-centered
+                                                                                                        work systems.
+                                                                                                        Research areas
+                                                                                                        include
+                                                                                                        Automation and
+                                                                                                        Manufacturing
+                                                                                                        Technology,
+                                                                                                        Production
+                                                                                                        System
+                                                                                                        Management,
+                                                                                                        Quality
+                                                                                                        Management,
+                                                                                                        Sustainable
+                                                                                                        Manufacturing,
+                                                                                                        Design for X,
+                                                                                                        Physical
+                                                                                                        Ergonomics,
+                                                                                                        Cognitive
+                                                                                                        Ergonomics,
+                                                                                                        Organizational
+                                                                                                        Ergonomics,
+                                                                                                        Occupational
+                                                                                                        Health and
+                                                                                                        Safety, and
+                                                                                                        Product
+                                                                                                        Development.
                                                                                                     </span>
                                                                                                 </span>
                                                                                             </p>
                                                                                         </td>
                                                                                     </tr>
+                                                                                    <tr></tr>
+                                                                                    <tr></tr>
+
+                                                                                    <!-- Logistic Supply Chain Engineering LSCE -->
                                                                                     <tr>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                    </tr>
-                                                                                    <!-- Logistic Supply Chain Enginering LSCE -->
-                                                                                    <tr>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
                                                                                             <strong>
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.75em;">Logistic Supply Chain Enginering (LSCE)</span>
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.75em;">Logistic
+                                                                                                        Supply Chain
+                                                                                                        Engineering
+                                                                                                        (LSCE)</span>
                                                                                                 </span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <img src="/img/laboratory/lsce.jpg">
+                                                                                            <img
+                                                                                                src="/img/laboratory/lsce.jpg">
                                                                                             <br>
-                                                                                            <strong style="font-size: 0.75em;">
-                                                                                                <span style="line-height:23.65pt">Supervisor: Desita (ketua/kalab)</span>
+                                                                                            <strong
+                                                                                                style="font-size: 0.75em;">
+                                                                                                <span
+                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    Desita
+                                                                                                    (ketua/kalab)</span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <span style="font-size:0.75em;">email: - </span>
+                                                                                            <span
+                                                                                                style="font-size:0.75em;">email:
+                                                                                                - </span>
                                                                                         </td>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p style="margin-bottom:10px">
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.625em;">
-                                                                                                        This lab focuses on delivering comprehensive perspectives to
-                                                                                                        enterprises in establishing robust warranty chain management systems. Research areas encompass
-                                                                                                        warranty management practices, product reliability engineering, maintenance modeling, and
-                                                                                                        sustainable design.
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
+                                                                                            <p
+                                                                                                style="margin-bottom:10px">
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.625em;">
+                                                                                                        The LSCE
+                                                                                                        Laboratory
+                                                                                                        focuses on
+                                                                                                        managing and
+                                                                                                        optimizing the
+                                                                                                        flow of goods,
+                                                                                                        information, and
+                                                                                                        resources from
+                                                                                                        suppliers to end
+                                                                                                        consumers. As
+                                                                                                        global market
+                                                                                                        complexity
+                                                                                                        increases,
+                                                                                                        supply chain and
+                                                                                                        logistics play a
+                                                                                                        crucial role in
+                                                                                                        improving
+                                                                                                        operational
+                                                                                                        efficiency,
+                                                                                                        reducing costs,
+                                                                                                        and fulfilling
+                                                                                                        customer demand
+                                                                                                        on time.
+                                                                                                        Research areas
+                                                                                                        include Supply
+                                                                                                        Chain
+                                                                                                        Management,
+                                                                                                        Logistics and
+                                                                                                        Distribution,
+                                                                                                        and Warehousing
+                                                                                                        Systems.
                                                                                                     </span>
                                                                                                 </span>
                                                                                             </p>
                                                                                         </td>
                                                                                     </tr>
-                                                                                    <tr>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                    </tr>
+                                                                                    <tr></tr>
+                                                                                    <tr></tr>
+
                                                                                     <!-- Ergonomic and Innovation Design EID -->
                                                                                     <tr>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
                                                                                             <strong>
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.75em;">Ergonomic and Innovation Design (EID) (C 1.07)</span>
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.75em;">Ergonomic
+                                                                                                        and Innovation
+                                                                                                        Design (EID) (C
+                                                                                                        1.07)</span>
                                                                                                 </span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <img src="/img/laboratory/eid.jpg">
+                                                                                            <img
+                                                                                                src="/img/laboratory/eid.jpg">
                                                                                             <br>
-                                                                                            <strong style="font-size: 0.75em;">
-                                                                                                <span style="line-height:23.65pt">Supervisor: Huki (kalab) </span>
+                                                                                            <strong
+                                                                                                style="font-size: 0.75em;">
+                                                                                                <span
+                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    Huki (kalab)</span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <span style="font-size:0.75em;">email: - </span>
+                                                                                            <span
+                                                                                                style="font-size:0.75em;">email:
+                                                                                                - </span>
                                                                                         </td>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p style="margin-bottom:10px">
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.625em;">
-                                                                                                        This lab focuses on delivering comprehensive perspectives to
-                                                                                                        enterprises in establishing robust warranty chain management systems. Research areas encompass
-                                                                                                        warranty management practices, product reliability engineering, maintenance modeling, and
-                                                                                                        sustainable design.
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
+                                                                                            <p
+                                                                                                style="margin-bottom:10px">
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.625em;">
+                                                                                                        The EID
+                                                                                                        Laboratory
+                                                                                                        applies
+                                                                                                        ergonomic
+                                                                                                        principles to
+                                                                                                        design products
+                                                                                                        and work systems
+                                                                                                        that are
+                                                                                                        efficient, safe,
+                                                                                                        and comfortable
+                                                                                                        for users.
+                                                                                                        Research areas
+                                                                                                        include Physical
+                                                                                                        Ergonomics,
+                                                                                                        Cognitive
+                                                                                                        Ergonomics,
+                                                                                                        Organizational
+                                                                                                        Ergonomics,
+                                                                                                        Occupational
+                                                                                                        Health and
+                                                                                                        Safety, and
+                                                                                                        Product
+                                                                                                        Development.
                                                                                                     </span>
                                                                                                 </span>
                                                                                             </p>
                                                                                         </td>
                                                                                     </tr>
-                                                                                    <tr>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                    </tr>
+                                                                                    <tr></tr>
+                                                                                    <tr></tr>
+
                                                                                     <!-- Enterprise System SE -->
                                                                                     <tr>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
                                                                                             <strong>
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.75em;">Enterprise System (SE) (C 3.07)</span>
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.75em;">Enterprise
+                                                                                                        System (SE) (C
+                                                                                                        3.07)</span>
                                                                                                 </span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <img src="/img/laboratory/se.jpeg">
+                                                                                            <img
+                                                                                                src="/img/laboratory/se.jpeg">
                                                                                             <br>
-                                                                                            <strong style="font-size: 0.75em;">
-                                                                                                <span style="line-height:23.65pt">Supervisor: Fian (ketua/kalab) </span>
+                                                                                            <strong
+                                                                                                style="font-size: 0.75em;">
+                                                                                                <span
+                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    Fian
+                                                                                                    (ketua/kalab)</span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <span style="font-size:0.75em;">email: - </span>
+                                                                                            <span
+                                                                                                style="font-size:0.75em;">email:
+                                                                                                - </span>
                                                                                         </td>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p style="margin-bottom:10px">
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.625em;">
-                                                                                                        This lab focuses on delivering comprehensive perspectives to
-                                                                                                        enterprises in establishing robust warranty chain management systems. Research areas encompass
-                                                                                                        warranty management practices, product reliability engineering, maintenance modeling, and
-                                                                                                        sustainable design.
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
+                                                                                            <p
+                                                                                                style="margin-bottom:10px">
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.625em;">
+                                                                                                        The SE
+                                                                                                        Laboratory
+                                                                                                        focuses on
+                                                                                                        applying
+                                                                                                        management
+                                                                                                        principles,
+                                                                                                        information
+                                                                                                        technology, and
+                                                                                                        systems to
+                                                                                                        improve
+                                                                                                        operational
+                                                                                                        efficiency and
+                                                                                                        effectiveness
+                                                                                                        within
+                                                                                                        organizations.
+                                                                                                        Research areas
+                                                                                                        include
+                                                                                                        Management
+                                                                                                        Information
+                                                                                                        Systems,
+                                                                                                        Customer
+                                                                                                        Relationship
+                                                                                                        Management
+                                                                                                        (CRM),
+                                                                                                        Enterprise
+                                                                                                        Resource
+                                                                                                        Planning (ERP),
+                                                                                                        Data Analysis
+                                                                                                        and Decision
+                                                                                                        Making, and IT
+                                                                                                        Project
+                                                                                                        Management.
                                                                                                     </span>
                                                                                                 </span>
                                                                                             </p>
                                                                                         </td>
                                                                                     </tr>
+                                                                                    <tr></tr>
+                                                                                    <tr></tr>
+
+                                                                                    <!-- Engineering Management EM -->
                                                                                     <tr>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                    </tr>
-                                                                                    <!-- Engineering Management	EM -->
-                                                                                    <tr>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
                                                                                             <strong>
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.75em;">Engineering Management (EM) (C 3.01)</span>
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.75em;">Engineering
+                                                                                                        Management (EM)
+                                                                                                        (C 3.01)</span>
                                                                                                 </span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <img src="/img/laboratory/em.jpeg">
+                                                                                            <img
+                                                                                                src="/img/laboratory/em.jpeg">
                                                                                             <br>
-                                                                                            <strong style="font-size: 0.75em;">
-                                                                                                <span style="line-height:23.65pt">Supervisor: - </span>
+                                                                                            <strong
+                                                                                                style="font-size: 0.75em;">
+                                                                                                <span
+                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    -</span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <span style="font-size:0.75em;">email: - </span>
+                                                                                            <span
+                                                                                                style="font-size:0.75em;">email:
+                                                                                                - </span>
                                                                                         </td>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p style="margin-bottom:10px">
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.625em;">
-                                                                                                        This lab focuses on delivering comprehensive perspectives to
-                                                                                                        enterprises in establishing robust warranty chain management systems. Research areas encompass
-                                                                                                        warranty management practices, product reliability engineering, maintenance modeling, and
-                                                                                                        sustainable design.
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
+                                                                                            <p
+                                                                                                style="margin-bottom:10px">
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.625em;">
+                                                                                                        The EM
+                                                                                                        Laboratory
+                                                                                                        integrates
+                                                                                                        engineering
+                                                                                                        management,
+                                                                                                        business
+                                                                                                        management, and
+                                                                                                        economic theory
+                                                                                                        to create
+                                                                                                        efficient and
+                                                                                                        innovative
+                                                                                                        solutions in
+                                                                                                        organizational
+                                                                                                        management. It
+                                                                                                        focuses on
+                                                                                                        applying
+                                                                                                        economic
+                                                                                                        analysis in
+                                                                                                        engineering and
+                                                                                                        business
+                                                                                                        contexts to
+                                                                                                        optimize
+                                                                                                        resources,
+                                                                                                        increase
+                                                                                                        productivity,
+                                                                                                        and create added
+                                                                                                        value. Research
+                                                                                                        areas include
+                                                                                                        Engineering
+                                                                                                        Management,
+                                                                                                        Business
+                                                                                                        Management,
+                                                                                                        Micro and Macro
+                                                                                                        Economics,
+                                                                                                        Cost-Benefit
+                                                                                                        Analysis, and
+                                                                                                        Product
+                                                                                                        Innovation and
+                                                                                                        Development.
                                                                                                     </span>
                                                                                                 </span>
                                                                                             </p>
                                                                                         </td>
                                                                                     </tr>
-                                                                                    <tr>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                    </tr>
+                                                                                    <tr></tr>
+                                                                                    <tr></tr>
+
                                                                                     <!-- Digital Start-Up DIGITAL -->
                                                                                     <tr>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; white-space: nowrap; width: 5%; background-color: rgb(197, 224, 180); vertical-align: top;">
                                                                                             <strong>
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.75em;">Digital Start-Up (DIGITAL) (C 5.01)</span>
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.75em;">Digital
+                                                                                                        Start-Up
+                                                                                                        (DIGITAL) (C
+                                                                                                        5.01)</span>
                                                                                                 </span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <img src="/img/laboratory/digital.jpeg">
+                                                                                            <img
+                                                                                                src="/img/laboratory/digital.jpeg">
                                                                                             <br>
-                                                                                            <strong style="font-size: 0.75em;">
-                                                                                                <span style="line-height:23.65pt">Supervisor: Krisna (ketua), Gia (kalab) </span>
+                                                                                            <strong
+                                                                                                style="font-size: 0.75em;">
+                                                                                                <span
+                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    Krisna (ketua), Gia
+                                                                                                    (kalab)</span>
                                                                                             </strong>
                                                                                             <br>
-                                                                                            <span style="font-size:0.75em;">email: - </span>
+                                                                                            <span
+                                                                                                style="font-size:0.75em;">email:
+                                                                                                - </span>
                                                                                         </td>
-                                                                                        <td colspan="1" rowspan="3" style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p style="margin-bottom:10px">
-                                                                                                <span style="font-family:Arial,Helvetica,sans-serif;">
-                                                                                                    <span style="font-size:0.625em;">
-                                                                                                        This lab focuses on delivering comprehensive perspectives to
-                                                                                                        enterprises in establishing robust warranty chain management systems. Research areas encompass
-                                                                                                        warranty management practices, product reliability engineering, maintenance modeling, and
-                                                                                                        sustainable design.
+                                                                                        <td colspan="1"
+                                                                                            rowspan="3"
+                                                                                            style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
+                                                                                            <p
+                                                                                                style="margin-bottom:10px">
+                                                                                                <span
+                                                                                                    style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                                    <span
+                                                                                                        style="font-size:0.625em;">
+                                                                                                        The Digital
+                                                                                                        Start-Up
+                                                                                                        Laboratory
+                                                                                                        focuses on
+                                                                                                        developing
+                                                                                                        digital
+                                                                                                        entrepreneurship
+                                                                                                        and startup
+                                                                                                        ecosystems
+                                                                                                        within the
+                                                                                                        context of
+                                                                                                        industrial
+                                                                                                        engineering and
+                                                                                                        business
+                                                                                                        innovation,
+                                                                                                        bridging
+                                                                                                        technology with
+                                                                                                        business
+                                                                                                        strategies to
+                                                                                                        create
+                                                                                                        sustainable
+                                                                                                        digital
+                                                                                                        ventures.
                                                                                                     </span>
                                                                                                 </span>
                                                                                             </p>
                                                                                         </td>
                                                                                     </tr>
-                                                                                    <tr>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                    </tr>
+                                                                                    <tr></tr>
+                                                                                    <tr></tr>
                                                                                 </tbody>
                                                                             </table>
 
@@ -768,7 +1208,8 @@
 
                                 <ul class="langbar">
 
-                                    <li><a href="#" onclick="openLangUrl('zh-tw');return false;" title="繁體"><span>繁體</span></a></li>
+                                    <li><a href="#" onclick="openLangUrl('zh-tw');return false;"
+                                            title="繁體"><span>繁體</span></a></li>
 
                                     <li><a class="active" title="English"><span>English</span></a></li>
 
@@ -870,22 +1311,30 @@
                                             }
                                         </style>
                                         <div class="contact col-md-4">
-                                            <div class="footTitle"><a accesskey="B" href="#start-B" id="start-B" style="text-decoration:none" title="下方內容區"></a>Contact</div>
+                                            <div class="footTitle"><a accesskey="B" href="#start-B" id="start-B"
+                                                    style="text-decoration:none" title="下方內容區"></a>Contact</div>
                                             <ul>
                                                 <li>Tel: 08113278005</li>
-                                                <li>Address:&nbsp;<span style="font-family: verdana, arial, verdana; text-align: center;">Jl. Ketintang No.156, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur 60231</span></li>
+                                                <li>Address:&nbsp;<span
+                                                        style="font-family: verdana, arial, verdana; text-align: center;">Jl.
+                                                        Ketintang No.156, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur
+                                                        60231</span></li>
                                             </ul>
                                         </div>
                                         <div class="contact col-md-4">
                                             <div class="footTitle">Quick Links</div>
                                             <ul>
-                                                <li><a href="https://www.oia.ntust.edu.tw/home.php?Lang=En" title="Office of International Affairs">OIA</a></li>
+                                                <li><a href="https://www.oia.ntust.edu.tw/home.php?Lang=En"
+                                                        title="Office of International Affairs">OIA</a></li>
                                                 <li><a href="https://www.ciie.org.tw/" title="CIIE">CIIE</a></li>
                                             </ul>
                                         </div>
                                         <div class="contact col-md-4">
                                             <div class="footTitle">Campus Map</div>
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3797403374724!2d112.72634007477424!3d-7.311166492696749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd1cb925a1d%3A0x1dbecb0b2e9b059f!2sUniversitas%20Telkom%20Surabaya!5e0!3m2!1sid!2sid!4v1767231187233!5m2!1sid!2sid" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3797403374724!2d112.72634007477424!3d-7.311166492696749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd1cb925a1d%3A0x1dbecb0b2e9b059f!2sUniversitas%20Telkom%20Surabaya!5e0!3m2!1sid!2sid!4v1767231187233!5m2!1sid!2sid"
+                                                width="300" height="300" style="border:0;" allowfullscreen=""
+                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
                                         <div class="reserver" style="text-align: start;">Copyright @
                                             <script>
@@ -909,9 +1358,10 @@
             <div id="_pop_login" class="mpopdiv">
                 <script>
                     $(document).ready(function() {
-                        $.hajaxOpenUrl('/app/index.php?Action=mobileloadmod&Type=mobilepoplogin&Nbr=0', '#_pop_login', '', function() {
-                            menuDropAct();
-                        });
+                        $.hajaxOpenUrl('/app/index.php?Action=mobileloadmod&Type=mobilepoplogin&Nbr=0', '#_pop_login', '',
+                            function() {
+                                menuDropAct();
+                            });
                     })
                 </script>
             </div>
@@ -933,7 +1383,7 @@
 
             <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
                 <!-- Background of PhotoSwipe.
-	It's a separate element, as animating opacity is faster than rgba(). -->
+ It's a separate element, as animating opacity is faster than rgba(). -->
                 <div class="pswp__bg"></div>
                 <!-- Slides wrapper with overflow:hidden. -->
                 <div class="pswp__scroll-wrap">
@@ -951,7 +1401,8 @@
                             <div class="pswp__counter"></div>
                             <button class="pswp__button pswp__button--close" title="Close (Esc)">Close (Esc)</button>
                             <button class="pswp__button pswp__button--share" title="Share">Share</button>
-                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen">Toggle fullscreen</button>
+                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen">Toggle
+                                fullscreen</button>
                             <button class="pswp__button pswp__button--zoom" title="Zoom in/out">Zoom in/out</button>
                             <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
                             <!-- element will get class pswp__preloader-active when preloader is running -->
@@ -966,8 +1417,10 @@
                         <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
                             <div class="pswp__share-tooltip"></div>
                         </div>
-                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">Previous (arrow left)</button>
-                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">Next (arrow right)</button>
+                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">Previous
+                            (arrow left)</button>
+                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">Next (arrow
+                            right)</button>
                         <div class="pswp__caption">
                             <div class="pswp__caption__center"></div>
                         </div>
@@ -977,7 +1430,9 @@
 
 
 
-            <!--<script>NProgress.done();</script>-->
+            <!--<script>
+                NProgress.done();
+            </script>-->
             <script>
                 function popChkLogin() {
                     if (typeof(loginStat) == 'undefined') {
