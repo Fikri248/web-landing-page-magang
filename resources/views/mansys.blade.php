@@ -15,7 +15,7 @@
     <meta content="index,follow" name="robots">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
     <meta property="og:image" content="/var/file/14/1014/msys_1014_3087027_16703.ico" />
-    <title>Quantitative Modelling for Business and Industry</title>
+    <title>Manufacturing System Laboratory</title>
     <link rel="icon" href="img/icon iebi.png">
     <link rel="bookmark" href="/var/file/14/1014/msys_1014_3087027_16703.ico" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" href="/var/file/14/1014/msys_1014_3087027_16703.ico">
@@ -357,44 +357,58 @@
                                                                         <tbody>
                                                                             <tr>
                                                                                 <td colspan="1" rowspan="3"
-                                                                                    style="text-align: left; white-space: nowrap; width: 40%; background-color: rgb(255, 255, 255); vertical-align: top;">
-                                                                                    <img alt="p" height="367"
-                                                                                        src="./img/laboratory/qbi.jpg"
-                                                                                        style="float: left; "
-                                                                                        width="550" /></td>
+                                                                                    style="text-align: left; width: 40%; background-color: rgb(255, 255, 255); vertical-align: top; padding: 0 1cm 0 0;">
+                                                                                    <img alt="Manufacturing System Laboratory"
+                                                                                        src="./img/laboratory/mansys.jpg"
+                                                                                        style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                                                                                </td>
                                                                                 <td colspan="1" rowspan="3"
                                                                                     style="text-align: left; vertical-align: top; width: 60%; background-color: rgb(255, 255, 255);">
-                                                                                    <p><span
-                                                                                            style="font-family:Arial,Helvetica,sans-serif;"><span
-                                                                                                style="font-size:0.875em;"><strong>Manufacturing
-                                                                                                    System (MANSYS)
-                                                                                                    &nbsp;</strong></span><br />
+                                                                                    <p>
+                                                                                        <span
+                                                                                            style="font-family:Arial,Helvetica,sans-serif;">
                                                                                             <span
-                                                                                                style="font-size:0.75em;">The
-                                                                                                Lean Systems Laboratory
-                                                                                                draws inspiration from
-                                                                                                corporate employee
-                                                                                                training facilities,
-                                                                                                fostering experiential
-                                                                                                vocational
-                                                                                                education.<br />
-                                                                                                Through hands-on toy
-                                                                                                assembly activities,
-                                                                                                students gain practical
-                                                                                                training and experience
-                                                                                                various techniques like
-                                                                                                material picking,
-                                                                                                feeding, and both
-                                                                                                push-type and pull-type
-                                                                                                assembly methods.<br />
-                                                                                                This immersive learning
-                                                                                                environment mirrors
-                                                                                                real-world experiences,
-                                                                                                ensuring students
-                                                                                                acquire valuable skills
-                                                                                                and
-                                                                                                knowledge.</span><span
-                                                                                                style="font-size:0.875em;"></span></span>
+                                                                                                style="font-size:0.875em;"><strong>Manufacturing
+                                                                                                    System
+                                                                                                    (MANSYS)</strong></span><br />
+                                                                                            <span
+                                                                                                style="font-size:0.75em;">
+                                                                                                The Manufacturing System
+                                                                                                (MANSYS) Laboratory
+                                                                                                combines a technical
+                                                                                                approach in managing and
+                                                                                                optimizing production
+                                                                                                systems with ergonomics
+                                                                                                principles to create
+                                                                                                efficient, safe,
+                                                                                                comfortable, and
+                                                                                                sustainable work
+                                                                                                systems. The primary
+                                                                                                goal is to ensure high
+                                                                                                productivity and quality
+                                                                                                in production processes
+                                                                                                while minimizing
+                                                                                                negative impacts on
+                                                                                                worker health and
+                                                                                                well-being.
+                                                                                                <br />
+                                                                                                <strong>Research areas include:</strong>
+                                                                                                Automation and
+                                                                                                Manufacturing
+                                                                                                Technology, Production
+                                                                                                System Management,
+                                                                                                Quality Management,
+                                                                                                Sustainable
+                                                                                                Manufacturing, Design
+                                                                                                for X, Physical
+                                                                                                Ergonomics, Cognitive
+                                                                                                Ergonomics,
+                                                                                                Organizational
+                                                                                                Ergonomics, Occupational
+                                                                                                Health and Safety,
+                                                                                                Product Development.
+                                                                                            </span>
+                                                                                        </span>
                                                                                     </p>
                                                                                 </td>
                                                                             </tr>

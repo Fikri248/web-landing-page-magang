@@ -15,7 +15,7 @@
     <meta content="index,follow" name="robots">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
     <meta property="og:image" content="/var/file/14/1014/msys_1014_3087027_16703.ico" />
-    <title>Quantitative Modelling for Business and Industry</title>
+    <title>Digital Start-Up Laboratory</title>
     <link rel="icon" href="img/icon iebi.png">
     <link rel="bookmark" href="/var/file/14/1014/msys_1014_3087027_16703.ico" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" href="/var/file/14/1014/msys_1014_3087027_16703.ico">
@@ -47,47 +47,79 @@
                         <div class="selfhead">
                             <div class="meditor">
                                 <!-- logo -->
-                                <div class="head" style="border-bottom: 0px solid gray; box-shadow: 0px 1px 3px rgba(0,0,0,0.4);">
-                                    <div class="logo" style="height: 70px; margin-left: 20px; display: flex; align-items: center;">
+                                <div class="head"
+                                    style="border-bottom: 0px solid gray; box-shadow: 0px 1px 3px rgba(0,0,0,0.4);">
+                                    <div class="logo"
+                                        style="height: 70px; margin-left: 20px; display: flex; align-items: center;">
                                         <img src="/img/laboratory/ok.png" style="height: 50px;">
                                     </div>
                                 </div>
                                 <div class="mycollapse">
-                                    <button class="navbar-toggle" data-target=".nav-toggle" data-toggle="collapse" type="button"><span class="glyphicons show_lines">Menu</span></button>
+                                    <button class="navbar-toggle" data-target=".nav-toggle" data-toggle="collapse"
+                                        type="button"><span class="glyphicons show_lines">Menu</span></button>
                                     <div class="navbar-collapse collapse nav-toggle" id="collapseExample2">
                                         <div class="topnav">
                                             <div class="headnavcust">
                                                 <div class="mnavbar mn-collapse">
-                                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".hd-001" aria-expanded="false">
+                                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                                        data-target=".hd-001" aria-expanded="false">
                                                         <span class="glyphicons show_lines">Menu</span>
                                                     </button>
                                                     <!-- menu heading sebelah kanan -->
-                                                    <div class="nav-toggle collapse navbar-collapse iosScrollToggle hd-001" style="transform: translateX(60px);">
+                                                    <div class="nav-toggle collapse navbar-collapse iosScrollToggle hd-001"
+                                                        style="transform: translateX(60px);">
                                                         <div class="hdmenu">
-                                                            <ul class="nav navbar-nav" id="a313c55e835999cc0b345f6d1fdf151e7_MenuTop_001">
+                                                            <ul class="nav navbar-nav"
+                                                                id="a313c55e835999cc0b345f6d1fdf151e7_MenuTop_001">
 
-    <li class=" dropdown " id="Hln_2661"><a href="laboratory" title="Click to go Home" style="color:black;">Home</a></li>
+                                                                <li class=" dropdown " id="Hln_2661"><a
+                                                                        href="laboratory" title="Click to go Home"
+                                                                        style="color:black;">Home</a></li>
 
-    <li class=" dropdown " id="Hln_2538" class="dropdown">
-        <a role="button" aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" title="Click to go Laboratory" style="color:black;">Laboratory</a>
-        <ul class="dropdown-menu" id="submenu1_2538">
-            <li class=" dropdown " id="Hln_7792"><a href="qbi">Quantitative Modelling for Business and Industry</a></li>
-            <li class=" dropdown " id="Hln_3278"><a href="mansys">Manufacturing System</a></li>
-            <li class=" dropdown " id="Hln_7793"><a href="lsce">Logistic Supply Chain Enginering</a></li>
-            <li class=" dropdown " id="Hln_7792"><a href="eid">Ergonomic and Innovation Design</a></li>
-            <li class=" dropdown " id="Hln_3278"><a href="se">Enterprise System</a></li>
-            <li class=" dropdown " id="Hln_7793"><a href="em">Engineering Management</a></li>
-            <li class=" dropdown " id="Hln_7793"><a href="digital">Digital Start-Up</a></li>
-        </ul>
-    </li>
+                                                                <li class=" dropdown " id="Hln_2538" class="dropdown">
+                                                                    <a role="button" aria-expanded="false"
+                                                                        class="dropdown-toggle" data-toggle="dropdown"
+                                                                        href="javascript:void(0)"
+                                                                        title="Click to go Laboratory"
+                                                                        style="color:black;">Laboratory</a>
+                                                                    <ul class="dropdown-menu" id="submenu1_2538">
+                                                                        <li class=" dropdown " id="Hln_7792"><a
+                                                                                href="qbi">Quantitative Modelling
+                                                                                for Business and Industry</a></li>
+                                                                        <li class=" dropdown " id="Hln_3278"><a
+                                                                                href="mansys">Manufacturing System</a>
+                                                                        </li>
+                                                                        <li class=" dropdown " id="Hln_7793"><a
+                                                                                href="lsce">Logistic Supply Chain
+                                                                                Enginering</a></li>
+                                                                        <li class=" dropdown " id="Hln_7792"><a
+                                                                                href="eid">Ergonomic and Innovation
+                                                                                Design</a></li>
+                                                                        <li class=" dropdown " id="Hln_3278"><a
+                                                                                href="se">Enterprise System</a>
+                                                                        </li>
+                                                                        <li class=" dropdown " id="Hln_7793"><a
+                                                                                href="em">Engineering
+                                                                                Management</a></li>
+                                                                        <li class=" dropdown " id="Hln_7793"><a
+                                                                                href="digital">Digital Start-Up</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
 
-    <li class=" dropdown " id="Hln_2531"><a href="#start-B" title="Click to go Site Map">Site Map</a></li>
+                                                                <li class=" dropdown " id="Hln_2531"><a
+                                                                        href="#start-B"
+                                                                        title="Click to go Site Map">Site Map</a></li>
 
-    <li class=" dropdown " id="Hln_2532"><a href="https://surabaya.telkomuniversity.ac.id/" title="Click to go TEL-U">TEL-U</a></li>
+                                                                <li class=" dropdown " id="Hln_2532"><a
+                                                                        href="https://surabaya.telkomuniversity.ac.id/"
+                                                                        title="Click to go TEL-U">TEL-U</a></li>
 
-    <li class=" dropdown " id="Hln_2534"><a href="#start-B" title="Click to go Contact">Contact</a></li>
+                                                                <li class=" dropdown " id="Hln_2534"><a
+                                                                        href="#start-B"
+                                                                        title="Click to go Contact">Contact</a></li>
 
-</ul>
+                                                            </ul>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -219,14 +251,17 @@
                     var firstWidth = window.innerWidth;
 
                     function mobilehead_widthChangeCb() {
-                        if ((firstWidth >= 767 && window.innerWidth < 767) || (firstWidth < 767 && window.innerWidth >= 767)) location.reload();
+                        if ((firstWidth >= 767 && window.innerWidth < 767) || (firstWidth < 767 && window.innerWidth >= 767)) location
+                            .reload();
                         if (window.innerWidth < 767) {
                             setTimeout(() => {
                                 var div = document.getElementsByClassName('mycollapse');
-                                if (div == 'undefined' || div.length == 0) div = document.getElementsByClassName('nav-toggle navbar-collapse iosScrollToggle');
+                                if (div == 'undefined' || div.length == 0) div = document.getElementsByClassName(
+                                    'nav-toggle navbar-collapse iosScrollToggle');
                                 div = div[0];
                                 //var focusableElements = div.querySelectorAll('li>a[href], button, input[type="text"], select, textarea');
-                                var focusableElements = div.querySelectorAll('a[href], button, input[type="text"], select, textarea');
+                                var focusableElements = div.querySelectorAll(
+                                    'a[href], button, input[type="text"], select, textarea');
                                 focusableElements[focusableElements.length - 1].addEventListener('keydown', function(event) {
                                     if (event.key === 'Tab') {
                                         $(".hdmenu .dropdown").removeClass("open");
@@ -238,7 +273,8 @@
                             }, 1000);
                         } else {
                             var div = document.getElementsByClassName('mycollapse');
-                            if (div == 'undefined' || div.length == 0) div = document.getElementsByClassName('nav-toggle navbar-collapse iosScrollToggle');
+                            if (div == 'undefined' || div.length == 0) div = document.getElementsByClassName(
+                                'nav-toggle navbar-collapse iosScrollToggle');
                             div = div[0];
                             var focusableElements = div.querySelectorAll('a[href]');
                             focusableElements[focusableElements.length - 1].addEventListener('keydown', function(event) {
@@ -305,25 +341,69 @@
                                                         <div class="mcont">
                                                             <div class="mpgdetail">
                                                                 <div class="meditor">
-                                                                    <table align="left" border="0" cellpadding="4" cellspacing="1" style="width:1500px;">
+                                                                    <table align="left" border="0"
+                                                                        cellpadding="4" cellspacing="1"
+                                                                        style="width:1500px;">
                                                                         <thead>
                                                                         </thead>
                                                                         <tbody>
                                                                             <tr>
-                                                                                <td colspan="1" rowspan="3" style="text-align: left; white-space: nowrap; width: 40%; background-color: rgb(255, 255, 255); vertical-align: top;"><img alt="p" height="367" src="./img/laboratory/qbi.jpg" style="float: left; " width="550" /></td>
-                                                                                <td colspan="1" rowspan="3" style="text-align: left; vertical-align: top; width: 60%; background-color: rgb(255, 255, 255);">
-                                                                                    <p><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:0.875em;"><strong>Quantitative Modelling for Business and Industry (QBI)&nbsp;</strong></span><br />
-                                                                                            <span style="font-size:0.75em;">The Lean Systems Laboratory draws inspiration from corporate employee training facilities, fostering experiential vocational education.<br />
-                                                                                                Through hands-on toy assembly activities, students gain practical training and experience various techniques like material picking, feeding, and both push-type and pull-type assembly methods.<br />
-                                                                                                This immersive learning environment mirrors real-world experiences, ensuring students acquire valuable skills and knowledge.</span><span style="font-size:0.875em;"></span></span></p>
+                                                                                <td colspan="1" rowspan="3"
+                                                                                    style="text-align: left; width: 40%; background-color: rgb(255, 255, 255); vertical-align: top; padding-right: 1cm;">
+                                                                                    <img alt="Digital Start-Up Laboratory"
+                                                                                        src="./img/laboratory/digital.jpeg"
+                                                                                        style="width: 100%; height: auto; display: block;" />
+                                                                                </td>
+                                                                                <td colspan="1" rowspan="3"
+                                                                                    style="text-align: left; vertical-align: top; width: 60%; background-color: rgb(255, 255, 255);">
+                                                                                    <p>
+                                                                                        <span
+                                                                                            style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                            <span
+                                                                                                style="font-size:0.875em;"><strong>Digital
+                                                                                                    Start-Up
+                                                                                                    (Digital) - C 5.01</strong></span><br />
+                                                                                            <span
+                                                                                                style="font-size:0.75em;">The
+                                                                                                Digital Start-Up
+                                                                                                Laboratory is designed
+                                                                                                to nurture
+                                                                                                entrepreneurial thinking
+                                                                                                and digital innovation
+                                                                                                among engineering
+                                                                                                students. It provides a
+                                                                                                collaborative
+                                                                                                environment where
+                                                                                                students can ideate,
+                                                                                                prototype, and develop
+                                                                                                technology-based
+                                                                                                business
+                                                                                                solutions.<br />
+                                                                                                Students are exposed to
+                                                                                                methodologies such as
+                                                                                                Design Thinking, Lean
+                                                                                                Startup, and Agile
+                                                                                                Development to simulate
+                                                                                                real-world startup
+                                                                                                environments.<br />
+                                                                                                <strong>Research areas
+                                                                                                    include:</strong>
+                                                                                                Digital Business,
+                                                                                                Technology Innovation,
+                                                                                                and
+                                                                                                Entrepreneurship.</span>
+                                                                                        </span>
+                                                                                    </p>
                                                                                 </td>
                                                                             </tr>
                                                                         </tbody>
                                                                     </table>
-                                                                    <iframe id="sheetFrame" width="100%" height="500"></iframe>
+                                                                    <iframe id="sheetFrame" width="100%"
+                                                                        height="500"></iframe>
                                                                     <script>
                                                                         document.getElementById("sheetFrame").src =
-                                                                            "https://docs.google.com/spreadsheets/d/e/2PACX-1vRm0yp0enjgjq4Qv2d8IDfq7v5MBuU08523FM-mKbDLhnnmpMZOTW2ANdc7ynoXHRHJpfjzMk81G485/pubhtml?gid=1113224687&amp;single=true&amp;widget=true&amp;headers=false" + new Date().getTime();
+                                                                            "https://docs.google.com/spreadsheets/d/e/2PACX-1vRm0yp0enjgjq4Qv2d8IDfq7v5MBuU08523FM-mKbDLhnnmpMZOTW2ANdc7ynoXHRHJpfjzMk81G485/pubhtml?gid=1113224687&amp;single=true&amp;widget=true&amp;headers=false" +
+                                                                            new Date().getTime();
                                                                     </script>
 
                                                                 </div>
@@ -363,7 +443,8 @@
 
                         <ul class="langbar">
 
-                            <li><a href="#" onclick="openLangUrl('zh-tw');return false;" title="繁體"><span>繁體</span></a></li>
+                            <li><a href="#" onclick="openLangUrl('zh-tw');return false;"
+                                    title="繁體"><span>繁體</span></a></li>
 
                             <li><a class="active" title="English"><span>English</span></a></li>
 
@@ -465,22 +546,30 @@
                                     }
                                 </style>
                                 <div class="contact col-md-4">
-                                    <div class="footTitle"><a accesskey="B" href="#start-B" id="start-B" style="text-decoration:none" title="下方內容區"></a>Contact</div>
+                                    <div class="footTitle"><a accesskey="B" href="#start-B" id="start-B"
+                                            style="text-decoration:none" title="下方內容區"></a>Contact</div>
                                     <ul>
                                         <li>Tel: 08113278005</li>
-                                        <li>Address:&nbsp;<span style="font-family: verdana, arial, verdana; text-align: center;">Jl. Ketintang No.156, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur 60231</span></li>
+                                        <li>Address:&nbsp;<span
+                                                style="font-family: verdana, arial, verdana; text-align: center;">Jl.
+                                                Ketintang No.156, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur
+                                                60231</span></li>
                                     </ul>
                                 </div>
                                 <div class="contact col-md-4">
                                     <div class="footTitle">Quick Links</div>
                                     <ul>
-                                        <li><a href="https://www.oia.ntust.edu.tw/home.php?Lang=En" title="Office of International Affairs">OIA</a></li>
+                                        <li><a href="https://www.oia.ntust.edu.tw/home.php?Lang=En"
+                                                title="Office of International Affairs">OIA</a></li>
                                         <li><a href="https://www.ciie.org.tw/" title="CIIE">CIIE</a></li>
                                     </ul>
                                 </div>
                                 <div class="contact col-md-4">
                                     <div class="footTitle">Campus Map</div>
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3797403374724!2d112.72634007477424!3d-7.311166492696749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd1cb925a1d%3A0x1dbecb0b2e9b059f!2sUniversitas%20Telkom%20Surabaya!5e0!3m2!1sid!2sid!4v1767231187233!5m2!1sid!2sid" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3797403374724!2d112.72634007477424!3d-7.311166492696749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd1cb925a1d%3A0x1dbecb0b2e9b059f!2sUniversitas%20Telkom%20Surabaya!5e0!3m2!1sid!2sid!4v1767231187233!5m2!1sid!2sid"
+                                        width="300" height="300" style="border:0;" allowfullscreen=""
+                                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                                 <div class="reserver" style="text-align: start;">Copyright @
                                     <script>
@@ -504,9 +593,10 @@
     <div id="_pop_login" class="mpopdiv">
         <script>
             $(document).ready(function() {
-                $.hajaxOpenUrl('/app/index.php?Action=mobileloadmod&Type=mobilepoplogin&Nbr=0', '#_pop_login', '', function() {
-                    menuDropAct();
-                });
+                $.hajaxOpenUrl('/app/index.php?Action=mobileloadmod&Type=mobilepoplogin&Nbr=0', '#_pop_login', '',
+                    function() {
+                        menuDropAct();
+                    });
             })
         </script>
     </div>
@@ -528,7 +618,7 @@
 
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
         <!-- Background of PhotoSwipe.
-	It's a separate element, as animating opacity is faster than rgba(). -->
+ It's a separate element, as animating opacity is faster than rgba(). -->
         <div class="pswp__bg"></div>
         <!-- Slides wrapper with overflow:hidden. -->
         <div class="pswp__scroll-wrap">
@@ -561,8 +651,10 @@
                 <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
                     <div class="pswp__share-tooltip"></div>
                 </div>
-                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">Previous (arrow left)</button>
-                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">Next (arrow right)</button>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">Previous (arrow
+                    left)</button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">Next (arrow
+                    right)</button>
                 <div class="pswp__caption">
                     <div class="pswp__caption__center"></div>
                 </div>
@@ -572,7 +664,9 @@
 
 
 
-    <!--<script>NProgress.done();</script>-->
+    <!--<script>
+        NProgress.done();
+    </script>-->
     <script>
         function popChkLogin() {
             if (typeof(loginStat) == 'undefined') {

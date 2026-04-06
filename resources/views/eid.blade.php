@@ -15,7 +15,7 @@
     <meta content="index,follow" name="robots">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
     <meta property="og:image" content="/var/file/14/1014/msys_1014_3087027_16703.ico" />
-    <title>Quantitative Modelling for Business and Industry</title>
+    <title>Ergonomic and Innovation Design Laboratory</title>
     <link rel="icon" href="img/icon iebi.png">
     <link rel="bookmark" href="/var/file/14/1014/msys_1014_3087027_16703.ico" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" href="/var/file/14/1014/msys_1014_3087027_16703.ico">
@@ -349,46 +349,47 @@
                                                                         <tbody>
                                                                             <tr>
                                                                                 <td colspan="1" rowspan="3"
-                                                                                    style="text-align: left; white-space: nowrap; width: 40%; background-color: rgb(255, 255, 255); vertical-align: top;">
-                                                                                    <img alt="p" height="367"
-                                                                                        src="./img/laboratory/qbi.jpg"
-                                                                                        style="float: left; "
-                                                                                        width="550" /></td>
+                                                                                    style="text-align: left; width: 40%; background-color: rgb(255, 255, 255); vertical-align: top; padding-right: 1cm;">
+                                                                                    <img alt="Ergonomic and Innovation Design Laboratory"
+                                                                                        src="./img/laboratory/eid.jpg"
+                                                                                        style="width: 100%; height: auto; display: block;" />
+                                                                                </td>
                                                                                 <td colspan="1" rowspan="3"
                                                                                     style="text-align: left; vertical-align: top; width: 60%; background-color: rgb(255, 255, 255);">
-                                                                                    <p><span
-                                                                                            style="font-family:Arial,Helvetica,sans-serif;"><span
-                                                                                                style="font-size:0.875em;"><strong>Quantitative
-                                                                                                    Modelling for
-                                                                                                    Business and
-                                                                                                    Industry
-                                                                                                    (QBI)&nbsp;</strong></span><br />
+                                                                                    <p>
+                                                                                        <span
+                                                                                            style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                            <span
+                                                                                                style="font-size:0.875em;"><strong>Ergonomic
+                                                                                                    and Innovation
+                                                                                                    Design
+                                                                                                    (EID) - C 1.07</strong></span><br />
                                                                                             <span
                                                                                                 style="font-size:0.75em;">The
-                                                                                                Lean Systems Laboratory
-                                                                                                draws inspiration from
-                                                                                                corporate employee
-                                                                                                training facilities,
-                                                                                                fostering experiential
-                                                                                                vocational
-                                                                                                education.<br />
-                                                                                                Through hands-on toy
-                                                                                                assembly activities,
-                                                                                                students gain practical
-                                                                                                training and experience
-                                                                                                various techniques like
-                                                                                                material picking,
-                                                                                                feeding, and both
-                                                                                                push-type and pull-type
-                                                                                                assembly methods.<br />
-                                                                                                This immersive learning
-                                                                                                environment mirrors
-                                                                                                real-world experiences,
-                                                                                                ensuring students
-                                                                                                acquire valuable skills
-                                                                                                and
-                                                                                                knowledge.</span><span
-                                                                                                style="font-size:0.875em;"></span></span>
+                                                                                                EID Laboratory focuses
+                                                                                                on designing systems,
+                                                                                                products, and work
+                                                                                                environments that
+                                                                                                prioritize human
+                                                                                                comfort, safety, and
+                                                                                                efficiency. By
+                                                                                                integrating ergonomic
+                                                                                                principles with
+                                                                                                innovation and design
+                                                                                                thinking, this lab
+                                                                                                develops solutions that
+                                                                                                enhance user experience
+                                                                                                and support sustainable
+                                                                                                product
+                                                                                                development.<br />
+                                                                                                <strong>Research areas
+                                                                                                    include:</strong>
+                                                                                                Ergonomics and Work
+                                                                                                System Design, Product
+                                                                                                Innovation and Design,
+                                                                                                and Human Factors
+                                                                                                Engineering.</span>
+                                                                                        </span>
                                                                                     </p>
                                                                                 </td>
                                                                             </tr>

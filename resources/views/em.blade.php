@@ -15,7 +15,7 @@
     <meta content="index,follow" name="robots">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
     <meta property="og:image" content="/var/file/14/1014/msys_1014_3087027_16703.ico" />
-    <title>Quantitative Modelling for Business and Industry</title>
+    <title>Engineering Management Laboratory</title>
     <link rel="icon" href="img/icon iebi.png">
     <link rel="bookmark" href="/var/file/14/1014/msys_1014_3087027_16703.ico" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" href="/var/file/14/1014/msys_1014_3087027_16703.ico">
@@ -349,44 +349,44 @@
                                                                         <tbody>
                                                                             <tr>
                                                                                 <td colspan="1" rowspan="3"
-                                                                                    style="text-align: left; white-space: nowrap; width: 40%; background-color: rgb(255, 255, 255); vertical-align: top;">
-                                                                                    <img alt="p" height="367"
-                                                                                        src="./img/laboratory/em.png"
-                                                                                        style="float: left; "
-                                                                                        width="550" /></td>
+                                                                                    style="text-align: left; width: 40%; background-color: rgb(255, 255, 255); vertical-align: top; padding-right: 1cm;">
+                                                                                    <img alt="Engineering Management Laboratory"
+                                                                                        src="./img/laboratory/em.jpeg"
+                                                                                        style="width: 100%; height: auto; display: block;" />
+                                                                                </td>
                                                                                 <td colspan="1" rowspan="3"
                                                                                     style="text-align: left; vertical-align: top; width: 60%; background-color: rgb(255, 255, 255);">
-                                                                                    <p><span
-                                                                                            style="font-family:Arial,Helvetica,sans-serif;"><span
+                                                                                    <p>
+                                                                                        <span
+                                                                                            style="font-family:Arial,Helvetica,sans-serif;">
+                                                                                            <span
                                                                                                 style="font-size:0.875em;"><strong>Engineering
                                                                                                     Management
-                                                                                                    (EM)&nbsp;</strong></span><br />
+                                                                                                    (EM) - C 3.01</strong></span><br />
                                                                                             <span
                                                                                                 style="font-size:0.75em;">The
-                                                                                                Lean Systems Laboratory
-                                                                                                draws inspiration from
-                                                                                                corporate employee
-                                                                                                training facilities,
-                                                                                                fostering experiential
-                                                                                                vocational
-                                                                                                education.<br />
-                                                                                                Through hands-on toy
-                                                                                                assembly activities,
-                                                                                                students gain practical
-                                                                                                training and experience
-                                                                                                various techniques like
-                                                                                                material picking,
-                                                                                                feeding, and both
-                                                                                                push-type and pull-type
-                                                                                                assembly methods.<br />
-                                                                                                This immersive learning
-                                                                                                environment mirrors
-                                                                                                real-world experiences,
-                                                                                                ensuring students
-                                                                                                acquire valuable skills
-                                                                                                and
-                                                                                                knowledge.</span><span
-                                                                                                style="font-size:0.875em;"></span></span>
+                                                                                                EM Laboratory focuses on
+                                                                                                applying engineering
+                                                                                                principles to the
+                                                                                                planning, design, and
+                                                                                                management of complex
+                                                                                                projects and
+                                                                                                organizations. It
+                                                                                                integrates technical
+                                                                                                expertise with
+                                                                                                managerial skills to
+                                                                                                improve decision-making,
+                                                                                                resource allocation, and
+                                                                                                project execution in
+                                                                                                engineering
+                                                                                                environments.<br />
+                                                                                                <strong>Research areas
+                                                                                                    include:</strong>
+                                                                                                Project Management,
+                                                                                                Operations Research, and
+                                                                                                Engineering
+                                                                                                Economics.</span>
+                                                                                        </span>
                                                                                     </p>
                                                                                 </td>
                                                                             </tr>
