@@ -383,12 +383,12 @@ td {
     padding: 5px;
 }
 
-.content_container div {
+.content_container > div {
     padding-bottom: 150px;
 }
 
-.content_container div:last-child {
-    padding-bottom: 450px;
+.content_container > div:last-child {
+    padding-bottom: 120px;
 }
 
 .content_container.faculty div,

@@ -166,9 +166,9 @@
                             as
                             Information Systems, Business Strategy Management, and Information Technology Adoption.
                         </p>
-                        <p> To fulfill its role, this research group is divided into five more specific subgroups.
-                            Three subgroups (QBI, SME, LSCE) support the technical-operational pillar, while the other
-                            two subgroups (MSB, MERB) support the management-business systems pillar.
+                        <p> To fulfill its role, this research group is organized into seven dedicated laboratories.
+                            The technical-operational pillar is supported by QBI, MANSYS, LSCE, and EID, while the
+                            management-business systems pillar is supported by SE, EM, and DIGITAL.
                         </p>
                         <p>This structure enables the research group to provide comprehensive, integrated solutions
                             based on
@@ -192,7 +192,7 @@
                         </header>
                         <hr class="customize_hr"> -->
                         <h2>Quantitative Modelling for Business and Industry (QBI):</h2>
-                        <p class="firstp_h2">This subgroup focuses on the application of mathematics and statistics
+                        <p class="firstp_h2">The QBI Laboratory focuses on the application of mathematics and statistics
                             to solve real-world problems in industry and business. Through a quantitative and
                             data-driven
                             approach, the primary goal of this discipline is to improve efficiency, optimize
@@ -225,7 +225,7 @@
                         </header>
                         <hr class="customize_hr"> -->
                         <h2>Manufacturing System (MANSYS):</h2>
-                        <p class="firstp_h2">The Manufacturing Systems and Ergonomics sub-discipline combines technical
+                        <p class="firstp_h2">The MANSYS Laboratory combines technical
                             approaches to the management and optimization of production systems with ergonomic
                             principles
                             to create efficient, safe, comfortable, and sustainable work systems. The primary objective
@@ -239,8 +239,8 @@
                             <h1>Research Topics</h1>
                         </header>
                         <hr class="customize_hr"> -->
-                        <h2>Logistic Supply Chain Enginering (LSCE):</h2>
-                        <p class="firstp_h2">The Supply Chain and Logistics Sub-Subgroup of Sciences is a field of
+                        <h2>Logistic Supply Chain Engineering (LSCE):</h2>
+                        <p class="firstp_h2">The LSCE Laboratory is a field of
                             study
                             that focuses on managing and optimizing the flow of goods, information, and resources from
                             suppliers to end consumers. The supply chain encompasses the entire process, from raw
@@ -277,13 +277,10 @@
                         </header>
                         <hr class="customize_hr"> -->
                         <h2>Ergonomic and Innovation Design (EID):</h2>
-                        <p class="firstp_h2">The Manufacturing Systems and Ergonomics scientific sub-group integrates a
-                            technical approach in managing and optimizing
-                            production systems with ergonomic principles to create work systems
-                            that are efficient, safe, comfortable for humans, and sustainable. The main objective
-                            of this field is to ensure high productivity
-                            and quality in production processes while minimizing negative impacts on workers' health
-                            and well-being.
+                        <p class="firstp_h2">The EID Laboratory applies ergonomic principles to design products and
+                            work systems that are efficient, safe, and comfortable for users. Its focus is on
+                            improving human interaction with tools, environments, and systems while supporting
+                            innovation in product and service development.
                         </p>
                         <!-- <p style="font-weight: bold;">
                             Manufacturing Systems</p>
@@ -313,7 +310,7 @@
                     </div>
                     <div id="s7">
                         <h2>Enterprise System (SE):</h2>
-                        <p class="firstp_h2">The Business Systems Management Sub-Sub-Subgroup focuses on the
+                        <p class="firstp_h2">The SE Laboratory focuses on the
                             application
                             of management principles, information technology, and systems to improve operational
                             efficiency
@@ -321,7 +318,7 @@
                             management information systems, CRM strategies, ERP implementation, and data analysis and
                             management to support better decision-making. By integrating management and technology
                             aspects,
-                            this sub-group aims to create added value for organizations through innovation and systems
+                            this laboratory aims to create added value for organizations through innovation and systems
                             integration.</p>
                         <!-- <p style="font-weight: bold;">
                             Management Strategy
@@ -358,7 +355,7 @@
                     </div>
                     <div id="s8">
                         <h2>Engineering Management (EM):</h2>
-                        <p class="firstp_h2">The Engineering Management sub-discipline is a field of study that
+                        <p class="firstp_h2">The EM Laboratory is a field of study that
                             integrates
                             engineering management, business management, and economic theory to create efficient and
                             innovative solutions in managing organizations. This expertise focuses on the application of
@@ -370,12 +367,10 @@
                     </div>
                     <div id="s9">
                         <h2>Digital Start-Up (DIGITAL):</h2>
-                        <p class="firstp_h2">The Economic Management and Business Engineering sub-specialization is a
-                            field of study that integrates the principles of engineering management, business
-                            management,
-                            and economic theory to create efficient and innovative solutions for managing organizations.
-                            This expertise focuses on the application of economic analysis in engineering and business
-                            contexts to optimize resources, increase productivity, and create added value.
+                        <p class="firstp_h2">The Digital Start-Up Laboratory focuses on developing digital
+                            entrepreneurship and startup ecosystems within the context of industrial engineering and
+                            business innovation. It bridges technology with business strategy to create sustainable
+                            digital ventures and support innovation-driven growth.
                         </p>
                         <!-- <p style="font-weight: bold;">
                             Engineering Management
