@@ -21,6 +21,263 @@
     <link rel="apple-touch-icon-precomposed" href="/var/file/14/1014/msys_1014_3087027_16703.ico">
     <link rel="apple-touch-icon" href="/var/file/14/1014/msys_1014_3087027_16703.ico">
     <link rel="stylesheet" href="./css/combine-en.css?t=222b90982b" type="text/css" />
+    <style>
+        body.laboratory-page .lab-navbar__link,
+        body.laboratory-page .lab-navbar__dropdown a {
+            font-size: 1.6rem;
+        }
+
+        body.laboratory-page .lab-navbar,
+        body.laboratory-page .lab-navbar * {
+            box-sizing: border-box;
+        }
+
+        body.laboratory-page .lab-navbar {
+            background: #f7fafb;
+            border-bottom: 1px solid #dde7ee;
+            padding: 8px 6px;
+            position: relative;
+            width: 100%;
+            z-index: 50;
+        }
+
+        body.laboratory-page .lab-navbar__inner {
+            align-items: center;
+            background: #fff;
+            border: 1px solid #dce7ee;
+            border-radius: 8px;
+            display: flex;
+            gap: 18px;
+            justify-content: space-between;
+            margin: 0;
+            max-width: none;
+            min-height: 76px;
+            padding: 12px 14px 12px 18px;
+            width: 100%;
+        }
+
+        body.laboratory-page .lab-navbar__brand {
+            align-items: center;
+            display: inline-flex;
+            flex: 0 1 560px;
+            min-width: 0;
+            text-decoration: none;
+        }
+
+        body.laboratory-page .lab-navbar__logo {
+            display: block;
+            height: 46px;
+            max-width: 100%;
+            object-fit: contain;
+            width: auto;
+        }
+
+        body.laboratory-page .lab-navbar__toggle {
+            align-items: center;
+            background: #f8fbfc;
+            border: 1px solid #dbe6ec;
+            border-radius: 8px;
+            display: none;
+            height: 44px;
+            justify-content: center;
+            padding: 0;
+            width: 44px;
+        }
+
+        body.laboratory-page .lab-navbar__toggle-lines,
+        body.laboratory-page .lab-navbar__toggle-lines span {
+            display: block;
+        }
+
+        body.laboratory-page .lab-navbar__toggle-lines {
+            width: 18px;
+        }
+
+        body.laboratory-page .lab-navbar__toggle-lines span {
+            background: #0f766e;
+            border-radius: 2px;
+            height: 2px;
+            margin: 4px 0;
+            width: 18px;
+        }
+
+        body.laboratory-page .lab-navbar__menu {
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+            min-width: 0;
+        }
+
+        body.laboratory-page .lab-navbar__list {
+            align-items: center;
+            background: #f7fafb;
+            border-radius: 8px;
+            display: flex;
+            gap: 4px;
+            list-style: none;
+            margin: 0;
+            padding: 5px;
+        }
+
+        body.laboratory-page .lab-navbar__item {
+            margin: 0;
+            position: relative;
+        }
+
+        body.laboratory-page .lab-navbar__link {
+            align-items: center;
+            background: transparent;
+            border: 0;
+            border-radius: 8px;
+            color: #304050;
+            display: inline-flex;
+            font-weight: 600;
+            gap: 7px;
+            line-height: 1.25;
+            padding: 12px 16px;
+            text-decoration: none;
+            transition: background-color 0.18s ease, box-shadow 0.18s ease, color 0.18s ease;
+            white-space: nowrap;
+        }
+
+        body.laboratory-page .lab-navbar__link:hover,
+        body.laboratory-page .lab-navbar__link:focus,
+        body.laboratory-page .lab-navbar__item.is-open > .lab-navbar__link {
+            background: #fff;
+            box-shadow: 0 8px 20px rgba(18, 38, 63, 0.08);
+            color: #0f766e;
+            outline: none;
+        }
+
+        body.laboratory-page .lab-navbar__caret {
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            border-top: 4px solid currentColor;
+            display: inline-block;
+            height: 0;
+            margin-top: 2px;
+            width: 0;
+        }
+
+        body.laboratory-page .lab-navbar__dropdown {
+            background: #fff;
+            border: 1px solid rgba(213, 226, 232, 0.95);
+            border-radius: 8px;
+            box-shadow: 0 22px 50px rgba(18, 38, 63, 0.16);
+            display: none;
+            left: 50%;
+            list-style: none;
+            margin: 10px 0 0;
+            min-width: 300px;
+            padding: 8px;
+            position: absolute;
+            top: 100%;
+            transform: translateX(-50%);
+            z-index: 60;
+        }
+
+        body.laboratory-page .lab-navbar__item.is-open > .lab-navbar__dropdown {
+            display: block;
+        }
+
+        body.laboratory-page .lab-navbar__dropdown a {
+            border-radius: 6px;
+            color: #304050;
+            display: block;
+            font-weight: 500;
+            line-height: 1.38;
+            padding: 10px 12px;
+            text-decoration: none;
+            white-space: normal;
+        }
+
+        body.laboratory-page .lab-navbar__dropdown a:hover,
+        body.laboratory-page .lab-navbar__dropdown a:focus {
+            background: #f1f8f7;
+            color: #0f766e;
+            outline: none;
+        }
+
+        @media (max-width: 767px) {
+            body.laboratory-page .lab-navbar {
+                padding: 6px;
+            }
+
+            body.laboratory-page .lab-navbar__inner {
+                flex-wrap: wrap;
+                gap: 12px;
+                min-height: 68px;
+                padding: 10px 12px;
+            }
+
+            body.laboratory-page .lab-navbar__brand {
+                flex: 1 1 auto;
+            }
+
+            body.laboratory-page .lab-navbar__logo {
+                height: 36px;
+                max-width: 230px;
+            }
+
+            body.laboratory-page .lab-navbar__toggle {
+                display: inline-flex;
+            }
+
+            body.laboratory-page .lab-navbar__menu {
+                background: #fff;
+                border: 1px solid #dbe6ec;
+                border-radius: 8px;
+                display: none;
+                flex: 0 0 100%;
+                margin-top: 8px;
+                overflow: hidden;
+                width: 100%;
+            }
+
+            body.laboratory-page .lab-navbar__menu.is-open {
+                display: block;
+            }
+
+            body.laboratory-page .lab-navbar__list {
+                align-items: stretch;
+                background: #fff;
+                display: block;
+                padding: 8px;
+                width: 100%;
+            }
+
+            body.laboratory-page .lab-navbar__item {
+                width: 100%;
+            }
+
+            body.laboratory-page .lab-navbar__link {
+                justify-content: space-between;
+                padding: 13px 12px;
+                white-space: normal;
+                width: 100%;
+            }
+
+            body.laboratory-page .lab-navbar__link:hover,
+            body.laboratory-page .lab-navbar__link:focus,
+            body.laboratory-page .lab-navbar__item.is-open > .lab-navbar__link {
+                background: #f4faf8;
+                box-shadow: none;
+            }
+
+            body.laboratory-page .lab-navbar__dropdown {
+                background: #f8fbfb;
+                border: 0;
+                box-shadow: none;
+                left: auto;
+                margin: 2px 0 8px;
+                min-width: 0;
+                padding: 4px 0 4px 12px;
+                position: static;
+                transform: none;
+                width: 100%;
+            }
+        }
+    </style>
 
     <script language="javascript">
         <!--
@@ -35,7 +292,7 @@
     <script type="text/javascript" src="./js/m_20251017.js"></script>
 </head>
 
-<body class="page_mobilecgmolist webfree ">
+<body class="page_mobilecgmolist webfree laboratory-page">
     <div class="wrap">
         <a href="#start-C" class="focusable" title="Jump to the main content block">Jump to the main content block</a>
         <div class="fpbgvideo"></div>
@@ -46,187 +303,127 @@
                     <div class="minner ">
                         <div class="selfhead">
                             <div class="meditor">
-                                <!-- logo -->
-                                <div class="head"
-                                    style="border-bottom: 0px solid gray; box-shadow: 0px 1px 3px rgba(0,0,0,0.4);">
-                                    <div class="logo"
-                                        style="height: 70px; margin-left: 20px; display: flex; align-items: center;">
-                                        <img src="/img/laboratory/ok.png" style="height: 50px;">
-                                    </div>
-                                </div>
-                                <div class="mycollapse">
-                                    <button class="navbar-toggle" data-target=".nav-toggle" data-toggle="collapse"
-                                        type="button"><span class="glyphicons show_lines">Menu</span></button>
-                                    <div class="navbar-collapse collapse nav-toggle" id="collapseExample2">
-                                        <div class="topnav">
-                                            <div class="headnavcust">
-                                                <div class="mnavbar mn-collapse">
-                                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                                        data-target=".hd-001" aria-expanded="false">
-                                                        <span class="glyphicons show_lines">Menu</span>
-                                                    </button>
-                                                    <!-- menu heading sebelah kanan -->
-                                                    <div class="nav-toggle collapse navbar-collapse iosScrollToggle hd-001"
-                                                        style="transform: translateX(60px);">
-                                                        <div class="hdmenu">
-                                                            <ul class="nav navbar-nav"
-                                                                id="a313c55e835999cc0b345f6d1fdf151e7_MenuTop_001">
+                                <!-- logo / navigation -->
+                                <nav class="lab-navbar">
+                                    <div class="lab-navbar__inner">
+                                        <a class="lab-navbar__brand" href="laboratory">
+                                            <img src="/img/laboratory/ok.png" class="lab-navbar__logo" alt="">
+                                        </a>
 
-                                                                <li class=" dropdown " id="Hln_2661"><a
-                                                                        href="laboratory" title="Click to go Home"
-                                                                        style="color:black;">Home</a></li>
+                                        <button class="lab-navbar__toggle" type="button"
+                                            aria-controls="laboratoryNavbar" aria-expanded="false">
+                                            <span class="lab-navbar__toggle-lines" aria-hidden="true">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </span>
+                                        </button>
 
-                                                                <li class=" dropdown " id="Hln_2538" class="dropdown">
-                                                                    <a role="button" aria-expanded="false"
-                                                                        class="dropdown-toggle" data-toggle="dropdown"
-                                                                        href="javascript:void(0)"
-                                                                        title="Click to go Laboratory"
-                                                                        style="color:black;">Laboratory</a>
-                                                                    <ul class="dropdown-menu" id="submenu1_2538">
-                                                                        <li class=" dropdown " id="Hln_7792"><a
-                                                                                href="qbi">Quantitative Modelling
-                                                                                for Business and Industry</a></li>
-                                                                        <li class=" dropdown " id="Hln_3278"><a
-                                                                                href="mansys">Manufacturing System</a>
-                                                                        </li>
-                                                                        <li class=" dropdown " id="Hln_7793"><a
-                                                                                href="lsce">Logistic Supply Chain
-                                                                                Enginering</a></li>
-                                                                        <li class=" dropdown " id="Hln_7792"><a
-                                                                                href="eid">Ergonomic and Innovation
-                                                                                Design</a></li>
-                                                                        <li class=" dropdown " id="Hln_3278"><a
-                                                                                href="se">Enterprise System</a>
-                                                                        </li>
-                                                                        <li class=" dropdown " id="Hln_7793"><a
-                                                                                href="em">Engineering
-                                                                                Management</a></li>
-                                                                        <li class=" dropdown " id="Hln_7793"><a
-                                                                                href="digital">Digital Start-Up</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </li>
+                                        <div class="lab-navbar__menu" id="laboratoryNavbar">
+                                            <ul class="lab-navbar__list">
+                                                <li class="lab-navbar__item">
+                                                    <a class="lab-navbar__link" href="laboratory"
+                                                        title="Click to go Home">Home</a>
+                                                </li>
 
-                                                                <li class=" dropdown " id="Hln_2531"><a
-                                                                        href="#start-B"
-                                                                        title="Click to go Site Map">Site Map</a></li>
+                                                <li class="lab-navbar__item lab-navbar__item--has-dropdown">
+                                                    <a class="lab-navbar__link" href="javascript:void(0)"
+                                                        aria-expanded="false" aria-haspopup="true"
+                                                        data-lab-dropdown-toggle
+                                                        title="Click to go Laboratory">Laboratory
+                                                        <span class="lab-navbar__caret" aria-hidden="true"></span></a>
+                                                    <ul class="lab-navbar__dropdown" id="submenu1_2538">
+                                                        <li><a href="qbi">Quantitative Modelling
+                                                                for Business and Industry</a></li>
+                                                        <li><a href="mansys">Manufacturing System</a></li>
+                                                        <li><a href="lsce">Logistic Supply Chain
+                                                                Enginering</a></li>
+                                                        <li><a href="eid">Ergonomic and Innovation
+                                                                Design</a></li>
+                                                        <li><a href="se">Enterprise System</a></li>
+                                                        <li><a href="em">Engineering
+                                                                Management</a></li>
+                                                        <li><a href="digital">Digital Start-Up</a></li>
+                                                    </ul>
+                                                </li>
 
-                                                                <li class=" dropdown " id="Hln_2532"><a
-                                                                        href="https://surabaya.telkomuniversity.ac.id/"
-                                                                        title="Click to go TEL-U">TEL-U</a></li>
+                                                <li class="lab-navbar__item">
+                                                    <a class="lab-navbar__link" href="#start-B"
+                                                        title="Click to go Site Map">Site Map</a>
+                                                </li>
 
-                                                                <li class=" dropdown " id="Hln_2534"><a
-                                                                        href="#start-B"
-                                                                        title="Click to go Contact">Contact</a></li>
+                                                <li class="lab-navbar__item">
+                                                    <a class="lab-navbar__link"
+                                                        href="https://surabaya.telkomuniversity.ac.id/"
+                                                        title="Click to go TEL-U">TEL-U</a>
+                                                </li>
 
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <script>
-                                                $(document).ready(function() {
-                                                    $(".mnavbar .navbar-toggle").click(function() {
-                                                        $(this).toggleClass("open");
-                                                        var ariaExpanded = $(this).attr('aria-expanded');
-                                                        $(this).attr('aria-expanded', ariaExpanded !== 'true');
-                                                    });
-                                                    $(".mycollapse .navbar-toggle").click(function() {
-                                                        $(this).toggleClass("open");
-                                                        var ariaExpanded = $(this).attr('aria-expanded');
-                                                        $(this).attr('aria-expanded', ariaExpanded !== 'true');
-                                                    });
-                                                    $('.iosScrollToggle').on('shown.bs.collapse', function() {
-                                                        var togglePos = $(this).css('position');
-                                                        if (togglePos !== 'static') {
-                                                            ModalHelper.afterOpen();
-                                                        }
-                                                    });
-
-                                                    $('.iosScrollToggle').on('hide.bs.collapse', function() {
-                                                        var togglePos = $(this).css('position');
-                                                        if (togglePos !== 'static') {
-                                                            ModalHelper.beforeClose();
-                                                        }
-                                                    });
-
-                                                });
-                                            </script>
-
-                                            <script language="javascript">
-                                                MulttabSwitch("a313c55e835999cc0b345f6d1fdf151e7_MenuTop_001");
-                                            </script>
-
+                                                <li class="lab-navbar__item">
+                                                    <a class="lab-navbar__link" href="#start-B"
+                                                        title="Click to go Contact">Contact</a>
+                                                </li>
+                                            </ul>
                                         </div>
-                                        {{-- <div class="mainhdmenu">
-                                            <div class="headnavcust">
-                                                <div class="mnavbar mn-collapse">
-                                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".hd-002" aria-expanded="false">
-                                                        <span class="glyphicons show_lines">Menu</span>
-                                                    </button>
-                                                    <div class="nav-toggle collapse navbar-collapse iosScrollToggle hd-002">
-                                                        <div class="hdmenu">
-                                                            <ul class="nav navbar-nav" id="a313c55e835999cc0b345f6d1fdf151e7_MenuTop_002">
-
-                                                                <li class=" dropdown " id="Hln_2661"><a href="laboratory" title="Click to go Home" style="color:black;">Home</a></li>
-
-                                                                <!-- <li class=" dropdown " id="Hln_2535"><a href="/p/412-1014-2696.php?Lang=en" title="Click to go About">About</a></li> -->
-
-                                                                <!-- <li class=" dropdown " id="Hln_2536" class="dropdown"><a style="color:black;" role="button" aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" title="Click to go People">People</a>
-                                                                        <ul class="dropdown-menu" id="submenu1_2536">
-                                                                            <li class=" dropdown " id="Hln_3259"><a href="/p/412-1014-10694.php?Lang=en" title="Click to go Faculty">Faculty</a></li>
-                                                                            <li class=" dropdown " id="Hln_3280"><a href="/p/412-1014-10693.php?Lang=en" title="Click to go Chairperson and Staff">Chairperson and Staff</a></li>
-                                                                        </ul>
-                                                                    </li> -->
-
-                                                                <li class="  " id="Hln_2538" class="dropdown"><a href="laboratory" title="Click to go Laboratory" style="color:black;">Laboratory</a>
-                                                                    <ul class="dropdown-menu" id="submenu1_2538">
-                                                                        <li class=" dropdown " id="Hln_7792"><a href="qbi" title="Click to go Quantitative Modelling for Business and Industry">Quantitative Modelling for Business and Industry</a></li>
-                                                                        <li class=" dropdown " id="Hln_3278"><a href="mansys" title="Click to go Manufacturing System">Manufacturing System</a></li>
-                                                                        <li class=" dropdown " id="Hln_7793"><a href="lsce" title="Click to go Logistic Supply Chain Enginering">Logistic Supply Chain Enginering</a></li>
-                                                                        <li class=" dropdown " id="Hln_7792"><a href="eid" title="Click to go Ergonomic and Innovation Design">Ergonomic and Innovation Design</a></li>
-                                                                        <li class=" dropdown " id="Hln_3278"><a href="se" title="Click to go Enterprise System">Enterprise System</a></li>
-                                                                        <li class=" dropdown " id="Hln_7793"><a href="em" title="Click to go Engineering Management">Engineering Management</a></li>
-                                                                        <li class=" dropdown " id="Hln_7793"><a href="digital" title="Click to go Digital Start-Up">Digital Start-Up</a></li>
-                                                                    </ul>
-                                                                </li>
-
-                                                                <!-- <li class=" dropdown " id="Hln_2539" class="dropdown"><a role="button" aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" title="Click to go Admission">Admission</a>
-                                                                        <ul class="dropdown-menu" id="submenu1_2539">
-                                                                            <li class=" dropdown " id="Hln_7791"><a href="/p/412-1014-11291.php?Lang=en" title="Click to go Admission Bachelor's">Admission Bachelor's</a></li>
-                                                                            <li class=" dropdown " id="Hln_3263"><a href="/p/412-1014-2715.php?Lang=en" title="Click to go Admission Master&quot;s">Admission Master&quot;s</a></li>
-                                                                            <li class=" dropdown " id="Hln_3264"><a href="/p/412-1014-2716.php?Lang=en" title="Click to go Admission PhD">Admission PhD</a></li>
-                                                                            <li class=" dropdown " id="Hln_3265"><a href="/p/412-1014-2717.php?Lang=en" title="Click to go Admission EMBA">Admission EMBA</a></li>
-                                                                        </ul>
-                                                                    </li> -->
-
-                                                                <!-- <li class=" dropdown " id="Hln_2540"><a href="#" title="Click to go Links" style="color:black;">Links</a></li> -->
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <script language="javascript">
-                                                MulttabSwitch("a313c55e835999cc0b345f6d1fdf151e7_MenuTop_002");
-                                            </script>
-
-                                        </div> --}}
-                                        <!-- <div class="msearch">
-                                                <a aria-expanded="false" class="btn btn-primary navbar-toggle1 sch-toggle" data-toggle="collapse" href="#headsearch" role="button"><span>Search</span></a>
-                                                <div class="collapse" id="headsearch"></div>
-                                            </div> -->
                                     </div>
-                                </div>
+                                </nav>
+
+                                <script>
+                                    document.addEventListener('DOMContentLoaded', function() {
+                                        var nav = document.querySelector('.lab-navbar');
+                                        if (!nav) return;
+
+                                        var toggle = nav.querySelector('.lab-navbar__toggle');
+                                        var menu = nav.querySelector('#laboratoryNavbar');
+                                        var dropdownToggle = nav.querySelector('[data-lab-dropdown-toggle]');
+                                        var dropdownItem = dropdownToggle ? dropdownToggle.closest('.lab-navbar__item') : null;
+
+                                        function setMenu(open) {
+                                            menu.classList.toggle('is-open', open);
+                                            toggle.classList.toggle('is-open', open);
+                                            toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+                                        }
+
+                                        function setDropdown(open) {
+                                            if (!dropdownItem) return;
+                                            dropdownItem.classList.toggle('is-open', open);
+                                            dropdownToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+                                        }
+
+                                        toggle.addEventListener('click', function() {
+                                            setMenu(!menu.classList.contains('is-open'));
+                                        });
+
+                                        if (dropdownToggle) {
+                                            dropdownToggle.addEventListener('click', function(event) {
+                                                event.preventDefault();
+                                                setDropdown(!dropdownItem.classList.contains('is-open'));
+                                            });
+                                        }
+
+                                        nav.querySelectorAll('.lab-navbar__dropdown a, .lab-navbar__list > .lab-navbar__item:not(.lab-navbar__item--has-dropdown) a')
+                                            .forEach(function(link) {
+                                                link.addEventListener('click', function() {
+                                                    setDropdown(false);
+                                                    if (window.innerWidth < 768) setMenu(false);
+                                                });
+                                            });
+
+                                        document.addEventListener('click', function(event) {
+                                            if (!nav.contains(event.target)) setDropdown(false);
+                                        });
+
+                                        document.addEventListener('keydown', function(event) {
+                                            if (event.key === 'Escape') {
+                                                setDropdown(false);
+                                                setMenu(false);
+                                            }
+                                        });
+                                    });
+                                </script>
                                 <script>
                                     $(document).ready(function() {
                                         $.hajaxOpenUrl("/app/index.php?Action=mobileloadmod&Type=mobile_rcg_mstr&Nbr=1220", '#banner');
-                                        $.hajaxOpenUrl("/app/index.php?Action=mobileloadmod&Type=mobilesch&Nbr=0", '#headsearch');
-                                        $('.focusable,.topnav ul li a,.hdsearch .sch-toggle').attr('tabindex', '1');
-                                        $(".sch-toggle").click(function() {
-                                            $(".sch-toggle").toggleClass("open")
-                                        });
+                                        $('.focusable,.lab-navbar a,.lab-navbar button').attr('tabindex', '1');
                                     });
                                 </script>
                             </div>
@@ -234,59 +431,6 @@
                     </div>
                 </div>
 
-                <script language="javascript">
-                    if (typeof(_LoginHln) == 'undefined') var _LoginHln = new hashUtil();
-                    if (typeof(_LogoutHln) == 'undefined') var _LogoutHln = new hashUtil();
-                    if (typeof(_HomeHln) == 'undefined') var _HomeHln = new hashUtil();
-                    if (typeof(_InternalHln) == 'undefined') var _InternalHln = new hashUtil();
-                    _InternalHln.put("2661", "Hln_" + "2661");
-                    $(document).ready(function() {
-                        if (typeof(loginStat) == 'undefined') {
-                            if (popChkLogin()) loginStat = "login";
-                            else loginStat = "logout";
-                        }
-                        dealHln(isHome, loginStat, $('div.hdmenu'));
-                        MulttabSwitch("a313c55e835999cc0b345f6d1fdf151e7_MenuTop");
-                    });
-                    var firstWidth = window.innerWidth;
-
-                    function mobilehead_widthChangeCb() {
-                        if ((firstWidth >= 767 && window.innerWidth < 767) || (firstWidth < 767 && window.innerWidth >= 767)) location
-                            .reload();
-                        if (window.innerWidth < 767) {
-                            setTimeout(() => {
-                                var div = document.getElementsByClassName('mycollapse');
-                                if (div == 'undefined' || div.length == 0) div = document.getElementsByClassName(
-                                    'nav-toggle navbar-collapse iosScrollToggle');
-                                div = div[0];
-                                //var focusableElements = div.querySelectorAll('li>a[href], button, input[type="text"], select, textarea');
-                                var focusableElements = div.querySelectorAll(
-                                    'a[href], button, input[type="text"], select, textarea');
-                                focusableElements[focusableElements.length - 1].addEventListener('keydown', function(event) {
-                                    if (event.key === 'Tab') {
-                                        $(".hdmenu .dropdown").removeClass("open");
-                                        var button = document.getElementsByClassName('navbar-toggle');
-                                        button = button[0];
-                                        button.click();
-                                    }
-                                });
-                            }, 1000);
-                        } else {
-                            var div = document.getElementsByClassName('mycollapse');
-                            if (div == 'undefined' || div.length == 0) div = document.getElementsByClassName(
-                                'nav-toggle navbar-collapse iosScrollToggle');
-                            div = div[0];
-                            var focusableElements = div.querySelectorAll('a[href]');
-                            focusableElements[focusableElements.length - 1].addEventListener('keydown', function(event) {
-                                if (event.key === 'Tab') {
-                                    $(".hdmenu .dropdown").removeClass("open");
-                                }
-                            });
-                        }
-                    }
-                    window.addEventListener('resize', mobilehead_widthChangeCb);
-                    mobilehead_widthChangeCb();
-                </script>
                 <noscript>This function need to use the browser to support JavaScript normal operation</noscript>
 
                 <!-- generated at Fri Oct 31 2025 15:18:04 -->
