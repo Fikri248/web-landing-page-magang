@@ -27,6 +27,11 @@
             font-size: 1.6rem;
         }
 
+        body.laboratory-page .laboratory-detail-description {
+            display: block;
+            text-align: justify;
+        }
+
         body.laboratory-page .lab-navbar,
         body.laboratory-page .lab-navbar * {
             box-sizing: border-box;
@@ -507,7 +512,7 @@
                                                                                                 style="font-size:0.875em;"><strong>Manufacturing
                                                                                                     System
                                                                                                     (MANSYS)</strong></span><br />
-                                                                                            <span
+                                                                                            <span class="laboratory-detail-description"
                                                                                                 style="font-size:0.75em;">
                                                                                                 The Manufacturing System
                                                                                                 (MANSYS) Laboratory
@@ -697,7 +702,7 @@
                                         }
                                     }
                                 </style>
-                                <div class="contact col-md-4">
+                                <div class="contact col-md-6">
                                     <div class="footTitle"><a accesskey="B" href="#start-B" id="start-B"
                                             style="text-decoration:none" title="下方內容區"></a>Contact</div>
                                     <ul>
@@ -708,15 +713,7 @@
                                                 60231</span></li>
                                     </ul>
                                 </div>
-                                <div class="contact col-md-4">
-                                    <div class="footTitle">Quick Links</div>
-                                    <ul>
-                                        <li><a href="https://www.oia.ntust.edu.tw/home.php?Lang=En"
-                                                title="Office of International Affairs">OIA</a></li>
-                                        <li><a href="https://www.ciie.org.tw/" title="CIIE">CIIE</a></li>
-                                    </ul>
-                                </div>
-                                <div class="contact col-md-4">
+                                <div class="contact col-md-6">
                                     <div class="footTitle">Campus Map</div>
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3797403374724!2d112.72634007477424!3d-7.311166492696749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd1cb925a1d%3A0x1dbecb0b2e9b059f!2sUniversitas%20Telkom%20Surabaya!5e0!3m2!1sid!2sid!4v1767231187233!5m2!1sid!2sid"

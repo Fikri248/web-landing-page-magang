@@ -53,6 +53,11 @@
             max-width: 1180px;
         }
 
+        body.laboratory-page .laboratory-explanation p,
+        body.laboratory-page .laboratory-table-explanation {
+            text-align: justify;
+        }
+
         @media (max-width: 991px) {
             body.laboratory-page {
                 font-size: 1.55rem;
@@ -358,7 +363,7 @@
                                         <div class="lab-navbar__menu" id="laboratoryNavbar">
                                             <ul class="lab-navbar__list">
                                                 <li class="lab-navbar__item">
-                                                    <a class="lab-navbar__link" href="/"
+                                                    <a class="lab-navbar__link" href="/laboratory"
                                                         title="Click to go Home">Home</a>
                                                 </li>
 
@@ -748,45 +753,47 @@
                                                                 <div class="mcont">
                                                                     <div class="mpgdetail">
                                                                         <div class="meditor">
-                                                                            <p>
-                                                                                The <strong>Industrial Engineering &amp;
-                                                                                    Business Innovation (IEBI) Research
-                                                                                    Group</strong> is an
-                                                                                interdisciplinary research group at
-                                                                                Telkom University Surabaya that
-                                                                                integrates industrial engineering
-                                                                                principles with business innovation
-                                                                                concepts. Its primary focus is
-                                                                                developing and implementing efficient
-                                                                                solutions to enhance productivity,
-                                                                                quality, and organizational
-                                                                                competitiveness in facing the challenges
-                                                                                of the Industry 4.0 era and dynamic
-                                                                                global economy. The group aims to
-                                                                                produce solutions that not only improve
-                                                                                operational efficiency but also drive
-                                                                                sustainable innovation — preparing
-                                                                                individuals and organizations to adapt
-                                                                                and compete at the global level.
-                                                                            </p>
-                                                                            <p style="margin-top: 10px;">
-                                                                                IEBI consists of seven dedicated
-                                                                                research laboratories:
-                                                                                <strong>Quantitative Modelling for
-                                                                                    Business and Industry
-                                                                                    (QBI)</strong>,
-                                                                                <strong>Manufacturing System
-                                                                                    (MANSYS)</strong>,
-                                                                                <strong>Logistic Supply Chain
-                                                                                    Engineering (LSCE)</strong>,
-                                                                                <strong>Ergonomic and Innovation Design
-                                                                                    (EID)</strong>,
-                                                                                <strong>Enterprise System (SE)</strong>,
-                                                                                <strong>Engineering Management
-                                                                                    (EM)</strong>, and
-                                                                                <strong>Digital Start-Up
-                                                                                    (DIGITAL)</strong>.
-                                                                            </p>
+                                                                            <div class="laboratory-explanation">
+                                                                                <p>
+                                                                                    The <strong>Industrial Engineering &amp;
+                                                                                        Business Innovation (IEBI) Research
+                                                                                        Group</strong> is an
+                                                                                    interdisciplinary research group at
+                                                                                    Telkom University Surabaya that
+                                                                                    integrates industrial engineering
+                                                                                    principles with business innovation
+                                                                                    concepts. Its primary focus is
+                                                                                    developing and implementing efficient
+                                                                                    solutions to enhance productivity,
+                                                                                    quality, and organizational
+                                                                                    competitiveness in facing the challenges
+                                                                                    of the Industry 4.0 era and dynamic
+                                                                                    global economy. The group aims to
+                                                                                    produce solutions that not only improve
+                                                                                    operational efficiency but also drive
+                                                                                    sustainable innovation — preparing
+                                                                                    individuals and organizations to adapt
+                                                                                    and compete at the global level.
+                                                                                </p>
+                                                                                <p style="margin-top: 10px;">
+                                                                                    IEBI consists of seven dedicated
+                                                                                    research laboratories:
+                                                                                    <strong>Quantitative Modelling for
+                                                                                        Business and Industry
+                                                                                        (QBI)</strong>,
+                                                                                    <strong>Manufacturing System
+                                                                                        (MANSYS)</strong>,
+                                                                                    <strong>Logistic Supply Chain
+                                                                                        Engineering (LSCE)</strong>,
+                                                                                    <strong>Ergonomic and Innovation Design
+                                                                                        (EID)</strong>,
+                                                                                    <strong>Enterprise System (SE)</strong>,
+                                                                                    <strong>Engineering Management
+                                                                                        (EM)</strong>, and
+                                                                                    <strong>Digital Start-Up
+                                                                                        (DIGITAL)</strong>.
+                                                                                </p>
+                                                                            </div>
                                                                             <table align="left" border="0"
                                                                                 cellpadding="4" cellspacing="1"
                                                                                 style="width:1500px;">
@@ -847,7 +854,7 @@
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
                                                                                             style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p
+                                                                                            <p class="laboratory-table-explanation"
                                                                                                 style="margin-bottom:10px">
                                                                                                 <span
                                                                                                     style="font-family:Arial,Helvetica,sans-serif;">
@@ -936,7 +943,7 @@
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
                                                                                             style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p
+                                                                                            <p class="laboratory-table-explanation"
                                                                                                 style="margin-bottom:10px">
                                                                                                 <span
                                                                                                     style="font-family:Arial,Helvetica,sans-serif;">
@@ -1024,7 +1031,7 @@
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
                                                                                             style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p
+                                                                                            <p class="laboratory-table-explanation"
                                                                                                 style="margin-bottom:10px">
                                                                                                 <span
                                                                                                     style="font-family:Arial,Helvetica,sans-serif;">
@@ -1102,7 +1109,7 @@
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
                                                                                             style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p
+                                                                                            <p class="laboratory-table-explanation"
                                                                                                 style="margin-bottom:10px">
                                                                                                 <span
                                                                                                     style="font-family:Arial,Helvetica,sans-serif;">
@@ -1172,7 +1179,7 @@
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
                                                                                             style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p
+                                                                                            <p class="laboratory-table-explanation"
                                                                                                 style="margin-bottom:10px">
                                                                                                 <span
                                                                                                     style="font-family:Arial,Helvetica,sans-serif;">
@@ -1250,7 +1257,7 @@
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
                                                                                             style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p
+                                                                                            <p class="laboratory-table-explanation"
                                                                                                 style="margin-bottom:10px">
                                                                                                 <span
                                                                                                     style="font-family:Arial,Helvetica,sans-serif;">
@@ -1337,7 +1344,7 @@
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
                                                                                             style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(226, 240, 217);">
-                                                                                            <p
+                                                                                            <p class="laboratory-table-explanation"
                                                                                                 style="margin-bottom:10px">
                                                                                                 <span
                                                                                                     style="font-family:Arial,Helvetica,sans-serif;">
@@ -1504,7 +1511,7 @@
                                                 }
                                             }
                                         </style>
-                                        <div class="contact col-md-4">
+                                        <div class="contact col-md-6">
                                             <div class="footTitle"><a accesskey="B" href="#start-B" id="start-B"
                                                     style="text-decoration:none" title="下方內容區"></a>Contact</div>
                                             <ul>
@@ -1515,15 +1522,7 @@
                                                         60231</span></li>
                                             </ul>
                                         </div>
-                                        <div class="contact col-md-4">
-                                            <div class="footTitle">Quick Links</div>
-                                            <ul>
-                                                <li><a href="https://www.oia.ntust.edu.tw/home.php?Lang=En"
-                                                        title="Office of International Affairs">OIA</a></li>
-                                                <li><a href="https://www.ciie.org.tw/" title="CIIE">CIIE</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="contact col-md-4">
+                                        <div class="contact col-md-6">
                                             <div class="footTitle">Campus Map</div>
                                             <iframe
                                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3797403374724!2d112.72634007477424!3d-7.311166492696749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd1cb925a1d%3A0x1dbecb0b2e9b059f!2sUniversitas%20Telkom%20Surabaya!5e0!3m2!1sid!2sid!4v1767231187233!5m2!1sid!2sid"
