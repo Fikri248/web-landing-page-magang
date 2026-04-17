@@ -13,6 +13,11 @@
         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
     <link rel="stylesheet" type="text/css" href="./css/share.css">
+    <style>
+        .about-explanation-content p {
+            text-align: justify;
+        }
+    </style>
 </head>
 
 <body>
@@ -104,6 +109,7 @@
                     <div class="hidden_a hidden_a_academic"><a href=""></a></div>
                 </div>
             </a>
+            {{--
             <a href="contact.html" class="category_name">
                 <div id="s_contact_con" class="categorydiv">
                     <span>
@@ -113,6 +119,7 @@
                     <div class="hidden_a hidden_a_contact"><a href="contact.html#s2"></a></div>
                 </div>
             </a>
+            --}}
         </div>
     </div>
     <div>
@@ -148,7 +155,7 @@
         </aside>
         <section class="rightside_content">
             <article class="scrollable_content">
-                <div class="content_container">
+                <div class="content_container about-explanation-content">
                     <div id="s1">
                         <header>
                             <h1 style="font-weight: bold;">Program Overview</h1>
