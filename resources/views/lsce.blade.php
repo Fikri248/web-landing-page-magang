@@ -203,6 +203,100 @@
             outline: none;
         }
 
+        body.laboratory-page .qbi-sheet-panel {
+            background: #fff;
+            border: 1px solid #d8e5eb;
+            border-radius: 8px;
+            box-shadow: 0 18px 45px rgba(18, 38, 63, 0.08);
+            margin: 24px auto 0;
+            max-width: 1120px;
+            overflow: visible;
+            padding: 16px;
+            width: 100%;
+        }
+
+        body.laboratory-page .qbi-sheet-frame {
+            background: #fff;
+            border: 1px solid #d5e2ea;
+            border-radius: 8px;
+            display: block;
+            height: 505px;
+            width: 100%;
+        }
+
+        body.laboratory-page .qbi-sheet-actions {
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-between;
+            margin-top: 12px;
+        }
+
+        body.laboratory-page .qbi-sheet-status {
+            color: #536475;
+            font-size: 1.35rem;
+            font-weight: 500;
+            line-height: 1.35;
+            margin-right: auto;
+        }
+
+        body.laboratory-page .qbi-sheet-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        body.laboratory-page .qbi-sheet-button {
+            align-items: center;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            cursor: pointer;
+            display: inline-flex;
+            font-size: 1.45rem;
+            font-weight: 600;
+            justify-content: center;
+            line-height: 1.2;
+            min-height: 42px;
+            padding: 10px 16px;
+            text-decoration: none;
+            transition: background-color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, color 0.18s ease, transform 0.18s ease;
+        }
+
+        body.laboratory-page .qbi-sheet-button:hover,
+        body.laboratory-page .qbi-sheet-button:focus {
+            box-shadow: 0 10px 24px rgba(18, 38, 63, 0.12);
+            outline: none;
+            transform: translateY(-1px);
+        }
+
+        body.laboratory-page .qbi-sheet-button--secondary {
+            background: #fff;
+            border-color: #cfdce4;
+            color: #304050;
+        }
+
+        body.laboratory-page .qbi-sheet-button--secondary:hover,
+        body.laboratory-page .qbi-sheet-button--secondary:focus {
+            background: #f7fafb;
+            border-color: #b9cbd6;
+            color: #0f766e;
+        }
+
+        body.laboratory-page .qbi-sheet-button--primary {
+            background: #0f766e;
+            border-color: #0f766e;
+            color: #fff;
+        }
+
+        body.laboratory-page .qbi-sheet-button--primary:hover,
+        body.laboratory-page .qbi-sheet-button--primary:focus {
+            background: #0b625c;
+            border-color: #0b625c;
+            color: #fff;
+        }
+
         @media (max-width: 767px) {
             body.laboratory-page .lab-navbar {
                 padding: 6px;
@@ -281,6 +375,28 @@
                 transform: none;
                 width: 100%;
             }
+
+            body.laboratory-page .qbi-sheet-panel {
+                margin-top: 18px;
+                padding: 10px;
+            }
+
+            body.laboratory-page .qbi-sheet-frame {
+                height: 480px;
+            }
+
+            body.laboratory-page .qbi-sheet-actions {
+                justify-content: stretch;
+            }
+
+            body.laboratory-page .qbi-sheet-status,
+            body.laboratory-page .qbi-sheet-controls {
+                width: 100%;
+            }
+
+            body.laboratory-page .qbi-sheet-button {
+                flex: 1 1 150px;
+            }
         }
     </style>
 
@@ -311,7 +427,7 @@
                                 <!-- logo / navigation -->
                                 <nav class="lab-navbar">
                                     <div class="lab-navbar__inner">
-                                        <a class="lab-navbar__brand" href="laboratory">
+                                        <a class="lab-navbar__brand" href="/about">
                                             <img src="/img/laboratory/ok.png" class="lab-navbar__logo" alt="">
                                         </a>
 
@@ -543,12 +659,127 @@
                                                                             </tr>
                                                                         </tbody>
                                                                     </table>
-                                                                    <iframe id="sheetFrame" width="100%"
-                                                                        height="500"></iframe>
+                                                                    <div class="qbi-sheet-panel">
+                                                                        <iframe id="sheetFrame" class="qbi-sheet-frame"
+                                                                            src="about:blank"
+                                                                            data-sheet-src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6_FxRQeF1Bw5c_8Xd9lqLgBzjd3lQM5g1UQvKQBh2r9r6-1BapqQGpBgTQMded8GuoC4bQz1HoKlm/pubhtml?gid=183010747&amp;single=true&amp;range=A1:H19"
+                                                                            data-timestamp-src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6_FxRQeF1Bw5c_8Xd9lqLgBzjd3lQM5g1UQvKQBh2r9r6-1BapqQGpBgTQMded8GuoC4bQz1HoKlm/pub?gid=183010747&amp;single=true&amp;output=csv&amp;range=Z1"></iframe>
+                                                                        <div class="qbi-sheet-actions">
+                                                                            <div class="qbi-sheet-status" id="qbiSheetLastUpdated">
+                                                                                Last Updated: loading...</div>
+                                                                            <div class="qbi-sheet-controls">
+                                                                                <button type="button"
+                                                                                    class="qbi-sheet-button qbi-sheet-button--secondary"
+                                                                                    id="qbiSheetRefresh">Refresh</button>
+                                                                                <a class="qbi-sheet-button qbi-sheet-button--primary"
+                                                                                    href="https://docs.google.com/spreadsheets/d/1mGNjSwhFOU08V7eUrlGNPx-WhxYP_unk7b__efF8Cjg/edit?usp=sharing"
+                                                                                    target="_blank" rel="noopener noreferrer">Edit Jadwal</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                     <script>
-                                                                        document.getElementById("sheetFrame").src =
-                                                                            "https://docs.google.com/spreadsheets/d/e/2PACX-1vS_Mj1tgbOftZE1s8Jeb3l51jrVjT--Q3oYBh7Li6Ecensw-8bLumcBssN-tUIiTL_ip-Qe50etPguG/pubhtml?gid=1641754635&amp;single=true&amp;widget=true&amp;headers=false" +
-                                                                            new Date().getTime();
+                                                                        (function() {
+                                                                            var sheetFrame = document.getElementById('sheetFrame');
+                                                                            var refreshButton = document.getElementById('qbiSheetRefresh');
+                                                                            var lastUpdated = document.getElementById('qbiSheetLastUpdated');
+
+                                                                            if (!sheetFrame) {
+                                                                                return;
+                                                                            }
+
+                                                                            var baseSheetUrl = sheetFrame.getAttribute('data-sheet-src');
+                                                                            var baseTimestampUrl = sheetFrame.getAttribute('data-timestamp-src');
+
+                                                                            function buildFreshUrl(source, key) {
+                                                                                var separator = source.indexOf('?') === -1 ? '?' : '&';
+
+                                                                                return source + separator + key + '=' + Date.now();
+                                                                            }
+
+                                                                            function parseCsvLine(line) {
+                                                                                var values = [];
+                                                                                var value = '';
+                                                                                var inQuotes = false;
+
+                                                                                for (var index = 0; index < line.length; index++) {
+                                                                                    var character = line.charAt(index);
+                                                                                    var nextCharacter = line.charAt(index + 1);
+
+                                                                                    if (character === '"' && inQuotes && nextCharacter === '"') {
+                                                                                        value += '"';
+                                                                                        index++;
+                                                                                    } else if (character === '"') {
+                                                                                        inQuotes = !inQuotes;
+                                                                                    } else if (character === ',' && !inQuotes) {
+                                                                                        values.push(value);
+                                                                                        value = '';
+                                                                                    } else {
+                                                                                        value += character;
+                                                                                    }
+                                                                                }
+
+                                                                                values.push(value);
+
+                                                                                return values;
+                                                                            }
+
+                                                                            function getTimestampValue(csvText) {
+                                                                                var firstLine = (csvText || '').split(/\r?\n/)[0] || '';
+                                                                                var firstRow = parseCsvLine(firstLine);
+
+                                                                                return (firstRow[25] || firstRow[0] || '').trim();
+                                                                            }
+
+                                                                            function loadSheetFrame() {
+                                                                                if (!baseSheetUrl) {
+                                                                                    return;
+                                                                                }
+
+                                                                                sheetFrame.src = buildFreshUrl(baseSheetUrl, 'cacheBust');
+                                                                            }
+
+                                                                            function loadLastUpdated() {
+                                                                                if (!lastUpdated || !baseTimestampUrl || !window.fetch) {
+                                                                                    if (lastUpdated) {
+                                                                                        lastUpdated.textContent = 'Last Updated: unavailable';
+                                                                                    }
+
+                                                                                    return;
+                                                                                }
+
+                                                                                lastUpdated.textContent = 'Last Updated: loading...';
+
+                                                                                fetch(buildFreshUrl(baseTimestampUrl, 'cacheBust'))
+                                                                                    .then(function(response) {
+                                                                                        if (!response.ok) {
+                                                                                            throw new Error('Timestamp request failed');
+                                                                                        }
+
+                                                                                        return response.text();
+                                                                                    })
+                                                                                    .then(function(csvText) {
+                                                                                        var timestamp = getTimestampValue(csvText);
+
+                                                                                        lastUpdated.textContent = timestamp ?
+                                                                                            'Last Updated: ' + timestamp :
+                                                                                            'Last Updated: unavailable';
+                                                                                    })
+                                                                                    .catch(function() {
+                                                                                        lastUpdated.textContent = 'Last Updated: unavailable';
+                                                                                    });
+                                                                            }
+
+                                                                            function refreshSheetSection() {
+                                                                                loadSheetFrame();
+                                                                                loadLastUpdated();
+                                                                            }
+
+                                                                            if (refreshButton) {
+                                                                                refreshButton.addEventListener('click', refreshSheetSection);
+                                                                            }
+
+                                                                            refreshSheetSection();
+                                                                        }());
                                                                     </script>
 
                                                                 </div>
