@@ -7,8 +7,7 @@ function changeImg_scroll() {
     var s6_h = $("#s6").offset().top;
     var s7_h = $("#s7").offset().top;
     var s8_h = $("#s8").offset().top;
-    var s9_h = $("#s9").offset().top;
-    //console.log(s1_h, s2_h, s3_h, s4_h, s5_h, s6_h, s7_h, s8_h, s9_h);
+    //console.log(s1_h, s2_h, s3_h, s4_h, s5_h, s6_h, s7_h, s8_h);
 
     $(window).scroll(function () {
         var y = $(this).scrollTop();
@@ -41,14 +40,10 @@ function changeImg_scroll() {
             // console.log("s7 top");
             $('.context_img:not(.img7)').fadeOut({})
             $('.img7').fadeIn({});
-        } else if (y > s8_h && y < s9_h) {
+        } else if (y > s8_h) {
             // console.log("s8 top");
             $('.context_img:not(.img8)').fadeOut({})
             $('.img8').fadeIn({});
-        } else if (y > s9_h) {
-            // console.log("s9 top");
-            $('.context_img:not(.img9)').fadeOut({})
-            $('.img9').fadeIn({});
         }
 
     });

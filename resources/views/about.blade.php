@@ -48,7 +48,7 @@
             <a href="laboratory" class="category_name">
                 <div id="s_academic_con" class="categorydiv">
                     <span>
-                        <img class="icon" src="img/menu/Icon_Student.png">Student
+                        <img class="icon" src="img/menu/Icon_Student.png">Community
                     </span>
                     <div class="hidden_a hidden_a_academic first_hidden_a"><a href=""></a></div>
                     <div class="hidden_a hidden_a_academic"><a href=""></a></div>
@@ -83,14 +83,15 @@
                     <div class="hidden_a hidden_a_faculty first_hidden_a"><a
                             href="https://bis-sby.telkomuniversity.ac.id/staf-pengajar/">Information Systems</a></div>
                     <div class="hidden_a hidden_a_faculty"><a
-                            href="https://bit-sby.telkomuniversity.ac.id/staf-pengajar/">Information Technology</a>
+                            href="https://bie-sby.telkomuniversity.ac.id/kategori-tenaga-pengajar/tenaga-pengajar/">Industrial Engineering</a>
                     </div>
                     <div class="hidden_a hidden_a_faculty"><a
-                            href="https://bse-sby.telkomuniversity.ac.id/staf-pengajar/">Software Engineering</a></div>
+                            href="https://bdb-sby.telkomuniversity.ac.id/akademik">Digital Business</a></div>
                     <div class="hidden_a hidden_a_faculty"><a
-                            href="https://bds-sby.telkomuniversity.ac.id/staf-pengajar/">Data Science</a></div>
+                            href="https://ble-sby.telkomuniversity.ac.id/staf-pengajar/">Logistic Engineering</a></div>
                 </div>
             </a>
+            {{--
             <a href="academic.html" class="category_name">
                 <div id="s_academic_con" class="categorydiv">
                     <span>
@@ -100,6 +101,7 @@
                     <div class="hidden_a hidden_a_academic"><a href=""></a></div>
                 </div>
             </a>
+            --}}
             <a href="" class="category_name">
                 <div id="s_academic_con" class="categorydiv">
                     <span>
@@ -161,27 +163,22 @@
                             <h1 style="font-weight: bold;">Program Overview</h1>
                         </header>
                         <hr class="customize_hr">
-                        <p class="firstp"> The Industrial Engineering and Business Innovation Research Group serves as
-                            a
-                            strategic bridge connecting Industry Demand with Business Needs. This group has two main
-                            pillars
-                            of competency. The first pillar focuses on technical and operational aspects, with core
-                            expertise
-                            such as Mathematical Modeling & Optimization, Digital Supply Chain Management, and
-                            Ergonomics.
-                            The second pillar focuses on management and business systems, encompassing competencies such
-                            as
-                            Information Systems, Business Strategy Management, and Information Technology Adoption.
+                        <p class="firstp"> The Industrial Engineering and Business Innovation Research Group connects
+                            Industry Demand with Business Demand through an integrated academic structure. Its work is
+                            organized into six dedicated sub-groups that translate engineering, management,
+                            quantitative, and digital competencies into research, teaching, and community engagement
+                            relevant to contemporary industrial and organizational challenges.
                         </p>
-                        <p> To fulfill its role, this research group is organized into seven dedicated laboratories.
-                            The technical-operational pillar is supported by QBI, MANSYS, LSCE, and EID, while the
-                            management-business systems pillar is supported by SE, EM, and DIGITAL.
+                        <p> The Industry Demand stream is represented by Quantitative Modelling for Business &amp;
+                            Industry (QBI), Manufacturing Systems and Ergonomics (SME), and Logistics and Supply Chain
+                            Engineering (LSCE). The Business Demand stream is represented by Business System Management
+                            (MSB), Business Engineering and Management (MERB), and Human Resources Management and
+                            Organizational Behavior (MSDM-PO).
                         </p>
-                        <p>This structure enables the research group to provide comprehensive, integrated solutions
-                            based on
-                            innovation, from manufacturing and logistics process optimization to business models and
-                            digital
-                            transformation, effectively addressing challenges on both sides of the demand chain.
+                        <p>This structure enables the research group to develop coherent solutions across modelling,
+                            manufacturing, logistics, information systems, management engineering, and organizational
+                            behavior while maintaining a balanced contribution to industrial performance and business
+                            sustainability.
                         </p>
                     </div>
                     <div id="s2">
@@ -198,212 +195,84 @@
                             <h1>Research Topics</h1>
                         </header>
                         <hr class="customize_hr"> -->
-                        <h2>Quantitative Modelling for Business and Industry (QBI):</h2>
-                        <p class="firstp_h2">The QBI Laboratory focuses on the application of mathematics and statistics
-                            to solve real-world problems in industry and business. Through a quantitative and
-                            data-driven
-                            approach, the primary goal of this discipline is to improve efficiency, optimize
-                            decision-making,
-                            and design business strategies supported by mathematical and statistical analysis.
-                            This field forms the foundation of many disciplines, such as optimization, risk analysis,
-                            operations management, and business modeling.</p><br>
-                        <!-- <p style="font-weight: bold;">
-                            Applied Mathematics in Industry
-                        <p>In an industrial context,
-                            mathematics is used to develop models that can
-                            improve operational efficiency and solve
-                            complex problems.</p><br>
-                        <p>Some of the main focus areas include:</p>
-                        <p>Mathematical Optimization, Modeling and Simulation, Queueing Theory and Process Management,
-                            Operations Research</p>
-                        </p><br>
-                        <p style="font-weight: bold;">
-                            Applied Statistics in Business
-                        <p>plays an important role in
-                            data-driven decision making in business. With careful data analysis,
-                            companies can make more accurate predictions,
-                            understand market trends, and manage risks. </p><br>
-                        <p>The main focus areas include:</p>
-                        <p>Regression and Predictive Analysis, Data Mining and Machine Learning, Probabilistic Analysis</p> -->
+                        <h2>Quantitative Modelling for Business &amp; Industry (QBI):</h2>
+                        <p class="firstp_h2">The QBI lab focuses on Mathematical Modelling &amp; Optimization for
+                            Industry Demand, especially where complex decisions require measurable evidence and
+                            defensible analysis. Its work applies simulation, quantitative modelling, and decision
+                            analytics to capacity planning, resource allocation, risk evaluation, production scheduling,
+                            and service performance. By translating data into structured alternatives, QBI supports
+                            organizations in improving efficiency, comparing operational scenarios, and developing
+                            analytically grounded strategies for industrial systems facing uncertainty, limited
+                            resources, and changing market requirements across multiple industrial sectors.</p><br>
                     </div>
                     <div id="s4">
                         <!-- <header>
                             <h1>Research Topics</h1>
                         </header>
                         <hr class="customize_hr"> -->
-                        <h2>Manufacturing System (MANSYS):</h2>
-                        <p class="firstp_h2">The MANSYS Laboratory combines technical
-                            approaches to the management and optimization of production systems with ergonomic
-                            principles
-                            to create efficient, safe, comfortable, and sustainable work systems. The primary objective
-                            of
-                            this field is to ensure high productivity and quality in production processes while
-                            minimizing
-                            negative impacts on worker health and well-being.</p>
+                        <h2>Manufacturing Systems and Ergonomics (SME):</h2>
+                        <p class="firstp_h2">The SME lab focuses on Manufacturing System development that responds to
+                            Industry Demand through productivity, safety, and sustainability. Its research integrates
+                            Human Factors &amp; Ergonomics with Life Cycle Assessment to evaluate production flow,
+                            workplace design, operator capability, quality improvement, and environmental impact. SME
+                            supports the design of efficient, adaptive, and responsible work systems, helping
+                            organizations balance output targets with worker well-being, regulatory expectations,
+                            continuous improvement, and long-term resilience in manual, automated, and hybrid
+                            manufacturing environments under dynamic industrial conditions.</p>
                     </div>
                     <div id="s5">
                         <!--                         <header>
                             <h1>Research Topics</h1>
                         </header>
                         <hr class="customize_hr"> -->
-                        <h2>Logistic Supply Chain Engineering (LSCE):</h2>
-                        <p class="firstp_h2">The LSCE Laboratory is a field of
-                            study
-                            that focuses on managing and optimizing the flow of goods, information, and resources from
-                            suppliers to end consumers. The supply chain encompasses the entire process, from raw
-                            material
-                            procurement and production, storage, distribution, and product delivery to customers. With
-                            the
-                            increasing complexity of the global market, the role of supply chains and logistics is
-                            becoming
-                            increasingly crucial in improving operational efficiency, reducing costs, and meeting
-                            customer
-                            demand in a timely manner.
-                        </p>
-                        <!-- <p style="font-weight: bold;">
-                            Supply Chain Management
-                        <p>Managing the flow of materials and information throughout the supply chain network to ensure
-                            efficient coordination between suppliers, manufacturers, distributors, and customers. Focuses on
-                            planning, controlling, and integrating functions along the supply chain.</p>
-                        </p>
-                        <p style="font-weight: bold;">
-                            Logistics and Distribution
-                        <p>Designing and managing effective distribution systems to ensure products are delivered
-                            efficiently and on time.</p>
-                        </p>
-                        <p style="font-weight: bold;">
-                            Warehousing Systems
-                        <p>Designing and managing effective warehousing and storage systems to ensure
-                            product quality is maintained. This includes procurement management,
-                            storage, and inventory control.</p>
-                        </p> -->
+                        <h2>Logistics and Supply Chain Engineering (LSCE):</h2>
+                        <p class="firstp_h2">The LSCE lab focuses on logistics and supply chain engineering for
+                            Industry Demand in increasingly digital, uncertain, and environmentally accountable
+                            networks. Its work connects Digital Supply Chain capabilities with Green Logistics, network
+                            design, inventory control, transportation planning, and information flow coordination.
+                            LSCE helps organizations improve responsiveness, cost efficiency, traceability, resilience,
+                            and service reliability while reducing environmental burden across regional and global
+                            markets shaped by supplier dependencies, infrastructure limits, sustainability
+                            expectations, regulatory pressures, and shifting customer requirements over time.</p>
                     </div>
                     <div id="s6">
                         <!--  <header>
                             <h1>Research Topics</h1>
                         </header>
                         <hr class="customize_hr"> -->
-                        <h2>Ergonomic and Innovation Design (EID):</h2>
-                        <p class="firstp_h2">The EID Laboratory applies ergonomic principles to design products and
-                            work systems that are efficient, safe, and comfortable for users. Its focus is on
-                            improving human interaction with tools, environments, and systems while supporting
-                            innovation in product and service development.
-                        </p>
-                        <!-- <p style="font-weight: bold;">
-                            Manufacturing Systems</p>
-                        <p>Focuses on the design, planning,
-                            implementation, and management of systems used to
-                            produce goods and services. This includes understanding
-                            various manufacturing processes, production technologies, and
-                            supply chain management.</p><br>
-                        <p> Some of the main elements of Manufacturing Systems are: </p>
-                        <p>Automation and Manufacturing Technology,
-                            Production Systems Management,
-                            Quality Management,
-                            Sustainable Manufacturing,
-                            Design for X</p>
-                        <br>
-                        <p style="font-weight: bold;">
-                            Ergonomics</p>
-                        <p>Focuses on optimizing the interaction between humans and
-                            the systems they use, with the goal of improving
-                            comfort, safety, and efficiency. This includes workplace design,
-                            tools, and equipment to match the physical and
-                            cognitive needs of humans.</p><br>
-                        <p>Important aspects of Ergonomics include:</p>
-                        <p>Physical Ergonomics, Cognitive Ergonomics, Organizational Ergonomics, Occupational Safety and Health,
-                            Product Development
-                        </p> -->
+                        <h2>Business System Management (MSB):</h2>
+                        <p class="firstp_h2">The MSB lab focuses on Information Systems that support Business Demand
+                            through coordinated management, reliable data, and accountable decision-making. Its studies
+                            examine enterprise information use, process governance, digital service integration,
+                            performance control, and Information Technology Adoption in organizational settings. MSB
+                            connects system design with Economic Sustainability by helping businesses improve data
+                            quality, user acceptance, operational standardization, and managerial responsiveness while
+                            adapting information infrastructure to changing strategic, institutional, and partner
+                            network requirements across complex business ecosystems and service portfolios.</p>
                     </div>
                     <div id="s7">
-                        <h2>Enterprise System (SE):</h2>
-                        <p class="firstp_h2">The SE Laboratory focuses on the
-                            application
-                            of management principles, information technology, and systems to improve operational
-                            efficiency
-                            and effectiveness within organizations. This expertise includes an in-depth understanding of
-                            management information systems, CRM strategies, ERP implementation, and data analysis and
-                            management to support better decision-making. By integrating management and technology
-                            aspects,
-                            this laboratory aims to create added value for organizations through innovation and systems
-                            integration.</p>
-                        <!-- <p style="font-weight: bold;">
-                            Management Strategy
-                        <p>Understanding management principles and their application in
-                            modern business contexts.</p>
-                        </p>
-                        <p style="font-weight: bold;">
-                            Management Information Systems
-                        <p>Managing and analyzing information to
-                            support decision making.</p>
-                        </p>
-                        <p style="font-weight: bold;">
-                            Customer Relationship Management (CRM)
-                        <p>Developing and implementing
-                            strategies to build strong customer relationships, including
-                            the use of CRM technology to improve customer experience.</p>
-                        </p>
-                        <p style="font-weight: bold;">
-                            Enterprise Resource Planning (ERP)
-                            <li>Integrating various business functions
-                                into one system to improve operational efficiency.
-                        </p>
-                        </p>
-                        <p style="font-weight: bold;">
-                            Data Analysis and Decision Making
-                        <p>Using data to make
-                            better decisions and improve organizational performance.</p>
-                        </p>
-                        <p style="font-weight: bold;">
-                            IT Project Management
-                        <p>Managing information technology projects, including planning,
-                            implementation, and evaluation.</p>
-                        </p> -->
+                        <h2>Business Engineering and Management (MERB):</h2>
+                        <p class="firstp_h2">The MERB lab focuses on Business Management &amp; Strategy for Business
+                            Demand by combining managerial analysis with Management Engineering and Economic
+                            Sustainability. Its activities examine business process design, investment evaluation,
+                            innovation governance, operational risk, and performance improvement. MERB supports
+                            organizations in formulating competitive strategies, allocating resources responsibly, and
+                            developing sustainable business models that balance stakeholder value, financial
+                            feasibility, and technological constraints within evolving industrial, service, and
+                            public-sector ecosystems while strengthening resilience, governance, and long-term
+                            organizational performance in uncertain markets.</p>
                     </div>
                     <div id="s8">
-                        <h2>Engineering Management (EM):</h2>
-                        <p class="firstp_h2">The EM Laboratory is a field of study that
-                            integrates
-                            engineering management, business management, and economic theory to create efficient and
-                            innovative solutions in managing organizations. This expertise focuses on the application of
-                            economic analysis in engineering and business contexts to optimize resources, increase
-                            productivity, and create added value, bridging technical engineering principles with
-                            strategic
-                            business decision-making to drive sustainable organizational growth.
-                        </p>
-                    </div>
-                    <div id="s9">
-                        <h2>Digital Start-Up (DIGITAL):</h2>
-                        <p class="firstp_h2">The Digital Start-Up Laboratory focuses on developing digital
-                            entrepreneurship and startup ecosystems within the context of industrial engineering and
-                            business innovation. It bridges technology with business strategy to create sustainable
-                            digital ventures and support innovation-driven growth.
-                        </p>
-                        <!-- <p style="font-weight: bold;">
-                            Engineering Management
-                        <p>Studying management techniques and principles applied in an engineering context, including
-                            system design, project management, and quality control in engineering processes.</p>
-                        </p>
-                        <p style="font-weight: bold;">
-                            Business Management
-                        <p>Managing various business functions, including marketing, finance, and operations, to achieve
-                            organizational goals. This includes strategic planning, decision making, and resource management.</p>
-                        </p>
-                        <p style="font-weight: bold;">
-                            Micro and Macro Economics
-                        <p>Analyzing economic factors that influence organizations and industries. This includes market analysis,
-                            consumer behavior, and the impact of economic policies on business.</p>
-                        </p>
-                        <p style="font-weight: bold;">
-                            Cost and Benefit Analysis
-                        <p>Using cost-benefit analysis techniques to evaluate projects and investment decisions,
-                            ensuring resources are used efficiently.</p>
-                        </p>
-                        <p style="font-weight: bold;">
-                            Innovation and Product Development
-                        <p>Encouraging innovation in new product development and process improvement through an
-                            engineering approach focused on market needs and economic benefits.</p>
-                        </p> -->
+                        <h2>Human Resources Management and Organizational Behavior (MSDM-PO):</h2>
+                        <p class="firstp_h2">The MSDM-PO lab focuses on Human Resources Management and Organizational
+                            Behavior for Business Demand, particularly during digitalization, growth, and institutional
+                            change. Its work examines leadership, workforce planning, motivation, culture,
+                            collaboration, employee development, and change readiness. By applying Project Management
+                            Framework principles to people-centered implementation, MSDM-PO helps organizations sustain
+                            performance, strengthen human capability, and manage Information Technology Adoption across
+                            evolving work systems while maintaining engagement, accountability, and ethical
+                            responsibility in strategic transformation and knowledge-intensive organizational
+                            environments across diverse professional communities.</p>
                     </div>
             </article>
 
