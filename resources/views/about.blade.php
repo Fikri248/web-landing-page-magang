@@ -75,7 +75,7 @@
                     <div class="hidden_a hidden_a_student"><a href="student.html#s2"></a></div>
                 </div>
             </a> -->
-            <a href="faculty.html" class="category_name">
+            <a class="category_name">
                 <div id="s_faculty_con" class="categorydiv">
                     <span>
                         <img class="icon" src="img/menu/Icon_Faculty.png">Faculty
@@ -88,7 +88,7 @@
                     <div class="hidden_a hidden_a_faculty"><a
                             href="https://bdb-sby.telkomuniversity.ac.id/akademik">Digital Business</a></div>
                     <div class="hidden_a hidden_a_faculty"><a
-                            href="https://ble-sby.telkomuniversity.ac.id/staf-pengajar/">Logistic Engineering</a></div>
+                            href="https://ble-sby.telkomuniversity.ac.id/staf-pengajar/">Logistics Engineering</a></div>
                 </div>
             </a>
             {{--
@@ -196,7 +196,7 @@
                         </header>
                         <hr class="customize_hr"> -->
                         <h2>Quantitative Modelling for Business &amp; Industry (QBI):</h2>
-                        <p class="firstp_h2">The QBI lab focuses on Mathematical Modelling &amp; Optimization for
+                        <p class="firstp_h2">The QBI sub-group focuses on Mathematical Modelling &amp; Optimization for
                             Industry Demand, especially where complex decisions require measurable evidence and
                             defensible analysis. Its work applies simulation, quantitative modelling, and decision
                             analytics to capacity planning, resource allocation, risk evaluation, production scheduling,
@@ -211,7 +211,7 @@
                         </header>
                         <hr class="customize_hr"> -->
                         <h2>Manufacturing Systems and Ergonomics (SME):</h2>
-                        <p class="firstp_h2">The SME lab focuses on Manufacturing System development that responds to
+                        <p class="firstp_h2">The SME sub-group focuses on Manufacturing System development that responds to
                             Industry Demand through productivity, safety, and sustainability. Its research integrates
                             Human Factors &amp; Ergonomics with Life Cycle Assessment to evaluate production flow,
                             workplace design, operator capability, quality improvement, and environmental impact. SME
@@ -226,7 +226,7 @@
                         </header>
                         <hr class="customize_hr"> -->
                         <h2>Logistics and Supply Chain Engineering (LSCE):</h2>
-                        <p class="firstp_h2">The LSCE lab focuses on logistics and supply chain engineering for
+                        <p class="firstp_h2">The LSCE sub-group focuses on logistics and supply chain engineering for
                             Industry Demand in increasingly digital, uncertain, and environmentally accountable
                             networks. Its work connects Digital Supply Chain capabilities with Green Logistics, network
                             design, inventory control, transportation planning, and information flow coordination.
@@ -241,7 +241,7 @@
                         </header>
                         <hr class="customize_hr"> -->
                         <h2>Business System Management (MSB):</h2>
-                        <p class="firstp_h2">The MSB lab focuses on Information Systems that support Business Demand
+                        <p class="firstp_h2">The MSB sub-group focuses on Information Systems that support Business Demand
                             through coordinated management, reliable data, and accountable decision-making. Its studies
                             examine enterprise information use, process governance, digital service integration,
                             performance control, and Information Technology Adoption in organizational settings. MSB
@@ -252,7 +252,7 @@
                     </div>
                     <div id="s7">
                         <h2>Business Engineering and Management (MERB):</h2>
-                        <p class="firstp_h2">The MERB lab focuses on Business Management &amp; Strategy for Business
+                        <p class="firstp_h2">The MERB sub-group focuses on Business Management &amp; Strategy for Business
                             Demand by combining managerial analysis with Management Engineering and Economic
                             Sustainability. Its activities examine business process design, investment evaluation,
                             innovation governance, operational risk, and performance improvement. MERB supports
@@ -264,7 +264,7 @@
                     </div>
                     <div id="s8">
                         <h2>Human Resources Management and Organizational Behavior (MSDM-PO):</h2>
-                        <p class="firstp_h2">The MSDM-PO lab focuses on Human Resources Management and Organizational
+                        <p class="firstp_h2">The MSDM-PO sub-group focuses on Human Resources Management and Organizational
                             Behavior for Business Demand, particularly during digitalization, growth, and institutional
                             change. Its work examines leadership, workforce planning, motivation, culture,
                             collaboration, employee development, and change readiness. By applying Project Management

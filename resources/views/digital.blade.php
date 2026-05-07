@@ -455,16 +455,16 @@
                                                         <span class="lab-navbar__caret" aria-hidden="true"></span></a>
                                                     <ul class="lab-navbar__dropdown" id="submenu1_2538">
                                                         <li><a href="qbi">Quantitative Modelling
-                                                                for Business and Industry</a></li>
-                                                        <li><a href="mansys">Manufacturing System</a></li>
+                                                                for Business and Industry Lab</a></li>
+                                                        <li><a href="mansys">Manufacturing System Lab</a></li>
                                                         <li><a href="lsce">Logistic Supply Chain
-                                                                Enginering</a></li>
+                                                                Enginering Lab</a></li>
                                                         <li><a href="eid">Ergonomic and Innovation
-                                                                Design</a></li>
-                                                        <li><a href="se">Enterprise System</a></li>
+                                                                Design Lab</a></li>
+                                                        <li><a href="se">Enterprise System Lab</a></li>
                                                         <li><a href="em">Engineering
-                                                                Management</a></li>
-                                                        <li><a href="digital">Digital Start-Up</a></li>
+                                                                Management Lab</a></li>
+                                                        <li><a href="digital">Digital Start-Up Lab</a></li>
                                                     </ul>
                                                 </li>
 
@@ -672,12 +672,16 @@
                                                                             <div class="qbi-sheet-status" id="qbiSheetLastUpdated">
                                                                                 Last Updated: loading...</div>
                                                                             <div class="qbi-sheet-controls">
+                                                                                {{--
                                                                                 <button type="button"
                                                                                     class="qbi-sheet-button qbi-sheet-button--secondary"
                                                                                     id="qbiSheetRefresh">Refresh</button>
+                                                                                --}}
+                                                                                {{--
                                                                                 <a class="qbi-sheet-button qbi-sheet-button--primary"
                                                                                     href="https://docs.google.com/spreadsheets/d/1aiKfmqmDT6oHoepnjTRpqEfIaRLO-Gz5itgJdPylUp0/edit?usp=sharing"
                                                                                     target="_blank" rel="noopener noreferrer">Edit Jadwal</a>
+                                                                                --}}
                                                                             </div>
                                                                         </div>
                                                                     </div>
