@@ -376,25 +376,25 @@
                                                     <ul class="lab-navbar__dropdown" id="submenu1_2538">
                                                         <li><a href="qbi"
                                                                 title="Click to go Quantitative Modelling for Business and Industry">Quantitative
-                                                                Modelling for Business and Industry</a></li>
+                                                                Modelling for Business and Industry Lab</a></li>
                                                         <li><a href="mansys"
                                                                 title="Click to go Manufacturing System">Manufacturing
-                                                                System</a></li>
+                                                                System Lab</a></li>
                                                         <li><a href="lsce"
                                                                 title="Click to go Logistic Supply Chain Engineering">Logistic
-                                                                Supply Chain Engineering</a></li>
+                                                                Supply Chain Engineering Lab</a></li>
                                                         <li><a href="eid"
                                                                 title="Click to go Ergonomic and Innovation Design">Ergonomic
-                                                                and Innovation Design</a></li>
+                                                                and Innovation Design Lab</a></li>
                                                         <li><a href="se"
                                                                 title="Click to go Enterprise System">Enterprise
-                                                                System</a></li>
+                                                                System Lab</a></li>
                                                         <li><a href="em"
                                                                 title="Click to go Engineering Management">Engineering
-                                                                Management</a></li>
+                                                                Management Lab</a></li>
                                                         <li><a href="digital"
                                                                 title="Click to go Digital Start-Up">Digital
-                                                                Start-Up</a></li>
+                                                                Start-Up Lab</a></li>
                                                     </ul>
                                                 </li>
 
@@ -804,9 +804,7 @@
                                                                                             <span
                                                                                                 style="font-size:0.875em;"><span
                                                                                                     style="color:#000066;"><strong><span
-                                                                                                            style="font-family:Arial,Helvetica,sans-serif;">Sub
-                                                                                                            -
-                                                                                                            KK&nbsp;</span></strong></span></span>
+                                                                                                            style="font-family:Arial,Helvetica,sans-serif;">Laboratories&nbsp;</span></strong></span></span>
                                                                                         </td>
                                                                                         <td colspan="1"
                                                                                             style="text-align: left; vertical-align: top; width: 20%; background-color: rgb(204, 204, 204);">
@@ -843,8 +841,7 @@
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
                                                                                                     style="line-height:23.65pt">Supervisor:
-                                                                                                    Paramaditya
-                                                                                                    (ketua/kalab)</span>
+                                                                                                    Paramaditya Arismawati, S.T., M.T.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
@@ -932,8 +929,7 @@
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
                                                                                                     style="line-height:23.65pt">Supervisor:
-                                                                                                    Aufar
-                                                                                                    (ketua/kalab)</span>
+                                                                                                    Aufar Fikri Dimyati, S.T., M.T.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
@@ -1020,8 +1016,7 @@
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
                                                                                                     style="line-height:23.65pt">Supervisor:
-                                                                                                    Desita
-                                                                                                    (ketua/kalab)</span>
+                                                                                                    Desita Nur Rachmaniar, S.T., M.Sc.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
@@ -1099,7 +1094,7 @@
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
                                                                                                     style="line-height:23.65pt">Supervisor:
-                                                                                                    Huki (kalab)</span>
+                                                                                                    Huki Chandra, S.T., M.Sc.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
@@ -1168,8 +1163,7 @@
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
                                                                                                     style="line-height:23.65pt">Supervisor:
-                                                                                                    Fian
-                                                                                                    (ketua/kalab)</span>
+                                                                                                    Alifiansyah Arrizqy Hidayat, S.Kom., M.Kom.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
@@ -1246,8 +1240,7 @@
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
-                                                                                                    style="line-height:23.65pt">Supervisor:
-                                                                                                    -</span>
+                                                                                                    style="line-height:23.65pt">Supervisor: Ayu Endah Wahyuni, S.T., M.T.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
@@ -1333,8 +1326,7 @@
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
                                                                                                     style="line-height:23.65pt">Supervisor:
-                                                                                                    Krisna (ketua), Gia
-                                                                                                    (kalab)</span>
+                                                                                                    Krisnayanti Aditasari, S.M., M.MT.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
