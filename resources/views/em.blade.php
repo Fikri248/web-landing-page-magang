@@ -427,8 +427,8 @@
                                 <!-- logo / navigation -->
                                 <nav class="lab-navbar">
                                     <div class="lab-navbar__inner">
-                                        <a class="lab-navbar__brand" href="/about">
-                                            <img src="/img/laboratory/ok.png" class="lab-navbar__logo" alt="">
+                                        <a class="lab-navbar__brand" href="{{ url('/about') }}">
+                                            <img src="{{ asset('img/laboratory/ok.png') }}" class="lab-navbar__logo" style="height: 50px;" alt="">
                                         </a>
 
                                         <button class="lab-navbar__toggle" type="button"

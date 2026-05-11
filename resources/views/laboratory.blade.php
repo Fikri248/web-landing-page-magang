@@ -347,8 +347,8 @@
                                 <!-- logo / navigation -->
                                 <nav class="lab-navbar">
                                     <div class="lab-navbar__inner">
-                                        <a class="lab-navbar__brand" href="/">
-                                            <img src="/img/laboratory/ok.png" class="lab-navbar__logo" alt="">
+                                        <a class="lab-navbar__brand" href="{{ url('/') }}">
+                                            <img src="{{ asset('img/laboratory/ok.png') }}" class="lab-navbar__logo" style="height: 50px;" alt="">
                                         </a>
 
                                         <button class="lab-navbar__toggle" type="button"
@@ -363,7 +363,7 @@
                                         <div class="lab-navbar__menu" id="laboratoryNavbar">
                                             <ul class="lab-navbar__list">
                                                 <li class="lab-navbar__item">
-                                                    <a class="lab-navbar__link" href="/laboratory"
+                                                    <a class="lab-navbar__link" href="{{ url('/laboratory') }}"
                                                         title="Click to go Home">Home</a>
                                                 </li>
 
@@ -959,8 +959,9 @@
                                                                                                         create
                                                                                                         efficient, safe,
                                                                                                         and
-                                                                                                        human-centered
-                                                                                                        work systems.
+                                                                                                        people-centered
+                                                                                                        industrial work
+                                                                                                        systems.
                                                                                                         Research areas
                                                                                                         include
                                                                                                         Automation and

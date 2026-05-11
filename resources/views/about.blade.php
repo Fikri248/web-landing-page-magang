@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta property="og:title" content="Social networks and human-centered computing" />
+    <meta property="og:title" content="Research Group of Industrial Engineering and Business Innovation" />
     <meta property="og:description" content="About" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="img/home/Banner-01.png" />
@@ -31,7 +31,7 @@
                         <img class="icon" src="img/menu/Icon_About.png">About
                     </span>
                     <!-- <div class="hidden_a hidden_a_about first_hidden_a"><a href="about.html#s1">Program Overview</a></div>
-                    <div class="hidden_a hidden_a_about"><a href="about.html#s2">The TIGP Program on Social Networks and Human-Centered Computing</a></div>
+                    <div class="hidden_a hidden_a_about"><a href="about.html#s2">Research Group of Industrial Engineering and Business Innovation</a></div>
                     <div class="hidden_a hidden_a_about"><a href="about.html#s3">Messages from the Coordinator</a></div>
                     <div class="hidden_a hidden_a_about last_hidden_a"><a href="about.html#s4">Research Topics</a></div> -->
                 </div>
@@ -75,53 +75,44 @@
                     <div class="hidden_a hidden_a_student"><a href="student.html#s2"></a></div>
                 </div>
             </a> -->
-            <a class="category_name">
+            <a href="{{ url('/dosens') }}" class="category_name">
                 <div id="s_faculty_con" class="categorydiv">
                     <span>
                         <img class="icon" src="img/menu/Icon_Faculty.png">Faculty
                     </span>
-                    <div class="hidden_a hidden_a_faculty first_hidden_a"><a
-                            href="https://bis-sby.telkomuniversity.ac.id/staf-pengajar/">Information Systems</a></div>
-                    <div class="hidden_a hidden_a_faculty"><a
-                            href="https://bie-sby.telkomuniversity.ac.id/kategori-tenaga-pengajar/tenaga-pengajar/">Industrial Engineering</a>
-                    </div>
-                    <div class="hidden_a hidden_a_faculty"><a
-                            href="https://bdb-sby.telkomuniversity.ac.id/akademik">Digital Business</a></div>
-                    <div class="hidden_a hidden_a_faculty"><a
-                            href="https://ble-sby.telkomuniversity.ac.id/staf-pengajar/">Logistics Engineering</a></div>
+                    <div class="hidden_a hidden_a_faculty first_hidden_a"><a href="https://bis-sby.telkomuniversity.ac.id/staf-pengajar/">Information Systems</a></div>
+                    <div class="hidden_a hidden_a_faculty"><a href="https://bit-sby.telkomuniversity.ac.id/staf-pengajar/">Information Technology</a></div>
+                    <div class="hidden_a hidden_a_faculty"><a href="https://bse-sby.telkomuniversity.ac.id/staf-pengajar/">Software Engineering</a></div>
+                    <div class="hidden_a hidden_a_faculty"><a href="https://bds-sby.telkomuniversity.ac.id/staf-pengajar/">Data Science</a></div>
                 </div>
             </a>
-            {{--
-            <a href="academic.html" class="category_name">
+            <a href="/pendaftaran/portal-sertifikasi" class="category_name">
                 <div id="s_academic_con" class="categorydiv">
                     <span>
                         <img class="icon" src="img/menu/Icon_Academics.png">Certification
                     </span>
-                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href=""></a></div>
-                    <div class="hidden_a hidden_a_academic"><a href=""></a></div>
+                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="/pendaftaran/portal-sertifikasi">Portal Sertifikasi</a></div>
+                    <div class="hidden_a hidden_a_academic"><a href="/pendaftaran/pendaftaran-sertifikasi">Formulir Sertifikasi</a></div>
                 </div>
             </a>
-            --}}
-            <a href="" class="category_name">
+            <a href="/rekomendasi_penelitian_dosen/search" class="category_name">
                 <div id="s_academic_con" class="categorydiv">
                     <span>
                         <img class="icon" src="img/menu/Icon_Admission.png">Search
                     </span>
-                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href=""></a></div>
-                    <div class="hidden_a hidden_a_academic"><a href=""></a></div>
+                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="/rekomendasi_penelitian_dosen/search">Cari Rekomendasi Dosen</a></div>
+                    <div class="hidden_a hidden_a_academic"><a href="/rekomendasi_penelitian_dosen/lecturers">Daftar Dosen</a></div>
                 </div>
             </a>
-            {{--
-            <a href="contact.html" class="category_name">
+            <a href="{{ url('/laboratory#start-B') }}" class="category_name">
                 <div id="s_contact_con" class="categorydiv">
                     <span>
                         <img class="icon" src="img/menu/Icon_contact.png">Contact
                     </span>
-                    <div class="hidden_a hidden_a_contact first_hidden_a"><a href="contact.html#s1"></a></div>
-                    <div class="hidden_a hidden_a_contact"><a href="contact.html#s2"></a></div>
+                    <div class="hidden_a hidden_a_contact first_hidden_a"><a href="{{ url('/laboratory#start-B') }}"></a></div>
+                    <div class="hidden_a hidden_a_contact"><a href="{{ url('/laboratory#start-B') }}"></a></div>
                 </div>
             </a>
-            --}}
         </div>
     </div>
     <div>
@@ -131,7 +122,7 @@
                 <span></span>
                 <span></span>
             </div>
-            <a href="index.html">
+            <a href="{{ url('/') }}">
                 <div class="menu_homepage">
                     <h1 id="logo_title">IEBI</h1>
                     <img id="logo_bg" src="img/menu/logo_bg.png">
