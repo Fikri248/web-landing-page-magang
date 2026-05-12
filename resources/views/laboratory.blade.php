@@ -17,7 +17,7 @@
     <link rel="bookmark" href="/var/file/14/1014/msys_1014_3087027_16703.ico" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" href="/var/file/14/1014/msys_1014_3087027_16703.ico">
     <link rel="apple-touch-icon" href="/var/file/14/1014/msys_1014_3087027_16703.ico">
-    <link rel="stylesheet" href="./css/combine-en.css?t=222b90982b" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('css/combine-en.css') }}?v=20260512" type="text/css" />
     <style>
         body.laboratory-page {
             font-size: 1.7rem;
@@ -331,7 +331,7 @@
         var isExpanMenu = false
         -->
     </script>
-    <script type="text/javascript" src="./js/m_20251017.js"></script>
+    <script type="text/javascript" src="{{ asset('js/m_20251017.js') }}?v=20260512"></script>
 </head>
 
 <body class="page_mobilecgmolist webfree laboratory-page">
@@ -348,7 +348,7 @@
                                 <nav class="lab-navbar">
                                     <div class="lab-navbar__inner">
                                         <a class="lab-navbar__brand" href="{{ url('/') }}">
-                                            <img src="{{ asset('img/laboratory/ok.png') }}" class="lab-navbar__logo" style="height: 50px;" alt="">
+                                            <img src="{{ asset('img/laboratory/ok.png') }}?v=20260512" class="lab-navbar__logo" style="height: 50px;" alt="">
                                         </a>
 
                                         <button class="lab-navbar__toggle" type="button"
@@ -495,7 +495,7 @@
                                                                                                 <div class="d-img">
                                                                                                     <!-- GAMBAR SLIDE SHOW -->
                                                                                                     <a tabindex="-1">
-                                                                                                        <img src="/img/laboratory/1.jpg"
+                                                                                                        <img src="{{ asset('img/laboratory/1.jpg') }}?v=20260512"
                                                                                                             class="img-responsive"
                                                                                                             alt="工業管理系Image">
                                                                                                     </a>
@@ -540,7 +540,7 @@
                                                                                             <div class="mbox">
                                                                                                 <div class="d-img">
                                                                                                     <a>
-                                                                                                        <img src="/img/laboratory/2.jpg"
+                                                                                                        <img src="{{ asset('img/laboratory/2.jpg') }}?v=20260512"
                                                                                                             class="img-responsive"
                                                                                                             alt="工業管理系Image">
                                                                                                     </a>
@@ -584,7 +584,7 @@
                                                                                             <div class="mbox">
                                                                                                 <div class="d-img">
                                                                                                     <a>
-                                                                                                        <img src="/img/laboratory/3.jpg"
+                                                                                                        <img src="{{ asset('img/laboratory/3.jpg') }}?v=20260512"
                                                                                                             class="img-responsive"
                                                                                                             alt="工業管理系Image">
                                                                                                     </a>
@@ -624,7 +624,7 @@
                                                                                     <div class="d-item h-ir-td col-sm-12">
                                                                                         <div class="mbox">
                                                                                             <div class="d-img">
-                                                                                                <a><img src="/img/laboratory/4.png" class="img-responsive" alt="工業管理系Image"></a>
+                                                                                                <a><img src="{{ asset('img/laboratory/4.png') }}?v=20260512" class="img-responsive" alt="工業管理系Image"></a>
                                                                                             </div>
                                                                                             <div class="d-txt">
                                                                                                 <div class="mtitle">
@@ -835,7 +835,7 @@
                                                                                             </strong>
                                                                                             <br>
                                                                                             <img
-                                                                                                src="/img/laboratory/qbi.jpg">
+                                                                                                src="{{ asset('img/laboratory/qbi.jpg') }}?v=20260512">
                                                                                             <br>
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
@@ -923,7 +923,7 @@
                                                                                             </strong>
                                                                                             <br>
                                                                                             <img
-                                                                                                src="/img/laboratory/mansys.jpg">
+                                                                                                src="{{ asset('img/laboratory/mansys.jpg') }}?v=20260512">
                                                                                             <br>
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
@@ -1011,7 +1011,7 @@
                                                                                             </strong>
                                                                                             <br>
                                                                                             <img
-                                                                                                src="/img/laboratory/lsce.jpg">
+                                                                                                src="{{ asset('img/laboratory/lsce.jpg') }}?v=20260512">
                                                                                             <br>
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
@@ -1089,7 +1089,7 @@
                                                                                             </strong>
                                                                                             <br>
                                                                                             <img
-                                                                                                src="/img/laboratory/eid.jpg">
+                                                                                                src="{{ asset('img/laboratory/eid.jpg') }}?v=20260512">
                                                                                             <br>
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
@@ -1158,7 +1158,7 @@
                                                                                             </strong>
                                                                                             <br>
                                                                                             <img
-                                                                                                src="/img/laboratory/se.jpeg">
+                                                                                                src="{{ asset('img/laboratory/se.jpeg') }}?v=20260512">
                                                                                             <br>
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
@@ -1236,7 +1236,7 @@
                                                                                             </strong>
                                                                                             <br>
                                                                                             <img
-                                                                                                src="/img/laboratory/em.jpeg">
+                                                                                                src="{{ asset('img/laboratory/em.jpeg') }}?v=20260512">
                                                                                             <br>
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
@@ -1321,7 +1321,7 @@
                                                                                             </strong>
                                                                                             <br>
                                                                                             <img
-                                                                                                src="/img/laboratory/digital.jpeg">
+                                                                                                src="{{ asset('img/laboratory/digital.jpeg') }}?v=20260512">
                                                                                             <br>
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">

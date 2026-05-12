@@ -112,7 +112,7 @@
 <body>
     <main class="faculty-page">
         <a class="faculty-logo" href="{{ url('/') }}">
-            <img src="{{ asset('img/laboratory/ok.png') }}" alt="IEBI" style="height: 50px;">
+            <img src="{{ asset('img/laboratory/ok.png') }}?v=20260512" alt="IEBI" style="height: 50px;">
             <strong>IEBI</strong>
         </a>
 
