@@ -399,19 +399,9 @@
                                                 </li>
 
                                                 <li class="lab-navbar__item">
-                                                    <a class="lab-navbar__link" href="#start-B"
-                                                        title="Click to go Site Map">Site Map</a>
-                                                </li>
-
-                                                <li class="lab-navbar__item">
                                                     <a class="lab-navbar__link"
                                                         href="https://surabaya.telkomuniversity.ac.id/"
                                                         title="Click to go TEL-U">TEL-U</a>
-                                                </li>
-
-                                                <li class="lab-navbar__item">
-                                                    <a class="lab-navbar__link" href="#start-B"
-                                                        title="Click to go Contact">Contact</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -840,13 +830,13 @@
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
-                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    style="line-height:23.65pt">Head of Laboratory:
                                                                                                     Paramaditya Arismawati, S.T., M.T.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
                                                                                                 style="font-size:0.75em;">email:
-                                                                                                - </span>
+                                                                                                paramadityaars@telkomuniversity.ac.id </span>
                                                                                         </td>
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
@@ -928,13 +918,13 @@
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
-                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    style="line-height:23.65pt">Head of Laboratory:
                                                                                                     Aufar Fikri Dimyati, S.T., M.T.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
                                                                                                 style="font-size:0.75em;">email:
-                                                                                                - </span>
+                                                                                                aufarfd@telkomuniversity.ac.id </span>
                                                                                         </td>
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
@@ -1015,13 +1005,13 @@
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
-                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    style="line-height:23.65pt">Head of Laboratory:
                                                                                                     Desita Nur Rachmaniar, S.T., M.Sc.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
                                                                                                 style="font-size:0.75em;">email:
-                                                                                                - </span>
+                                                                                                desitanurr@telkomuniversity.ac.id </span>
                                                                                         </td>
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
@@ -1093,13 +1083,13 @@
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
-                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    style="line-height:23.65pt">Head of Laboratory:
                                                                                                     Huki Chandra, S.T., M.Sc.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
                                                                                                 style="font-size:0.75em;">email:
-                                                                                                - </span>
+                                                                                                hukichandra@telkomuniversity.ac.id </span>
                                                                                         </td>
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
@@ -1162,13 +1152,13 @@
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
-                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    style="line-height:23.65pt">Head of Laboratory:
                                                                                                     Alifiansyah Arrizqy Hidayat, S.Kom., M.Kom.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
                                                                                                 style="font-size:0.75em;">email:
-                                                                                                - </span>
+                                                                                                deandrys@telkomuniversity.ac.id </span>
                                                                                         </td>
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
@@ -1240,12 +1230,12 @@
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
-                                                                                                    style="line-height:23.65pt">Supervisor: Ayu Endah Wahyuni, S.T., M.T.</span>
+                                                                                                    style="line-height:23.65pt">Head of Laboratory: Ayu Endah Wahyuni, S.T., M.T.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
                                                                                                 style="font-size:0.75em;">email:
-                                                                                                - </span>
+                                                                                                ayuendah@telkomuniversity.ac.id </span>
                                                                                         </td>
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
@@ -1325,13 +1315,13 @@
                                                                                             <strong
                                                                                                 style="font-size: 0.75em;">
                                                                                                 <span
-                                                                                                    style="line-height:23.65pt">Supervisor:
+                                                                                                    style="line-height:23.65pt">Head of Laboratory:
                                                                                                     Krisnayanti Aditasari, S.M., M.MT.</span>
                                                                                             </strong>
                                                                                             <br>
                                                                                             <span
                                                                                                 style="font-size:0.75em;">email:
-                                                                                                - </span>
+                                                                                                krisnaaditasari@telkomuniversity.ac.id </span>
                                                                                         </td>
                                                                                         <td colspan="1"
                                                                                             rowspan="3"
@@ -1507,7 +1497,7 @@
                                             <div class="footTitle"><a accesskey="B" href="#start-B" id="start-B"
                                                     style="text-decoration:none" title="下方內容區"></a>Contact</div>
                                             <ul>
-                                                <li>Tel: 08113278005</li>
+                                                <li>Tel: </li>
                                                 <li>Address:&nbsp;<span
                                                         style="font-family: verdana, arial, verdana; text-align: center;">Jl.
                                                         Ketintang No.156, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur
