@@ -20,7 +20,7 @@
     <link rel="bookmark" href="/var/file/14/1014/msys_1014_3087027_16703.ico" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" href="/var/file/14/1014/msys_1014_3087027_16703.ico">
     <link rel="apple-touch-icon" href="/var/file/14/1014/msys_1014_3087027_16703.ico">
-    <link rel="stylesheet" href="./css/combine-en.css?t=222b90982b" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('css/combine-en.css') }}?v=20260512" type="text/css" />
     <style>
         body.laboratory-page .lab-navbar__link,
         body.laboratory-page .lab-navbar__dropdown a {
@@ -410,7 +410,7 @@
         var isExpanMenu = false
         -->
     </script>
-    <script type="text/javascript" src="./js/m_20251017.js"></script>
+    <script type="text/javascript" src="{{ asset('js/m_20251017.js') }}?v=20260512"></script>
 </head>
 
 <body class="page_mobilecgmolist webfree laboratory-page">
@@ -427,8 +427,8 @@
                                 <!-- logo / navigation -->
                                 <nav class="lab-navbar">
                                     <div class="lab-navbar__inner">
-                                        <a class="lab-navbar__brand" href="/about">
-                                            <img src="/img/laboratory/ok.png" class="lab-navbar__logo" alt="">
+                                        <a class="lab-navbar__brand" href="{{ url('/about') }}">
+                                            <img src="{{ asset('img/laboratory/ok.png') }}?v=20260512" class="lab-navbar__logo" style="height: 50px;" alt="">
                                         </a>
 
                                         <button class="lab-navbar__toggle" type="button"
@@ -605,7 +605,7 @@
                                                                                     <td colspan="1" rowspan="3"
                                                                                         style="text-align: left; width: 40%; background-color: rgb(255, 255, 255); vertical-align: top; padding-right: 1cm;">
                                                                                         <img alt="Enterprise System Laboratory"
-                                                                                            src="./img/laboratory/se.jpeg"
+                                                                                            src="{{ asset('img/laboratory/se.jpeg') }}?v=20260512"
                                                                                             style="width: 100%; height: auto; display: block;" />
                                                                                     </td>
                                                                                     <td colspan="1" rowspan="3"
