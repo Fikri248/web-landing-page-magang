@@ -7,7 +7,7 @@
     <meta property="og:description" content="About" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="img/home/Banner-01.png" />
-    <title>IEBI</title>
+    <title>Research Group of Industrial Engineering and Business Innovation</title>
     <link rel="icon" href="img/icon iebi.png">
     <link rel="stylesheet" type="text/css"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />

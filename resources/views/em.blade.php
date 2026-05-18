@@ -469,19 +469,9 @@
                                                 </li>
 
                                                 <li class="lab-navbar__item">
-                                                    <a class="lab-navbar__link" href="#start-B"
-                                                        title="Click to go Site Map">Site Map</a>
-                                                </li>
-
-                                                <li class="lab-navbar__item">
                                                     <a class="lab-navbar__link"
                                                         href="https://surabaya.telkomuniversity.ac.id/"
                                                         title="Click to go TEL-U">TEL-U</a>
-                                                </li>
-
-                                                <li class="lab-navbar__item">
-                                                    <a class="lab-navbar__link" href="#start-B"
-                                                        title="Click to go Contact">Contact</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -650,7 +640,10 @@
                                                                                                 Project Management,
                                                                                                 Operations Research, and
                                                                                                 Engineering
-                                                                                                Economics.</span>
+                                                                                                Economics.
+                                                                                                <br />
+                                                                                                <strong>Location:</strong>
+                                                                                                Gedung SBS, lantai 3</span>
                                                                                         </span>
                                                                                     </p>
                                                                                 </td>
@@ -927,7 +920,7 @@
                                     <div class="footTitle"><a accesskey="B" href="#start-B" id="start-B"
                                             style="text-decoration:none" title="下方內容區"></a>Contact</div>
                                     <ul>
-                                        <li>Tel: 08113278005</li>
+                                        <li>Tel: </li>
                                         <li>Address:&nbsp;<span
                                                 style="font-family: verdana, arial, verdana; text-align: center;">Jl.
                                                 Ketintang No.156, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur
