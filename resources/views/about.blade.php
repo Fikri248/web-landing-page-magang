@@ -86,22 +86,21 @@
                     <div class="hidden_a hidden_a_faculty"><a href="https://bds-sby.telkomuniversity.ac.id/staf-pengajar/">Data Science</a></div>
                 </div>
             </a>
-            <a href="/pendaftaran/portal-sertifikasi" class="category_name">
+            <a href="{{ url('/portal_komunitas_sertifikasi') }}" class="category_name">
                 <div id="s_academic_con" class="categorydiv">
                     <span>
                         <img class="icon" src="img/menu/Icon_Academics.png">Certification
                     </span>
-                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="/pendaftaran/portal-sertifikasi">Portal Sertifikasi</a></div>
-                    <div class="hidden_a hidden_a_academic"><a href="/pendaftaran/pendaftaran-sertifikasi">Formulir Sertifikasi</a></div>
+                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="{{ url('/portal_komunitas_sertifikasi') }}">Portal Komunitas</a></div>
+                    <div class="hidden_a hidden_a_academic"><a href="{{ url('/portal_komunitas_sertifikasi/pendaftaran-sertifikasi') }}">Formulir Sertifikasi</a></div>
                 </div>
             </a>
-            <a href="/rekomendasi_penelitian_dosen/search" class="category_name">
+            <a href="{{ url('/sparring') }}" class="category_name">
                 <div id="s_academic_con" class="categorydiv">
                     <span>
                         <img class="icon" src="img/menu/Icon_Admission.png">Search
                     </span>
-                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="/rekomendasi_penelitian_dosen/search">Cari Rekomendasi Dosen</a></div>
-                    <div class="hidden_a hidden_a_academic"><a href="/rekomendasi_penelitian_dosen/lecturers">Daftar Dosen</a></div>
+                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="{{ url('/sparring') }}">SPARRING</a></div>
                 </div>
             </a>
             <a href="{{ url('/laboratory#start-B') }}" class="category_name">

@@ -62,7 +62,7 @@ Route::get('/course.html', $localRedirect('/course'));
 Route::get('/faculty.html', $localRedirect('/dosens'));
 Route::get('/student.html', $localRedirect('/about'));
 Route::get('/admission.html', $localRedirect('/about'));
-Route::get('/academic.html', fn () => redirect('/pendaftaran/portal-sertifikasi'));
+Route::get('/academic.html', fn () => redirect('/portal_komunitas_sertifikasi'));
 Route::get('/contact.html', fn () => redirect(url('/laboratory').'#start-B'));
 Route::get('/f', $localRedirect('/course'));
 
