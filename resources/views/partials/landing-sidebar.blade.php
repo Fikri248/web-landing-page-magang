@@ -41,6 +41,10 @@
         display: none;
     }
 
+    body.laboratory-page .landing-sidebar-shell .overlay {
+        display: block !important;
+    }
+
     body.laboratory-page .landing-sidebar-shell ~ .wrap {
         margin-left: 0;
         width: 100%;
