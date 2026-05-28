@@ -24,13 +24,16 @@
     }
 
     body.laboratory-page .landing-sidebar-shell #menu_btn {
-        background: rgba(20, 32, 44, 0.78);
-        border-radius: 8px;
-        box-shadow: 0 10px 24px rgba(20, 32, 44, 0.22);
+        background: transparent;
+        box-shadow: none;
         left: 16px;
         position: fixed;
         top: 18px;
         z-index: 4000;
+    }
+
+    body.laboratory-page .landing-sidebar-shell #menu_btn span {
+        background: #000;
     }
 
     body.laboratory-page .landing-sidebar-shell .menu_homepage,
