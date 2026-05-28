@@ -208,29 +208,89 @@
             border: 1px solid #d8e5eb;
             border-radius: 8px;
             box-shadow: 0 18px 45px rgba(18, 38, 63, 0.08);
+            clear: both;
+            display: block;
             margin: 24px auto 0;
             max-width: 1120px;
             overflow: visible;
-            padding: 16px;
+            padding: 0;
+            position: relative;
             width: 100%;
         }
 
-        body.laboratory-page .qbi-sheet-frame {
-            background: #fff;
-            border: 1px solid #d5e2ea;
-            border-radius: 8px;
+        body.laboratory-page .qbi-sheet-dashboard {
             display: block;
-            height: 505px;
+            overflow: visible;
+        }
+
+        body.laboratory-page .qbi-sheet-table-wrap {
+            display: block;
+            overflow-x: auto;
+            overflow-y: visible;
             width: 100%;
+        }
+
+        body.laboratory-page .qbi-sheet-table {
+            background: #fff;
+            border-collapse: separate;
+            border-spacing: 0;
+            color: #243241;
+            display: table;
+            font-size: 1.45rem;
+            line-height: 1.45;
+            min-width: 760px;
+            width: 100%;
+        }
+
+        body.laboratory-page .qbi-sheet-table th,
+        body.laboratory-page .qbi-sheet-table td {
+            border-bottom: 1px solid #e4edf2;
+            padding: 13px 16px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        body.laboratory-page .qbi-sheet-table th {
+            background: #f6fafb;
+            color: #536475;
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: 0;
+            position: sticky;
+            text-transform: uppercase;
+            top: 0;
+            z-index: 1;
+        }
+
+        body.laboratory-page .qbi-sheet-table tbody tr:hover {
+            background: #f8fbfb;
+        }
+
+        body.laboratory-page .qbi-sheet-table tbody tr:last-child td {
+            border-bottom: 0;
+        }
+
+        body.laboratory-page .qbi-sheet-message {
+            align-items: center;
+            color: #536475;
+            display: flex;
+            font-size: 1.45rem;
+            justify-content: center;
+            line-height: 1.45;
+            min-height: 180px;
+            padding: 28px 18px;
+            text-align: center;
         }
 
         body.laboratory-page .qbi-sheet-actions {
             align-items: center;
+            border-top: 1px solid #e4edf2;
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
             justify-content: space-between;
-            margin-top: 12px;
+            margin-top: 0;
+            padding: 12px 16px;
         }
 
         body.laboratory-page .qbi-sheet-status {
@@ -378,15 +438,21 @@
 
             body.laboratory-page .qbi-sheet-panel {
                 margin-top: 18px;
-                padding: 10px;
             }
 
-            body.laboratory-page .qbi-sheet-frame {
-                height: 480px;
+            body.laboratory-page .qbi-sheet-table {
+                font-size: 1.3rem;
+                min-width: 680px;
+            }
+
+            body.laboratory-page .qbi-sheet-table th,
+            body.laboratory-page .qbi-sheet-table td {
+                padding: 11px 12px;
             }
 
             body.laboratory-page .qbi-sheet-actions {
                 justify-content: stretch;
+                padding: 12px;
             }
 
             body.laboratory-page .qbi-sheet-status,
@@ -427,7 +493,7 @@
                                 <!-- logo / navigation -->
                                 <nav class="lab-navbar">
                                     <div class="lab-navbar__inner">
-                                        <a class="lab-navbar__brand" href="{{ url('/about') }}">
+                                        <a class="lab-navbar__brand" href="{{ url('/') }}">
                                             <img src="{{ asset('img/laboratory/ok.png') }}?v=20260512" class="lab-navbar__logo" style="height: 50px;" alt="">
                                         </a>
 
@@ -645,7 +711,7 @@
                                                                                                 Systems.
                                                                                                 <br />
                                                                                                 <strong>Location:</strong>
-                                                                                                Gedung ManSys - LSCE</span>
+                                                                                                ManSys - LSCE Building, G Floor</span>
                                                                                         </span>
                                                                                     </p>
                                                                                 </td>
@@ -653,18 +719,19 @@
                                                                         </tbody>
                                                                     </table>
                                                                     <div class="qbi-sheet-panel">
-                                                                        <iframe id="sheetFrame" class="qbi-sheet-frame"
-                                                                            src="about:blank"
-                                                                            data-sheet-src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6_FxRQeF1Bw5c_8Xd9lqLgBzjd3lQM5g1UQvKQBh2r9r6-1BapqQGpBgTQMded8GuoC4bQz1HoKlm/pubhtml?gid=183010747&amp;single=true&amp;range=A1:H19"
-                                                                            data-timestamp-src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6_FxRQeF1Bw5c_8Xd9lqLgBzjd3lQM5g1UQvKQBh2r9r6-1BapqQGpBgTQMded8GuoC4bQz1HoKlm/pub?gid=183010747&amp;single=true&amp;output=csv&amp;range=Z1"></iframe>
+                                                                        <div id="lsceSheetDashboard" class="qbi-sheet-dashboard">
+                                                                            <div class="qbi-sheet-table-wrap" id="lsceSheetTableWrap">
+                                                                                <div class="qbi-sheet-message">Loading schedule...</div>
+                                                                            </div>
+                                                                        </div>
                                                                         <div class="qbi-sheet-actions">
-                                                                            <div class="qbi-sheet-status" id="qbiSheetLastUpdated">
+                                                                            <div class="qbi-sheet-status" id="lsceSheetLastUpdated">
                                                                                 Last Updated: loading...</div>
                                                                             <div class="qbi-sheet-controls">
                                                                                 {{--
                                                                                 <button type="button"
                                                                                     class="qbi-sheet-button qbi-sheet-button--secondary"
-                                                                                    id="qbiSheetRefresh">Refresh</button>
+                                                                                    id="lsceSheetRefresh">Refresh</button>
                                                                                 --}}
                                                                                 {{--
                                                                                 <a class="qbi-sheet-button qbi-sheet-button--primary"
@@ -676,99 +743,190 @@
                                                                     </div>
                                                                     <script>
                                                                         (function() {
-                                                                            var sheetFrame = document.getElementById('sheetFrame');
-                                                                            var refreshButton = document.getElementById('qbiSheetRefresh');
-                                                                            var lastUpdated = document.getElementById('qbiSheetLastUpdated');
+                                                                            const LSCE_SHEET_API_URL = 'https://script.google.com/macros/s/AKfycbzcKfEsXwK94GIUe6CqROFeSuGsYxn-r9CCkJlRsE7TAny_4aY0wfHmDLYq_-97MaS-zg/exec';
+                                                                            var dashboard = document.getElementById('lsceSheetDashboard');
+                                                                            var tableWrap = document.getElementById('lsceSheetTableWrap');
+                                                                            var refreshButton = document.getElementById('lsceSheetRefresh');
+                                                                            var lastUpdated = document.getElementById('lsceSheetLastUpdated');
+                                                                            var sheetRequestSeq = 0;
 
-                                                                            if (!sheetFrame) {
+                                                                            if (!dashboard || !tableWrap) {
                                                                                 return;
                                                                             }
 
-                                                                            var baseSheetUrl = sheetFrame.getAttribute('data-sheet-src');
-                                                                            var baseTimestampUrl = sheetFrame.getAttribute('data-timestamp-src');
-
-                                                                            function buildFreshUrl(source, key) {
+                                                                            function buildFreshUrl(source) {
                                                                                 var separator = source.indexOf('?') === -1 ? '?' : '&';
 
-                                                                                return source + separator + key + '=' + Date.now();
+                                                                                return source + separator + 'cacheBust=' + Date.now();
                                                                             }
 
-                                                                            function parseCsvLine(line) {
-                                                                                var values = [];
-                                                                                var value = '';
-                                                                                var inQuotes = false;
+                                                                            function hasContent(value) {
+                                                                                return String(value || '').trim() !== '';
+                                                                            }
 
-                                                                                for (var index = 0; index < line.length; index++) {
-                                                                                    var character = line.charAt(index);
-                                                                                    var nextCharacter = line.charAt(index + 1);
+                                                                            function isPlaceholderUrl(source) {
+                                                                                return !source || source === 'PASTE_LSCE_APPS_SCRIPT_WEB_APP_URL_HERE';
+                                                                            }
 
-                                                                                    if (character === '"' && inQuotes && nextCharacter === '"') {
-                                                                                        value += '"';
-                                                                                        index++;
-                                                                                    } else if (character === '"') {
-                                                                                        inQuotes = !inQuotes;
-                                                                                    } else if (character === ',' && !inQuotes) {
-                                                                                        values.push(value);
-                                                                                        value = '';
-                                                                                    } else {
-                                                                                        value += character;
+                                                                            function clearTableWrap() {
+                                                                                while (tableWrap.firstChild) {
+                                                                                    tableWrap.removeChild(tableWrap.firstChild);
+                                                                                }
+                                                                            }
+
+                                                                            function showTableMessage(message) {
+                                                                                var messageElement = document.createElement('div');
+
+                                                                                clearTableWrap();
+                                                                                messageElement.className = 'qbi-sheet-message';
+                                                                                messageElement.textContent = message;
+                                                                                tableWrap.appendChild(messageElement);
+                                                                            }
+
+                                                                            function showTableError(message) {
+                                                                                showTableMessage(message);
+                                                                            }
+
+                                                                            function getVisibleColumnIndexes(headers) {
+                                                                                var indexes = [];
+
+                                                                                headers.forEach(function(header, index) {
+                                                                                    if (hasContent(header)) {
+                                                                                        indexes.push(index);
                                                                                     }
+                                                                                });
+
+                                                                                return indexes;
+                                                                            }
+
+                                                                            function normalizeRows(rows) {
+                                                                                if (!Array.isArray(rows)) {
+                                                                                    return [];
                                                                                 }
 
-                                                                                values.push(value);
-
-                                                                                return values;
+                                                                                return rows.filter(function(row) {
+                                                                                    return Array.isArray(row) && row.some(hasContent);
+                                                                                });
                                                                             }
 
-                                                                            function getTimestampValue(csvText) {
-                                                                                var firstLine = (csvText || '').split(/\r?\n/)[0] || '';
-                                                                                var firstRow = parseCsvLine(firstLine);
+                                                                            function renderTable(headers, rows) {
+                                                                                var visibleColumnIndexes = getVisibleColumnIndexes(headers);
+                                                                                var bodyRows = normalizeRows(rows);
 
-                                                                                return (firstRow[25] || firstRow[0] || '').trim();
-                                                                            }
-
-                                                                            function loadSheetFrame() {
-                                                                                if (!baseSheetUrl) {
+                                                                                if (!headers.length || !visibleColumnIndexes.length || !bodyRows.length) {
+                                                                                    showTableError('Schedule data is unavailable.');
                                                                                     return;
                                                                                 }
 
-                                                                                sheetFrame.src = buildFreshUrl(baseSheetUrl, 'cacheBust');
+                                                                                var table = document.createElement('table');
+                                                                                var thead = document.createElement('thead');
+                                                                                var headerRow = document.createElement('tr');
+                                                                                var tbody = document.createElement('tbody');
+
+                                                                                table.className = 'qbi-sheet-table';
+
+                                                                                visibleColumnIndexes.forEach(function(index) {
+                                                                                    var th = document.createElement('th');
+
+                                                                                    th.scope = 'col';
+                                                                                    th.textContent = (headers[index] || '').trim();
+                                                                                    headerRow.appendChild(th);
+                                                                                });
+
+                                                                                thead.appendChild(headerRow);
+
+                                                                                bodyRows.forEach(function(row) {
+                                                                                    var tr = document.createElement('tr');
+
+                                                                                    visibleColumnIndexes.forEach(function(index) {
+                                                                                        var td = document.createElement('td');
+
+                                                                                        td.textContent = (row[index] || '').trim();
+                                                                                        tr.appendChild(td);
+                                                                                    });
+
+                                                                                    tbody.appendChild(tr);
+                                                                                });
+
+                                                                                table.appendChild(thead);
+                                                                                table.appendChild(tbody);
+                                                                                clearTableWrap();
+                                                                                tableWrap.appendChild(table);
                                                                             }
 
-                                                                            function loadLastUpdated() {
-                                                                                if (!lastUpdated || !baseTimestampUrl || !window.fetch) {
+                                                                            function updateLastUpdated(timestamp) {
+                                                                                if (!lastUpdated) {
+                                                                                    return;
+                                                                                }
+
+                                                                                timestamp = String(timestamp || '').trim();
+
+                                                                                lastUpdated.textContent = timestamp ?
+                                                                                    'Last Updated: ' + timestamp :
+                                                                                    'Last Updated: unavailable';
+                                                                            }
+
+                                                                            function loadSheetData() {
+                                                                                var freshApiUrl = isPlaceholderUrl(LSCE_SHEET_API_URL) ? '' : buildFreshUrl(LSCE_SHEET_API_URL);
+                                                                                var requestSeq = ++sheetRequestSeq;
+
+                                                                                if (isPlaceholderUrl(LSCE_SHEET_API_URL)) {
+                                                                                    showTableError('Schedule API URL is not configured.');
                                                                                     if (lastUpdated) {
                                                                                         lastUpdated.textContent = 'Last Updated: unavailable';
                                                                                     }
-
                                                                                     return;
                                                                                 }
 
-                                                                                lastUpdated.textContent = 'Last Updated: loading...';
+                                                                                if (!window.fetch) {
+                                                                                    showTableError('Schedule data is unavailable.');
+                                                                                    if (lastUpdated) {
+                                                                                        lastUpdated.textContent = 'Last Updated: unavailable';
+                                                                                    }
+                                                                                    return;
+                                                                                }
 
-                                                                                fetch(buildFreshUrl(baseTimestampUrl, 'cacheBust'))
+                                                                                showTableMessage('Loading schedule...');
+                                                                                if (lastUpdated) {
+                                                                                    lastUpdated.textContent = 'Last Updated: loading...';
+                                                                                }
+
+                                                                                fetch(freshApiUrl, {
+                                                                                        cache: 'no-store'
+                                                                                    })
                                                                                     .then(function(response) {
                                                                                         if (!response.ok) {
-                                                                                            throw new Error('Timestamp request failed');
+                                                                                            throw new Error('Schedule request failed');
                                                                                         }
 
-                                                                                        return response.text();
+                                                                                        return response.json();
                                                                                     })
-                                                                                    .then(function(csvText) {
-                                                                                        var timestamp = getTimestampValue(csvText);
+                                                                                    .then(function(sheetData) {
+                                                                                        if (requestSeq !== sheetRequestSeq) {
+                                                                                            return;
+                                                                                        }
 
-                                                                                        lastUpdated.textContent = timestamp ?
-                                                                                            'Last Updated: ' + timestamp :
-                                                                                            'Last Updated: unavailable';
+                                                                                        if (!sheetData || !Array.isArray(sheetData.headers) || !Array.isArray(sheetData.rows)) {
+                                                                                            throw new Error('Invalid schedule response');
+                                                                                        }
+
+                                                                                        renderTable(sheetData.headers, sheetData.rows);
+                                                                                        updateLastUpdated(sheetData.lastUpdated);
                                                                                     })
                                                                                     .catch(function() {
-                                                                                        lastUpdated.textContent = 'Last Updated: unavailable';
+                                                                                        if (requestSeq !== sheetRequestSeq) {
+                                                                                            return;
+                                                                                        }
+
+                                                                                        showTableError('Schedule data failed to load.');
+                                                                                        if (lastUpdated) {
+                                                                                            lastUpdated.textContent = 'Last Updated: unavailable';
+                                                                                        }
                                                                                     });
                                                                             }
 
                                                                             function refreshSheetSection() {
-                                                                                loadSheetFrame();
-                                                                                loadLastUpdated();
+                                                                                loadSheetData();
                                                                             }
 
                                                                             if (refreshButton) {
