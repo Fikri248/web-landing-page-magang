@@ -14,39 +14,6 @@
         display: block;
     }
 
-    body.laboratory-page .landing-sidebar-shell .leftside_img {
-        background: transparent;
-        display: block;
-        height: 0;
-        margin: 0;
-        position: static;
-        width: 0;
-    }
-
-    body.laboratory-page .landing-sidebar-shell #menu_btn {
-        background: rgba(20, 32, 44, 0.78);
-        border-radius: 8px;
-        box-shadow: 0 10px 24px rgba(20, 32, 44, 0.22);
-        left: 16px;
-        position: fixed;
-        top: 18px;
-        z-index: 4000;
-    }
-
-    body.laboratory-page .landing-sidebar-shell .menu_homepage,
-    body.laboratory-page .landing-sidebar-shell .context_img {
-        display: none;
-    }
-
-    body.laboratory-page .landing-sidebar-shell ~ .wrap {
-        margin-left: 0;
-        width: 100%;
-    }
-
-    body.laboratory-page .lab-navbar__inner {
-        padding-left: 84px;
-    }
-
     @media (max-width: 991px) {
         .landing-sidebar-shell .leftside_img {
             position: relative;
@@ -68,87 +35,71 @@
             margin-left: 0;
             width: 100%;
         }
-
-        body.laboratory-page .landing-sidebar-shell .leftside_img {
-            height: 0;
-            position: static;
-            width: 0;
-        }
     }
 </style>
 
 <div class="landing-sidebar-shell">
     <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" aria-label="Close navigation">&times;</a>
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
         <div class="overlay-content">
-            <a href="{{ url('/about') }}" id="s_about" class="category_name">
+            <a href="https://iebi.rg.telkomuniversity.ac.id/dashboard_dosen_iebi/" id="s_about" class="category_name">
                 <div id="s_about_con" class="categorydiv">
                     <span>
-                        <img class="icon" src="{{ asset('img/menu/Icon_About.png') }}">About
+                        <img class="icon" src="{{ asset('img/menu/Icon_About.png') }}">Dashboard
                     </span>
                 </div>
             </a>
-            <a href="{{ url('/laboratory') }}" class="category_name">
-                <div id="s_laboratory_con" class="categorydiv">
+            <a href="{{ url('laboratory') }}" class="category_name">
+                <div id="s_academic_con" class="categorydiv">
                     <span>
                         <img class="icon" src="{{ asset('img/menu/Icon_Academics.png') }}">Laboratory
                     </span>
-                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="{{ url('/qbi') }}">QBI</a></div>
-                    <div class="hidden_a hidden_a_academic"><a href="{{ url('/mansys') }}">MANSYS</a></div>
-                    <div class="hidden_a hidden_a_academic"><a href="{{ url('/lsce') }}">LSCE</a></div>
-                    <div class="hidden_a hidden_a_academic"><a href="{{ url('/eid') }}">EID</a></div>
-                    <div class="hidden_a hidden_a_academic"><a href="{{ url('/se') }}">SE</a></div>
-                    <div class="hidden_a hidden_a_academic"><a href="{{ url('/em') }}">EM</a></div>
-                    <div class="hidden_a hidden_a_academic"><a href="{{ url('/digital') }}">DIGITAL</a></div>
+                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href=""></a></div>
+                    <div class="hidden_a hidden_a_academic"><a href=""></a></div>
                 </div>
             </a>
-            <a href="{{ url('/laboratory') }}" class="category_name">
-                <div id="s_community_con" class="categorydiv">
+            <a href="https://iebi.rg.telkomuniversity.ac.id/portal/komunitas-mahasiswa" class="category_name">
+                <div id="s_academic_con" class="categorydiv">
                     <span>
                         <img class="icon" src="{{ asset('img/menu/Icon_Student.png') }}">Community
                     </span>
+                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href=""></a></div>
+                    <div class="hidden_a hidden_a_academic"><a href=""></a></div>
                 </div>
             </a>
-            <a href="{{ url('/dosens') }}" class="category_name">
+            <div class="category_name">
                 <div id="s_faculty_con" class="categorydiv">
                     <span>
                         <img class="icon" src="{{ asset('img/menu/Icon_Faculty.png') }}">Faculty
                     </span>
                     <div class="hidden_a hidden_a_faculty first_hidden_a"><a href="https://bis-sby.telkomuniversity.ac.id/staf-pengajar/">Information Systems</a></div>
-                    <div class="hidden_a hidden_a_faculty"><a href="https://bit-sby.telkomuniversity.ac.id/staf-pengajar/">Information Technology</a></div>
-                    <div class="hidden_a hidden_a_faculty"><a href="https://bse-sby.telkomuniversity.ac.id/staf-pengajar/">Software Engineering</a></div>
-                    <div class="hidden_a hidden_a_faculty"><a href="https://bds-sby.telkomuniversity.ac.id/staf-pengajar/">Data Science</a></div>
+                    <div class="hidden_a hidden_a_faculty"><a href="https://bie-sby.telkomuniversity.ac.id/kategori-tenaga-pengajar/tenaga-pengajar/">Industrial Engineering</a></div>
+                    <div class="hidden_a hidden_a_faculty"><a href="https://bdb-sby.telkomuniversity.ac.id/akademik">Digital Business</a></div>
+                    <div class="hidden_a hidden_a_faculty"><a href="https://ble-sby.telkomuniversity.ac.id/staf-pengajar/">Logistics Engineering</a></div>
                 </div>
-            </a>
-            <a href="{{ url('/portal_komunitas_sertifikasi') }}" class="category_name">
-                <div id="s_certification_con" class="categorydiv">
+            </div>
+            <a href="https://iebi.rg.telkomuniversity.ac.id/portal/pengajuan-sertifikasi" class="category_name">
+                <div id="s_academic_con" class="categorydiv">
                     <span>
                         <img class="icon" src="{{ asset('img/menu/Icon_Academics.png') }}">Certification
                     </span>
-                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="{{ url('/portal_komunitas_sertifikasi') }}">Portal Komunitas</a></div>
-                    <div class="hidden_a hidden_a_academic"><a href="{{ url('/portal_komunitas_sertifikasi/pendaftaran-sertifikasi') }}">Formulir Sertifikasi</a></div>
+                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="https://iebi.rg.telkomuniversity.ac.id/portal/pengajuan-sertifikasi">Portal Sertifikasi</a></div>
+                    <div class="hidden_a hidden_a_academic"><a href="https://iebi.rg.telkomuniversity.ac.id/portal/pengajuan-sertifikasi">Formulir Sertifikasi</a></div>
                 </div>
             </a>
-            <a href="{{ url('/sparring') }}" class="category_name">
-                <div id="s_search_con" class="categorydiv">
+            <a href="https://iebi.rg.telkomuniversity.ac.id/sparring/" class="category_name">
+                <div id="s_academic_con" class="categorydiv">
                     <span>
                         <img class="icon" src="{{ asset('img/menu/Icon_Admission.png') }}">Search
                     </span>
                     <div class="hidden_a hidden_a_academic first_hidden_a"><a href="{{ url('/sparring') }}">SPARRING</a></div>
                 </div>
             </a>
-            <a href="{{ url('/laboratory#start-B') }}" class="category_name">
-                <div id="s_contact_con" class="categorydiv">
-                    <span>
-                        <img class="icon" src="{{ asset('img/menu/Icon_contact.png') }}">Contact
-                    </span>
-                </div>
-            </a>
         </div>
     </div>
-
+    
     <aside class="leftside_img">
-        <div id="menu_btn" aria-label="Open navigation" role="button" tabindex="0">
+        <div id="menu_btn">
             <span></span>
             <span></span>
             <span></span>
