@@ -110,8 +110,7 @@
                     <span>
                         <img class="icon" src="img/menu/Icon_Admission.png">Search
                     </span>
-                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="/rekomendasi_penelitian_dosen/search">Cari Rekomendasi Dosen</a></div>
-                    <div class="hidden_a hidden_a_academic"><a href="/rekomendasi_penelitian_dosen/lecturers">Daftar Dosen</a></div>
+                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="{{ url('/sparring') }}">SPARRING</a></div>
                 </div>
             </a>
             {{-- <a href="{{ url('/laboratory#start-B') }}" class="category_name">
