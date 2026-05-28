@@ -14,6 +14,39 @@
         display: block;
     }
 
+    body.laboratory-page .landing-sidebar-shell .leftside_img {
+        background: transparent;
+        display: block;
+        height: 0;
+        margin: 0;
+        position: static;
+        width: 0;
+    }
+
+    body.laboratory-page .landing-sidebar-shell #menu_btn {
+        background: rgba(20, 32, 44, 0.78);
+        border-radius: 8px;
+        box-shadow: 0 10px 24px rgba(20, 32, 44, 0.22);
+        left: 16px;
+        position: fixed;
+        top: 18px;
+        z-index: 4000;
+    }
+
+    body.laboratory-page .landing-sidebar-shell .menu_homepage,
+    body.laboratory-page .landing-sidebar-shell .context_img {
+        display: none;
+    }
+
+    body.laboratory-page .landing-sidebar-shell ~ .wrap {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    body.laboratory-page .lab-navbar__inner {
+        padding-left: 84px;
+    }
+
     @media (max-width: 991px) {
         .landing-sidebar-shell .leftside_img {
             position: relative;
@@ -34,6 +67,12 @@
         .landing-sidebar-shell ~ .wrap {
             margin-left: 0;
             width: 100%;
+        }
+
+        body.laboratory-page .landing-sidebar-shell .leftside_img {
+            height: 0;
+            position: static;
+            width: 0;
         }
     }
 </style>
