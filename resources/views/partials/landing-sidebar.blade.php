@@ -28,7 +28,7 @@
         box-shadow: none;
         left: 16px;
         position: fixed;
-        top: 18px;
+        top: 28px;
         z-index: 4000;
     }
 
@@ -113,7 +113,7 @@
                     <div class="hidden_a hidden_a_academic"><a href=""></a></div>
                 </div>
             </a>
-            <div class="category_name">
+            <a href="javascript:void(0)" class="category_name">
                 <div id="s_faculty_con" class="categorydiv">
                     <span>
                         <img class="icon" src="{{ asset('img/menu/Icon_Faculty.png') }}">Faculty
@@ -123,7 +123,7 @@
                     <div class="hidden_a hidden_a_faculty"><a href="https://bdb-sby.telkomuniversity.ac.id/akademik">Digital Business</a></div>
                     <div class="hidden_a hidden_a_faculty"><a href="https://ble-sby.telkomuniversity.ac.id/staf-pengajar/">Logistics Engineering</a></div>
                 </div>
-            </div>
+            </a>
             <a href="https://iebi.rg.telkomuniversity.ac.id/portal/pengajuan-sertifikasi" class="category_name">
                 <div id="s_academic_con" class="categorydiv">
                     <span>
