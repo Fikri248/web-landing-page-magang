@@ -14,6 +14,39 @@
         display: block;
     }
 
+    body.laboratory-page .landing-sidebar-shell .leftside_img {
+        background: transparent;
+        display: block;
+        height: 0;
+        margin: 0;
+        position: static;
+        width: 0;
+    }
+
+    body.laboratory-page .landing-sidebar-shell #menu_btn {
+        background: rgba(20, 32, 44, 0.78);
+        border-radius: 8px;
+        box-shadow: 0 10px 24px rgba(20, 32, 44, 0.22);
+        left: 16px;
+        position: fixed;
+        top: 18px;
+        z-index: 4000;
+    }
+
+    body.laboratory-page .landing-sidebar-shell .menu_homepage,
+    body.laboratory-page .landing-sidebar-shell .context_img {
+        display: none;
+    }
+
+    body.laboratory-page .landing-sidebar-shell ~ .wrap {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    body.laboratory-page .lab-navbar__inner {
+        padding-left: 84px;
+    }
+
     @media (max-width: 991px) {
         .landing-sidebar-shell .leftside_img {
             position: relative;
@@ -35,12 +68,18 @@
             margin-left: 0;
             width: 100%;
         }
+
+        body.laboratory-page .landing-sidebar-shell .leftside_img {
+            height: 0;
+            position: static;
+            width: 0;
+        }
     }
 </style>
 
 <div class="landing-sidebar-shell">
     <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="document.getElementById('myNav').style.width = '0'">&times;</a>
         <div class="overlay-content">
             <a href="https://iebi.rg.telkomuniversity.ac.id/dashboard_dosen_iebi/" id="s_about" class="category_name">
                 <div id="s_about_con" class="categorydiv">
@@ -99,7 +138,7 @@
     </div>
     
     <aside class="leftside_img">
-        <div id="menu_btn">
+        <div id="menu_btn" onclick="document.getElementById('myNav').style.width = '455px'">
             <span></span>
             <span></span>
             <span></span>
@@ -122,28 +161,3 @@
         <img class="context_img img8" src="{{ asset('img/about/about_8.png') }}">
     </aside>
 </div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const nav = document.getElementById('myNav');
-        const openButton = document.getElementById('menu_btn');
-        const closeButton = document.querySelector('.closebtn');
-
-        function openNav() {
-            nav.style.width = '455px';
-        }
-
-        function closeNav() {
-            nav.style.width = '0';
-        }
-
-        openButton?.addEventListener('click', openNav);
-        openButton?.addEventListener('keydown', function (event) {
-            if (event.key === 'Enter' || event.key === ' ') {
-                event.preventDefault();
-                openNav();
-            }
-        });
-        closeButton?.addEventListener('click', closeNav);
-    });
-</script>
