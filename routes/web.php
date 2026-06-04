@@ -59,7 +59,6 @@ Route::get('/digital', [DigitalController::class, 'index'])->name('digital');
 Route::get('/index.html', $localRedirect('/'));
 Route::get('/about.html', $localRedirect('/about'));
 Route::get('/course.html', $localRedirect('/course'));
-Route::get('/faculty.html', $localRedirect('/dosens'));
 Route::get('/student.html', $localRedirect('/about'));
 Route::get('/admission.html', $localRedirect('/about'));
 Route::get('/contact.html', fn () => redirect(url('/laboratory').'#start-B'));
