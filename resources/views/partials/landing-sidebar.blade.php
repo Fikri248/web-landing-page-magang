@@ -104,7 +104,7 @@
                     <div class="hidden_a hidden_a_academic"><a href=""></a></div>
                 </div>
             </a>
-            <a href="https://iebi.rg.telkomuniversity.ac.id/portal/komunitas-mahasiswa" class="category_name">
+            <a href="https://iebi.rg.telkomuniversity.ac.id/portal_komunitas_sertifikasi/" class="category_name">
                 <div id="s_academic_con" class="categorydiv">
                     <span>
                         <img class="icon" src="{{ asset('img/menu/Icon_Student.png') }}">Community
@@ -124,13 +124,13 @@
                     <div class="hidden_a hidden_a_faculty"><a href="https://ble-sby.telkomuniversity.ac.id/staf-pengajar/">Logistics Engineering</a></div>
                 </div>
             </a>
-            <a href="https://iebi.rg.telkomuniversity.ac.id/portal/pengajuan-sertifikasi" class="category_name">
+            <a href="https://iebi.rg.telkomuniversity.ac.id/portal_komunitas_sertifikasi/" class="category_name">
                 <div id="s_academic_con" class="categorydiv">
                     <span>
                         <img class="icon" src="{{ asset('img/menu/Icon_Academics.png') }}">Certification
                     </span>
-                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="https://iebi.rg.telkomuniversity.ac.id/portal/pengajuan-sertifikasi">Portal Sertifikasi</a></div>
-                    <div class="hidden_a hidden_a_academic"><a href="https://iebi.rg.telkomuniversity.ac.id/portal/pengajuan-sertifikasi">Formulir Sertifikasi</a></div>
+                    <div class="hidden_a hidden_a_academic first_hidden_a"><a href="https://iebi.rg.telkomuniversity.ac.id/portal_komunitas_sertifikasi/">Portal Komunitas Sertifikasi</a></div>
+                    <div class="hidden_a hidden_a_academic"><a href="https://iebi.rg.telkomuniversity.ac.id/portal_komunitas_sertifikasi/">Formulir Sertifikasi</a></div>
                 </div>
             </a>
             <a href="https://iebi.rg.telkomuniversity.ac.id/sparring/" class="category_name">
