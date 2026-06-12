@@ -18,6 +18,14 @@
             text-align: justify;
         }
 
+        .about-explanation-content > div {
+            padding-bottom: 240px;
+        }
+
+        .about-explanation-content > div:last-child {
+            padding-bottom: 220px;
+        }
+
         .overlay div.category_name {
             text-decoration: none;
             font-size: 24px;
@@ -146,7 +154,7 @@
             <img class="context_img img5" src="img/about/about_5.png">
             <img class="context_img img6" src="img/about/about_6.png">
             <img class="context_img img7" src="img/about/about_7.png">
-            <img class="context_img img8" src="img/about/about_8.png">
+            {{-- <img class="context_img img8" src="img/about/about_8.png"> --}}
             <!-- <div class="shareicons">
                 <a id="fb" href="javascript: void(window.open('http://www.facebook.com/sharer.php?u='.concat(encodeURIComponent(location.href)) ));"><img src="img/menu/facebook.png"></a>
                 <a id="gplus" href="javascript: void(window.open('https://plus.google.com/share?url='.concat(encodeURIComponent(location.href)), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'));"><img src="img/menu/gplus.png"></a>
