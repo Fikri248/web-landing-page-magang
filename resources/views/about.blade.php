@@ -35,6 +35,10 @@
             font-weight: 700;
             padding-top: 20px;
         }
+
+        .overlay .roadmap-menu-item {
+            margin-top: 15px;
+        }
     </style>
 </head>
 
@@ -120,6 +124,13 @@
                     </span>
                     <div class="hidden_a hidden_a_academic first_hidden_a"><a href="/rekomendasi_penelitian_dosen/search">Cari Rekomendasi Dosen</a></div>
                     <div class="hidden_a hidden_a_academic"><a href="/rekomendasi_penelitian_dosen/lecturers">Daftar Dosen</a></div>
+                </div>
+            </a>
+            <a href="https://iebi.rg.telkomuniversity.ac.id/master_data/roadmap" class="category_name roadmap-menu-item">
+                <div id="s_roadmap_con" class="categorydiv">
+                    <span>
+                        <img class="icon" src="img/menu/Icon_Courses.png">Roadmap
+                    </span>
                 </div>
             </a>
             {{-- <a href="{{ url('/laboratory#start-B') }}" class="category_name">
