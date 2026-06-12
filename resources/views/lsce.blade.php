@@ -480,6 +480,7 @@
 </head>
 
 <body class="page_mobilecgmolist webfree laboratory-page">
+    @include('partials.landing-sidebar')
     <div class="wrap">
         <a href="#start-C" class="focusable" title="Jump to the main content block">Jump to the main content block</a>
         <div class="fpbgvideo"></div>
