@@ -530,6 +530,13 @@
                     </span>
                 </div>
             </a>
+            <a href="https://iebi.rg.telkomuniversity.ac.id/master_data/roadmap" class="lab-sidebar-category">
+                <div class="lab-sidebar-category-box">
+                    <span>
+                        <img class="lab-sidebar-icon" src="{{ asset('img/menu/Icon_Courses.png') }}" alt="">Roadmap
+                    </span>
+                </div>
+            </a>
         </div>
     </div>
 
