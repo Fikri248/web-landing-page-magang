@@ -88,7 +88,7 @@
             background: #fff;
             border: 1px solid #dce7ee;
             border-radius: 8px;
-            box-shadow: 0 18px 44px rgba(18, 38, 63, 0.1);
+            box-shadow: none;
             display: flex;
             gap: 18px;
             justify-content: space-between;
@@ -395,6 +395,7 @@
 
             body.laboratory-page .lab-navbar__brand {
                 flex: 1 1 auto;
+                padding-left: 0;
             }
 
             body.laboratory-page .lab-navbar__logo {
@@ -415,7 +416,7 @@
                 background: #fff;
                 border: 1px solid #dbe6ec;
                 border-radius: 8px;
-                box-shadow: 0 16px 34px rgba(18, 38, 63, 0.11);
+                box-shadow: none;
                 display: none;
                 flex: 0 0 100%;
                 margin-top: 8px;
