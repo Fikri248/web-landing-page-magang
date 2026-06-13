@@ -19207,7 +19207,7 @@ a:hover {
 
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
-    background: url('/var/file/style/5002/images/slider-arrow.png') no-repeat;
+    background: transparent;
     top: 50%;
     margin-top: -25px;
     width: 32px;

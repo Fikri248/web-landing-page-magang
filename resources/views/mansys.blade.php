@@ -600,7 +600,7 @@
                                 </script>
                                 <script>
                                     $(document).ready(function() {
-                                        $.hajaxOpenUrl("/app/index.php?Action=mobileloadmod&Type=mobile_rcg_mstr&Nbr=1220", '#banner');
+                                        /* Legacy mobile banner module disabled: source /app/index.php is not part of this Laravel deploy. */
                                         $('.focusable,.lab-navbar a,.lab-navbar button').attr('tabindex', '1');
                                     });
                                 </script>
@@ -1130,10 +1130,9 @@
     <div id="_pop_login" class="mpopdiv">
         <script>
             $(document).ready(function() {
-                $.hajaxOpenUrl('/app/index.php?Action=mobileloadmod&Type=mobilepoplogin&Nbr=0', '#_pop_login', '',
-                    function() {
-                        menuDropAct();
-                    });
+                        if (typeof menuDropAct === 'function') {
+                            menuDropAct();
+                        }
             })
         </script>
     </div>
