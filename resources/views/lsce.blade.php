@@ -464,6 +464,79 @@
                 flex: 1 1 150px;
             }
         }
+
+        body.laboratory-page .lab-navbar,
+        body.laboratory-page .lab-navbar * {
+            box-sizing: border-box;
+        }
+
+        body.laboratory-page .lab-navbar {
+            background: #f7fafb;
+            border-bottom: 1px solid #dde7ee;
+            overflow: visible;
+            padding: 8px 6px;
+            position: relative;
+            width: 100%;
+            z-index: 50;
+        }
+
+        body.laboratory-page .lab-navbar__inner {
+            align-items: center;
+            background: #fff;
+            border: 1px solid #dce7ee;
+            border-radius: 8px;
+            box-shadow: none;
+            display: flex;
+            gap: 18px;
+            justify-content: space-between;
+            margin: 0;
+            max-width: none;
+            min-height: 76px;
+            overflow: visible;
+            padding: 12px 14px 12px 18px;
+            position: relative;
+            width: 100%;
+        }
+
+        body.laboratory-page .lab-navbar__brand {
+            align-items: center;
+            display: inline-flex;
+            flex: 0 1 560px;
+            min-width: 0;
+            padding-left: 50px;
+            text-decoration: none;
+        }
+
+        body.laboratory-page .lab-navbar__logo {
+            display: block;
+            height: 46px;
+            max-width: 100%;
+            object-fit: contain;
+            width: auto;
+        }
+
+        @media (max-width: 767px) {
+            body.laboratory-page .lab-navbar {
+                padding: 6px;
+            }
+
+            body.laboratory-page .lab-navbar__inner {
+                flex-wrap: wrap;
+                gap: 12px;
+                min-height: 68px;
+                padding: 10px 12px;
+            }
+
+            body.laboratory-page .lab-navbar__brand {
+                flex: 1 1 auto;
+                padding-left: 0;
+            }
+
+            body.laboratory-page .lab-navbar__logo {
+                height: 36px;
+                max-width: 230px;
+            }
+        }
     </style>
 
     <script language="javascript">
@@ -480,7 +553,7 @@
 </head>
 
 <body class="page_mobilecgmolist webfree laboratory-page">
-    @include('partials.landing-sidebar')
+    @include('partials.laboratory-sidebar')
     <div class="wrap">
         <a href="#start-C" class="focusable" title="Jump to the main content block">Jump to the main content block</a>
         <div class="fpbgvideo"></div>
@@ -494,6 +567,15 @@
                                 <!-- logo / navigation -->
                                 <nav class="lab-navbar">
                                     <div class="lab-navbar__inner">
+                                        <button class="lab-sidebar-toggle" type="button"
+                                            aria-controls="myNav" aria-expanded="false" aria-label="Open sidebar">
+                                            <span class="lab-sidebar-toggle-lines" aria-hidden="true">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </span>
+                                        </button>
+
                                         <a class="lab-navbar__brand" href="{{ url('/') }}">
                                             <img src="{{ asset('img/laboratory/ok.png') }}?v=20260512" class="lab-navbar__logo" style="height: 50px;" alt="">
                                         </a>
