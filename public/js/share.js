@@ -56,8 +56,11 @@
      })
 
      $('meta[property=og\\:url]').attr('content', window.location.href);
-     document.getElementById("line").onclick = function() {
-         window.open('https://lineit.line.me/share/ui?url=' + encodeURIComponent(window.location.href), "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes,width=600,height=400")
+     const lineShareButton = document.getElementById("line");
+     if (lineShareButton) {
+         lineShareButton.onclick = function() {
+             window.open('https://lineit.line.me/share/ui?url=' + encodeURIComponent(window.location.href), "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes,width=600,height=400")
+         }
      }
 
  })
