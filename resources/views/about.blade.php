@@ -19,11 +19,11 @@
         }
 
         .about-explanation-content > div {
-            padding-bottom: 240px;
+            padding-bottom: 100px;
         }
 
         .about-explanation-content > div:last-child {
-            padding-bottom: 220px;
+            padding-bottom: 150px;
         }
 
         .overlay div.category_name {
