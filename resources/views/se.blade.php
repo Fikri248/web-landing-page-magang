@@ -503,7 +503,7 @@
             display: inline-flex;
             flex: 0 1 560px;
             min-width: 0;
-            padding-left: 50px;
+            /* padding-left: 50px; Temporarily disabled */
             text-decoration: none;
         }
 
@@ -553,7 +553,7 @@
 </head>
 
 <body class="page_mobilecgmolist webfree laboratory-page">
-    @include('partials.laboratory-sidebar')
+    {{-- @include('partials.laboratory-sidebar') --}}
     <div class="wrap">
         <a href="#start-C" class="focusable" title="Jump to the main content block">Jump to the main content block</a>
         <div class="fpbgvideo"></div>
@@ -567,6 +567,7 @@
                                 <!-- logo / navigation -->
                                 <nav class="lab-navbar">
                                     <div class="lab-navbar__inner">
+                                        <!-- Temporarily disabled
                                         <button class="lab-sidebar-toggle" type="button"
                                             aria-controls="myNav" aria-expanded="false" aria-label="Open sidebar">
                                             <span class="lab-sidebar-toggle-lines" aria-hidden="true">
@@ -575,6 +576,7 @@
                                                 <span></span>
                                             </span>
                                         </button>
+                                        -->
 
                                         <a class="lab-navbar__brand" href="{{ url('/') }}">
                                             <img src="{{ asset('img/laboratory/ok.png') }}?v=20260512" class="lab-navbar__logo" style="height: 50px;" alt="">
