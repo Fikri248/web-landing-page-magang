@@ -67,7 +67,7 @@
                     <div class="hidden_a hidden_a_academic"><a href=""></a></div>
                 </div>
             </a>
-            <a href="https://iebi.rg.telkomuniversity.ac.id/portal/komunitas-mahasiswa" class="category_name">
+            <a href="https://iebi.rg.telkomuniversity.ac.id/portal_komunitas_sertifikasi/" class="category_name">
                 <div id="s_academic_con" class="categorydiv">
                     <span>
                         <img class="icon" src="img/menu/Icon_Student.png">Community
