@@ -219,7 +219,9 @@ body {
     display: inline-block;
     /* background: #ffe0a9; */
     background: #ffffff;
-    width: calc(100vw - 435px);
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
     overflow-y: scroll;
     margin-bottom: -5px;
 }
