@@ -126,7 +126,7 @@
                     <div class="hidden_a hidden_a_academic"><a href="/rekomendasi_penelitian_dosen/lecturers">Daftar Dosen</a></div>
                 </div>
             </a>
-            <a href="https://iebi.rg.telkomuniversity.ac.id/master_data/roadmap" class="category_name roadmap-menu-item">
+            <a href="https://iebi.rg.telkomuniversity.ac.id/roadmap" class="category_name roadmap-menu-item">
                 <div id="s_roadmap_con" class="categorydiv">
                     <span>
                         <img class="icon" src="img/menu/Icon_Courses.png">Roadmap
